@@ -1,20 +1,22 @@
-import { drumNames, instrumentNames } from "@/instruments"
+import { instrumentNames } from "@/instruments"
 import { Engine } from "../engine"
 
 export class MidiEngine implements Engine {
 
+  waiter: Promise<this>
   access: WebMidi.MIDIAccess
   output: WebMidi.MIDIOutput
 
-  constructor(access: WebMidi.MIDIAccess) {
-    this.access = access
+  constructor() {
+    this.waiter = this.init()
   }
 
   get name() {
     return "WebMidi"
   }
 
-  init(): this {
+  async init(): Promise<this> {
+    this.access = await navigator.requestMIDIAccess({ sysex: false })
     this.output = Array.from(this.access.outputs.values())[0]
     return this
   }
@@ -29,12 +31,8 @@ export class MidiEngine implements Engine {
     this.output.send([0xC0 + channel, program], time)
   }
 
-  channelInstrumentNames(channel: number) {
-    if (channel == 9) {
-      return drumNames
-    } else {
-      return instrumentNames
-    }
+  instruments() {
+    return instrumentNames
   }
-
+  
 }

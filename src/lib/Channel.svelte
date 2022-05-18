@@ -1,27 +1,38 @@
 <script lang="ts">
+import { Channel, State } from "@/store";
+
   import { createEventDispatcher } from "svelte";
 
-  export let program: number;
-  export let instruments: string[];
+  export let state: State;
+  export let channel: Channel;
+  export let number: number;
 
   const dispatch = createEventDispatcher();
 
   function onChange(num: number) {
-    program += num
-    dispatch("change", { program: program });
+    channel.program += num
+    dispatch("change", { program: channel.program });
   }
 </script>
 
-<main>
-  <button on:click={() => onChange(-1)}>&lt;</button>
-
-  <select bind:value={program} on:change={() => onChange(0)}>
-    {#each instruments as name, i}
+<horizontal>
+  {#if channel.type == "tone"}
+  <!-- <button on:click={() => onChange(-1)}>&lt;</button> -->
+  <span>{number}</span>
+  <select bind:value={channel.program} on:change={() => onChange(0)}>
+    {#each state.engine.instruments() as name, i}
       {#if name !== null}
         <option value={i}>{name}</option>
       {/if}
     {/each}
   </select>
+  <!-- <button on:click={() => onChange(1)}>&gt;</button> -->
+  {/if}
+</horizontal>
 
-  <button on:click={() => onChange(1)}>&gt;</button>
-</main>
+<style>
+  span {
+    display: inline-block;
+    width: 1.5em;
+  }
+</style>

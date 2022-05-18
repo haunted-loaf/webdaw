@@ -6,31 +6,44 @@
 
   export let state: State;
 
-  export let beatLengthMS: number = 100;
-  export let basePitch: number = 50;
-
-  let defaultDuration = 4;
-  
-  function beat(timeMS: number) {
-    state.beatNum = Math.floor(timeMS / beatLengthMS);
-    const playBeat = (state.beatNum + 1) % (state.song.length * 16);
+  function tick(timeMS: number) {
+    state.tickNum = Math.floor(timeMS / state.song.tickLength);
+    const playTick = (state.tickNum + 1) % state.song.length;
+    for (let phrase of state.song.phrases) {
+      phrase.playing = false;
+      phrase.tickNum = null;
+    }
     for (let track of state.song.tracks) {
       for (let instance of track.instances) {
-        const instBeat = playBeat - instance.time
-        if (instBeat >= 0 && instBeat < instance.length) {
-          _.filter(instance.phrase.notes, (note) => note.time == instBeat).forEach(
+        const phrase = instance.phrase;
+        const instTick = playTick - instance.time;
+        if (instTick >= 0 && instTick < instance.length) {
+          const phraseTick = instTick % phrase.length;
+          _.filter(phrase.notes, (note) => note.time == phraseTick).forEach(
             (note) => {
-              const pitch = R.clamp(0, 127, basePitch + state.song.octaves[note.octave] * 12 + state.song.scale[note.degree])
-              state.engine.note(timeMS + state.beatOriginMS, track.channel, pitch, note.velocity, note.length * beatLengthMS)
+              (note.chord || [0]).forEach((chord) => {
+                const pitch = R.clamp(
+                  0,
+                  127,
+                  state.song.baseNote +
+                    (phrase.baseOctave + note.octave) * 12 +
+                    phrase.scale.degrees[note.degree] +
+                    chord
+                );
+                state.engine.note(
+                  timeMS + state.beatOriginMS,
+                  track.channel,
+                  pitch,
+                  note.velocity,
+                  note.length * state.song.tickLength
+                );
+              });
             }
-          )
-          instance.phrase.playing = true
-          instance.phrase.beatNum = instBeat
-        } else {
-          instance.phrase.playing = false
-          instance.phrase.beatNum = null
+          );
+          phrase.playing = true;
+          phrase.tickNum = phraseTick;
         }
-        state = state
+        state = state;
       }
     }
   }
@@ -38,9 +51,9 @@
   let timerId: number = null;
 
   function update(timeMS: number) {
-    const beatsPerUpdate = Math.max(1, 100 / beatLengthMS);
+    const beatsPerUpdate = Math.max(1, 100 / state.song.tickLength);
     for (let i = 0; i < beatsPerUpdate; ++i) {
-      beat(timeMS + i * beatLengthMS);
+      tick(timeMS + i * state.song.tickLength);
     }
   }
 
@@ -48,8 +61,9 @@
     stop();
     timerId = window.setInterval(() => {
       const time = performance.now() - state.beatOriginMS;
-      const timeQ = Math.floor(time / beatLengthMS) * beatLengthMS;
-      update(timeQ + beatLengthMS);
+      const timeQ =
+        Math.floor(time / state.song.tickLength) * state.song.tickLength;
+      update(timeQ + state.song.tickLength);
     }, 100);
   }
 
@@ -63,15 +77,23 @@
   onDestroy(stop);
 </script>
 
-<main>
-  <button on:click={start}>Start</button>
-  <button on:click={stop}>Stop</button>
-
-  <!-- Ticks per bar <input type="number" bind:value={state.ticksPerBar} size="4" min="1" max="64"/> -->
-
-  Song length <input type="number" bind:value={state.song.length} size="4" min="1" max="64"/>
-
-  Beat length <input type="number" bind:value={beatLengthMS} size="4" />
-
-  Base pitch <input type="number" bind:value={basePitch} size="4" min="0" max="127" />
-</main>
+<div id="menu" class="pane" style="flex-grow: 1">
+  <header>
+    <section>
+      <h1><span style="color: #0af; font-weight: bold">WebDAW</span></h1>
+      <select bind:value={state.engine}>
+        {#each state.engines as engine}
+          <option value={engine}>{engine.name}</option>
+        {/each}
+      </select>
+      <fieldset>
+        <button on:click={start}>Start</button>
+        <button on:click={stop}>Stop</button>
+      </fieldset>
+    </section>
+    <section>
+      <a href="https://github.com/haunted-loaf/webdaw">Github</a>
+      <a href="https://trello.com/b/p08pydKL/webdaw">Trello</a>
+    </section>
+  </header>
+</div>
