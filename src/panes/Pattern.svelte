@@ -121,11 +121,21 @@
         step={state.song.beatLength * state.song.barLength}
       />
     </label>
+    <label>
+      Beats per bar
+      <input
+        type="number"
+        bind:value={pattern.barLength}
+        size="4"
+        min={1}
+        step={1}
+      />
+    </label>
     {#if pattern.tonal}
       <label>
         Scale
         <select bind:value={pattern.scale}>
-          {#each state.song.scales as scale}
+          {#each state.scales as scale}
             <option value={scale}>{scale.name}</option>
           {/each}
         </select>
@@ -283,7 +293,7 @@
             class="guide bars"
             style="background-size: {scaleX *
               state.song.beatLength *
-              state.song.barLength}px"
+              pattern.barLength}px"
           />
         </div>
         {#if ghost}

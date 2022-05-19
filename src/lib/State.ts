@@ -6,69 +6,55 @@ import { MidiEngine } from '../engines/midi';
 import { ToneEngine } from '../engines/tone';
 import { Pattern } from "./Pattern";
 import { Song } from "./Song";
+import { Scale } from './Scale';
 
 export class State {
 
-  song: Song;
+  songs: Dictionary<Song>;
+  songId: string;
+  get song () { return this.songs[this.songId]; }
+
   patterns: Dictionary<Pattern>
-  engine: Engine;
-  tickNum: Writable<number>;
-  beatOriginMS: number;
   patternId: string;
-  midiFailed: boolean;
+  get pattern () { return this.patterns[this.patternId]; }
+
+  scales: Scale[];
   engines: Engine[];
+
+  engine: Engine;
+  beatOriginMS: number;
+  tickNum: Writable<number>;
 
   constructor() {
     extend(this, {
       patterns: {},
-      song: {
-        name: "Untitled Song",
-        midiFailed: false,
-        tickLength: 32,
-        beatLength: 16,
-        barLength: 4,
-        baseNote: 0,
-        tracks: times(16, (n) => {
-          return {
-            name: `Track ${n}`,
-            channel: n,
-            instances: [],
-          };
-        }),
-        channels: times(16, (x) => ({
-          program: x,
-          type: x == 9 ? "percussion" : "tone",
-        })),
-        length: 16 * 4 * 16,
-        scales: [
-          {
-            name: "Major",
-            degrees: [0, 2, 4, 5, 7, 9, 11],
-          },
-          {
-            name: "Minor",
-            degrees: [0, 2, 3, 5, 7, 8, 10],
-          },
-          {
-            name: "Raga Malkauns",
-            degrees: [0, 3, 5, 8, 10],
-          },
-          {
-            name: "Chromatic",
-            degrees: times(12, identity),
-          }
-        ],
-        chords: [],
-      } as Song,
-      tickNum: null,
+      songs: {},
       beatOriginMS: performance.now(),
       engines: [],
-      engine: null,
-      pattern: null,
+      scales: [
+        {
+          name: "Major",
+          degrees: [0, 2, 4, 5, 7, 9, 11],
+        },
+        {
+          name: "Minor",
+          degrees: [0, 2, 3, 5, 7, 8, 10],
+        },
+        {
+          name: "Raga Malkauns",
+          degrees: [0, 3, 5, 8, 10],
+        },
+        {
+          name: "Chromatic",
+          degrees: times(12, identity),
+        }
+      ],
     });
+    new Song(this, { name: "Untitled Song" });
     new Pattern(this, { type: "tone" });
     new Pattern(this, { type: "percussion" });
     this.patternId = keys(this.patterns)[0];
+    this.songId = keys(this.songs)[0];
     this.stop();
     this.tickNum = writable(0);
   }
@@ -77,7 +63,6 @@ export class State {
     try {
       this.engines.push(new MidiEngine());
     } catch (e) {
-      this.midiFailed = true;
     }
     this.engines.push(new ToneEngine());
     this.engine = this.engines[0];

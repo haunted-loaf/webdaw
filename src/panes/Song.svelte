@@ -1,18 +1,14 @@
 <script lang="ts">
-import { Instance } from "@/lib/Instance";
-import { Pattern } from "@/lib/Pattern";
-
-import { Song } from "@/lib/Song";
-
-import { State } from "@/lib/State";
-
-  import { andThen, reverse } from "ramda";
+  import { Instance } from "@/lib/Instance";
+  import { Pattern } from "@/lib/Pattern";
+  import { Song } from "@/lib/Song";
+  import { State } from "@/lib/State";
   import { onMount } from "svelte";
   import { identity, keys, times, without } from "underscore";
 
   export let state: State;
   export let song: Song;
-  let tickNum = state.tickNum
+  let tickNum = state.tickNum;
 
   let snapTicks: number = 64;
   let ghost: Instance = null;
@@ -22,7 +18,7 @@ import { State } from "@/lib/State";
   function instanceFromEvent(event: MouseEvent): Instance {
     const time = Math.floor(event.offsetX / scaleX / snapTicks) * snapTicks;
     const track = Math.floor(event.offsetY / scaleY);
-    const pattern = state.patterns[state.patternId]
+    const pattern = state.patterns[state.patternId];
     const length = pattern.length;
     return { time, length, pattern: state.patternId, track: track };
   }
@@ -65,8 +61,8 @@ import { State } from "@/lib/State";
 
   function mousemove(event: MouseEvent, target: Instance = null) {
     if (panning) {
-      events.scrollLeft += -event.movementX * 2
-      events.scrollTop += -event.movementY * 2
+      events.scrollLeft += -event.movementX * 2;
+      events.scrollTop += -event.movementY * 2;
       return;
     }
     if (target) {
@@ -120,7 +116,6 @@ import { State } from "@/lib/State";
 
 <div class="pane">
   <aside>
-
     <label>
       Arrangement length
       <input
@@ -301,7 +296,8 @@ import { State } from "@/lib/State";
                  height: {scaleY - 1}px"
               on:mousedown|stopPropagation={(e) => mousedown(e, instance)}
               on:mousemove|stopPropagation={(e) => mousemove(e, instance)}
-              on:wheel|preventDefault|stopPropagation={(e) => mousewheel(e, instance)}
+              on:wheel|preventDefault|stopPropagation={(e) =>
+                mousewheel(e, instance)}
             >
               {state.patterns[instance.pattern].name}
             </div>

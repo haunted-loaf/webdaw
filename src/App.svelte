@@ -2,7 +2,7 @@
   import ChannelUI from "./panes/Channel.svelte";
   import Controls from "./panes/Controls.svelte";
   import PatternPane from "./panes/Pattern.svelte";
-  import Arrangement from "./panes/Arrangement.svelte";
+  import Song from "./panes/Song.svelte";
   import Patterns from "./panes/Patterns.svelte";
   import { State } from "./lib/State";
 
@@ -24,7 +24,7 @@
 <Controls bind:state />
 
 <div id="arrangement">
-  <Arrangement bind:state bind:song={state.song} />
+  <Song bind:state song={state.song} />
 </div>
 
 <div id="instruments">

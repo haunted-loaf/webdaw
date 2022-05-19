@@ -26,19 +26,23 @@ export class Pattern {
   baseOctave: number;
   octaves: number;
   noteNames: string[];
+  barLength: 4;
+
   get tonal(): boolean {
     return this.type === "tone";
   }
+
   constructor(state: State, options: Partial<Pattern> = {}) {
     const defaults = {
       id: cryptoRandomString({ length: 10 }),
       type: "tone",
       length: 64,
       tonic: 0,
+      barLength: 4,
       baseOctave: 4,
       octaves: 3,
       notes: [],
-      scale: state.song.scales[0],
+      scale: state.scales[0],
       noteNames: flatten(times(12, (o) => times(12, (p) => notes[p] + (o - 1)))),
     };
     this.type = options.type;
@@ -53,9 +57,9 @@ export class Pattern {
         octaves: 1,
       });
     }
-    extend(this, defaults);
-    extend(this, options);
+    extend(this, defaults, options);
     this.tickNum = writable(0);
     state.patterns[this.id] = this;
   }
+
 }
