@@ -8,8 +8,6 @@
 
   export let state: State;
 
-  // state.onUpdate = () => state = state
-
   function changeProgram(channel) {
     state.engine.programChange(
       0,
@@ -46,5 +44,5 @@
 </div>
 
 <div id="pattern">
-  <PatternPane bind:state bind:pattern={state.song.patterns[state.patternId]} />
+  <PatternPane bind:state bind:pattern={state.patterns[state.patternId]} />
 </div>

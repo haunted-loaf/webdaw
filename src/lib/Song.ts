@@ -14,7 +14,6 @@ export interface Song {
   baseNote: number;
   channels: Channel[];
   tracks: Track[];
-  patterns: Dictionary<Pattern>;
   length: number;
   scales: Scale[];
   chords: Chord[];

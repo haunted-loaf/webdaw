@@ -1,6 +1,6 @@
 import { clamp } from 'ramda';
 import { writable, Writable } from 'svelte/store';
-import { assign, extend, filter, identity, keys, times, values } from 'underscore';
+import { Dictionary, extend, filter, identity, keys, times, values } from 'underscore';
 import { Engine } from './engine';
 import { MidiEngine } from '../engines/midi';
 import { ToneEngine } from '../engines/tone';
@@ -8,16 +8,19 @@ import { Pattern } from "./Pattern";
 import { Song } from "./Song";
 
 export class State {
+
   song: Song;
-  engines: Engine[];
+  patterns: Dictionary<Pattern>
   engine: Engine;
   tickNum: Writable<number>;
   beatOriginMS: number;
   patternId: string;
   midiFailed: boolean;
-  
+  engines: Engine[];
+
   constructor() {
     extend(this, {
+      patterns: {},
       song: {
         name: "Untitled Song",
         midiFailed: false,
@@ -36,7 +39,6 @@ export class State {
           program: x,
           type: x == 9 ? "percussion" : "tone",
         })),
-        patterns: {},
         length: 16 * 4 * 16,
         scales: [
           {
@@ -66,7 +68,7 @@ export class State {
     });
     new Pattern(this, { type: "tone" });
     new Pattern(this, { type: "percussion" });
-    this.patternId = keys(this.song.patterns)[0];
+    this.patternId = keys(this.patterns)[0];
     this.stop();
     this.tickNum = writable(0);
   }
@@ -85,13 +87,13 @@ export class State {
     const tickNum = Math.floor(timeMS / this.song.tickLength);
     this.tickNum.set(tickNum);
     const playTick = (tickNum + 1) % this.song.length;
-    for (let pattern of values(this.song.patterns)) {
+    for (let pattern of values(this.patterns)) {
       pattern.playing = false;
       pattern.tickNum.set(0);
     }
     for (let track of this.song.tracks) {
       for (let instance of track.instances) {
-        const pattern = this.song.patterns[instance.pattern];
+        const pattern = this.patterns[instance.pattern];
         const instTick = playTick - instance.time;
         if (instTick >= 0 && instTick < instance.length) {
           const patternTick = instTick % pattern.length;

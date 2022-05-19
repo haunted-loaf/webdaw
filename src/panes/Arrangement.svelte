@@ -16,13 +16,13 @@ import { State } from "@/lib/State";
 
   let snapTicks: number = 64;
   let ghost: Instance = null;
-  let scaleX = 2;
+  let scaleX = 1;
   let scaleY = 32;
 
   function instanceFromEvent(event: MouseEvent): Instance {
     const time = Math.floor(event.offsetX / scaleX / snapTicks) * snapTicks;
     const track = Math.floor(event.offsetY / scaleY);
-    const pattern = state.song.patterns[state.patternId]
+    const pattern = state.patterns[state.patternId]
     const length = pattern.length;
     return { time, length, pattern: state.patternId, track: track };
   }
@@ -105,15 +105,15 @@ import { State } from "@/lib/State";
 
   function make() {
     const pattern = new Pattern(state, {
-      name: `Pattern ${keys(state.song.patterns).length + 1}`,
+      name: `Pattern ${keys(state.patterns).length + 1}`,
     });
     state.patternId = pattern.id;
     state = state;
   }
 
   function unmake() {
-    delete state.song.patterns[state.patternId];
-    state.patternId = keys(state.song.patterns)[0];
+    delete state.patterns[state.patternId];
+    state.patternId = keys(state.patterns)[0];
     state = state;
   }
 </script>
@@ -286,7 +286,7 @@ import { State } from "@/lib/State";
                    width:  {(scaleX - 1) * ghost.length + ghost.length - 1}px;
                    height: {scaleY - 1}px"
           >
-            {state.song.patterns[ghost.pattern].name}
+            {state.patterns[ghost.pattern].name}
           </div>
         {/if}
         {#each song.tracks as track, i}
@@ -303,7 +303,7 @@ import { State } from "@/lib/State";
               on:mousemove|stopPropagation={(e) => mousemove(e, instance)}
               on:wheel|preventDefault|stopPropagation={(e) => mousewheel(e, instance)}
             >
-              {state.song.patterns[instance.pattern].name}
+              {state.patterns[instance.pattern].name}
             </div>
           {/each}
         {/each}

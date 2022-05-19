@@ -43,9 +43,9 @@ export class Pattern {
     };
     this.type = options.type;
     if (this.tonal) {
-      this.name = `Tonal ${keys(state.song.patterns).length + 1}`;
+      this.name = `Tonal ${keys(state.patterns).length + 1}`;
     } else {
-      this.name = `Percussive ${keys(state.song.patterns).length + 1}`;
+      this.name = `Percussive ${keys(state.patterns).length + 1}`;
       extend(defaults, {
         scale: drumScale,
         noteNames: percussionKeys,
@@ -56,6 +56,6 @@ export class Pattern {
     extend(this, defaults);
     extend(this, options);
     this.tickNum = writable(0);
-    state.song.patterns[this.id] = this;
+    state.patterns[this.id] = this;
   }
 }

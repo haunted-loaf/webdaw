@@ -7,4 +7,5 @@ export interface Note extends Event {
   degree: number;
   velocity: number;
   chord?: number[];
+  delay?: number;
 }

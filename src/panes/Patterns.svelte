@@ -13,8 +13,8 @@
   }
 
   function unmake() {
-    delete state.song.patterns[state.patternId];
-    state.patternId = keys(state.song.patterns)[0];
+    delete state.patterns[state.patternId];
+    state.patternId = keys(state.patterns)[0];
     // state = state;
   }
 
@@ -25,7 +25,7 @@
   <header>Patterns</header>
   <main style="display: flex; flex-direction: column">
     <select bind:value={state.patternId} size="10" style="flex-grow: 1">
-      {#each values(state.song.patterns) as pattern}
+      {#each values(state.patterns) as pattern}
         <option value={pattern.id}>{pattern.name}</option>
       {/each}
     </select>
