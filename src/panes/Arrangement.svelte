@@ -1,9 +1,14 @@
 <script lang="ts">
+import { Instance } from "@/lib/Instance";
+import { Pattern } from "@/lib/Pattern";
+
+import { Song } from "@/lib/Song";
+
+import { State } from "@/lib/State";
+
   import { andThen, reverse } from "ramda";
   import { onMount } from "svelte";
-
-  import _, { identity, keys, times, without } from "underscore";
-  import { Phrase, Note, State, Song, Instance } from "../store";
+  import { identity, keys, times, without } from "underscore";
 
   export let state: State;
   export let song: Song;
@@ -17,9 +22,9 @@
   function instanceFromEvent(event: MouseEvent): Instance {
     const time = Math.floor(event.offsetX / scaleX / snapTicks) * snapTicks;
     const track = Math.floor(event.offsetY / scaleY);
-    const phrase = state.song.phrases[state.phraseId]
-    const length = phrase.length;
-    return { time, length, phrase: state.phraseId, track: track };
+    const pattern = state.song.patterns[state.patternId]
+    const length = pattern.length;
+    return { time, length, pattern: state.patternId, track: track };
   }
 
   function mousewheel(event: WheelEvent, target: Instance = null) {
@@ -42,7 +47,7 @@
       ghost = null;
     } else if (event.button === 2) {
       if (target)
-        song.tracks[target.track].instances = _.without(
+        song.tracks[target.track].instances = without(
           song.tracks[target.track].instances,
           target
         );
@@ -99,16 +104,16 @@
   });
 
   function make() {
-    const phrase: Phrase = new Phrase(state, {
-      name: `Phrase ${keys(state.song.phrases).length + 1}`,
+    const pattern = new Pattern(state, {
+      name: `Pattern ${keys(state.song.patterns).length + 1}`,
     });
-    state.phraseId = phrase.id;
+    state.patternId = pattern.id;
     state = state;
   }
 
   function unmake() {
-    delete state.song.phrases[state.phraseId];
-    state.phraseId = keys(state.song.phrases)[0];
+    delete state.song.patterns[state.patternId];
+    state.patternId = keys(state.song.patterns)[0];
     state = state;
   }
 </script>
@@ -166,9 +171,9 @@
   <header>
     <section>
       <fieldset>
-        <!-- <select bind:value={state.phrase}>
-          {#each song.phrases as phrase}
-            <option value={phrase}>{phrase.name}</option>
+        <!-- <select bind:value={state.pattern}>
+          {#each song.patterns as pattern}
+            <option value={pattern}>{pattern.name}</option>
           {/each}
         </select> -->
         <input bind:value={song.name} />
@@ -281,7 +286,7 @@
                    width:  {(scaleX - 1) * ghost.length + ghost.length - 1}px;
                    height: {scaleY - 1}px"
           >
-            {state.song.phrases[ghost.phrase].name}
+            {state.song.patterns[ghost.pattern].name}
           </div>
         {/if}
         {#each song.tracks as track, i}
@@ -298,7 +303,7 @@
               on:mousemove|stopPropagation={(e) => mousemove(e, instance)}
               on:wheel|preventDefault|stopPropagation={(e) => mousewheel(e, instance)}
             >
-              {state.song.phrases[instance.phrase].name}
+              {state.song.patterns[instance.pattern].name}
             </div>
           {/each}
         {/each}

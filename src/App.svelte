@@ -1,12 +1,12 @@
 <script lang="ts">
-  import ChannelUI from "./lib/Channel.svelte";
-  import Controls from "./lib/Controls.svelte";
-  import { State } from "./store";
-  import PhrasePane from "./lib/PhrasePad.svelte";
-  import Arrangement from "./lib/Arrangement.svelte";
-  import PhraseDeck from "./lib/PhraseDeck.svelte";
+  import ChannelUI from "./panes/Channel.svelte";
+  import Controls from "./panes/Controls.svelte";
+  import PatternPane from "./panes/Pattern.svelte";
+  import Arrangement from "./panes/Arrangement.svelte";
+  import Patterns from "./panes/Patterns.svelte";
+  import { State } from "./lib/State";
 
-  export let state : State
+  export let state: State;
 
   // state.onUpdate = () => state = state
 
@@ -20,7 +20,7 @@
 </script>
 
 <div id="patterns">
-  <PhraseDeck bind:state />
+  <Patterns bind:state />
 </div>
 
 <Controls bind:state />
@@ -46,5 +46,5 @@
 </div>
 
 <div id="pattern">
-  <PhrasePane bind:state bind:phrase={state.song.phrases[state.phraseId]} />
+  <PatternPane bind:state bind:pattern={state.song.patterns[state.patternId]} />
 </div>

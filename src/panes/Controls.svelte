@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { State } from "@/store";
   import * as _ from "underscore";
   import { onDestroy, onMount } from "svelte";
+import { State } from "@/lib/State";
 
   export let state: State;
 

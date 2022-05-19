@@ -1,19 +1,20 @@
 <script lang="ts">
   import { keys, values, without } from "underscore";
-  import { Phrase, State } from "../store";
+  import { State } from "@/lib/State";
+  import { Pattern } from "@/lib/Pattern";
 
   export let state: State;
 
   function make(type: "tone" | "percussion") {
-    const phrase: Phrase = new Phrase(state, {
+    const pattern = new Pattern(state, {
       type: type,
     });
-    state.phraseId = phrase.id;
+    state.patternId = pattern.id;
   }
 
   function unmake() {
-    delete state.song.phrases[state.phraseId];
-    state.phraseId = keys(state.song.phrases)[0];
+    delete state.song.patterns[state.patternId];
+    state.patternId = keys(state.song.patterns)[0];
     // state = state;
   }
 
@@ -23,9 +24,9 @@
 <div class="pane" style="min-width: 20em">
   <header>Patterns</header>
   <main style="display: flex; flex-direction: column">
-    <select bind:value={state.phraseId} size="10" style="flex-grow: 1">
-      {#each values(state.song.phrases) as phrase}
-        <option value={phrase.id}>{phrase.name}</option>
+    <select bind:value={state.patternId} size="10" style="flex-grow: 1">
+      {#each values(state.song.patterns) as pattern}
+        <option value={pattern.id}>{pattern.name}</option>
       {/each}
     </select>
     <div style="display: flex">

@@ -1,7 +1,7 @@
 import './style.less'
 
 import App from './App.svelte'
-import { State } from './store'
+import { State } from "./lib/State"
 
 const state = new State()
 state.init()

@@ -1,5 +1,8 @@
 <script lang="ts">
-import { Channel, State } from "@/store";
+import { Channel } from "@/lib/Channel";
+
+import { State } from "@/lib/State";
+
 
   import { createEventDispatcher } from "svelte";
 

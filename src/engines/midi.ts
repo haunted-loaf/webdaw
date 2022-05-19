@@ -1,5 +1,5 @@
-import { instrumentNames } from "@/instruments"
-import { Engine } from "../engine"
+import { instrumentNames } from "@/lib/instruments"
+import { Engine } from "../lib/engine"
 
 export class MidiEngine implements Engine {
 

@@ -1,7 +1,7 @@
-import { instrumentNames } from "@/instruments";
+import { instrumentNames } from "@/lib/instruments";
 import * as Tone from "tone";
 import { times } from "underscore";
-import { Engine } from "../engine";
+import { Engine } from "../lib/engine";
 
 export class ToneEngine implements Engine {
 

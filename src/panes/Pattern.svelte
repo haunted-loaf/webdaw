@@ -1,15 +1,16 @@
 <script lang="ts">
+  import { Note } from "@/lib/Note";
+  import { notes, Pattern } from "@/lib/Pattern";
+  import { State } from "@/lib/State";
   import { andThen, reverse } from "ramda";
   import { onMount } from "svelte";
-
-  import _, { identity, times, without } from "underscore";
-  import { Phrase, Note, State, notes } from "../store";
+  import { identity, times, without } from "underscore";
 
   export let state: State;
-  export let phrase: Phrase;
+  export let pattern: Pattern;
   export let snapTicks: number = 4;
 
-  let tickNum = phrase.tickNum
+  let tickNum = pattern.tickNum;
 
   let ghost: Note = null;
 
@@ -22,8 +23,8 @@
     const pitch = Math.floor(
       ((event.target as HTMLElement).offsetHeight - event.offsetY) / scaleY
     );
-    const octave = Math.floor(pitch / phrase.scale.degrees.length);
-    const degree = pitch % phrase.scale.degrees.length;
+    const octave = Math.floor(pitch / pattern.scale.degrees.length);
+    const degree = pitch % pattern.scale.degrees.length;
     const duration = defaultDuration;
     const velocity = 100;
     return { time: beat, octave, degree, length: duration, velocity };
@@ -41,20 +42,20 @@
       ghost.length = defaultDuration;
       ghost.time = Math.floor(ghost.time);
     }
-    phrase = phrase;
+    pattern = pattern;
   }
 
   let panning = false;
 
   function mousedown(event: MouseEvent, note: Note = null) {
     if (event.button === 0) {
-      phrase.notes.push(noteFromEvent(event));
-      phrase.notes = phrase.notes;
+      pattern.notes.push(noteFromEvent(event));
+      pattern.notes = pattern.notes;
     } else if (event.button === 1) {
       panning = true;
       ghost = null;
     } else if (event.button === 2) {
-      if (note) phrase.notes = _.without(phrase.notes, note);
+      if (note) pattern.notes = without(pattern.notes, note);
     }
   }
 
@@ -68,12 +69,12 @@
 
   function mousemove(event: MouseEvent, target: Note = null) {
     if (panning) {
-      events.scrollLeft += -event.movementX * 2
-      events.scrollTop += -event.movementY * 2
+      events.scrollLeft += -event.movementX * 2;
+      events.scrollTop += -event.movementY * 2;
       return;
     }
     if (target) {
-      if (event.button === 1) phrase.notes = _.without(phrase.notes, ghost);
+      if (event.button === 1) pattern.notes = without(pattern.notes, ghost);
       ghost = null;
       return;
     }
@@ -106,26 +107,24 @@
     scrollLink(lanes, events, true, false);
     scrollLink(timeline, events, false, true);
   });
-
 </script>
 
 <div class="pane">
   <aside>
-
     <label>
-      Phrase length
+      Pattern length
       <input
         type="number"
-        bind:value={phrase.length}
+        bind:value={pattern.length}
         size="4"
         min={state.song.beatLength * state.song.barLength}
         step={state.song.beatLength * state.song.barLength}
       />
     </label>
-    {#if phrase.tonal}
+    {#if pattern.tonal}
       <label>
         Scale
-        <select bind:value={phrase.scale}>
+        <select bind:value={pattern.scale}>
           {#each state.song.scales as scale}
             <option value={scale}>{scale.name}</option>
           {/each}
@@ -133,7 +132,7 @@
       </label>
       <label>
         Tonic
-        <select bind:value={phrase.tonic}>
+        <select bind:value={pattern.tonic}>
           {#each notes as note, i}
             <option value={i}>{note}</option>
           {/each}
@@ -143,10 +142,10 @@
         Base octave
         <input
           type="number"
-          bind:value={phrase.baseOctave}
+          bind:value={pattern.baseOctave}
           size="4"
           min="0"
-          max={12 - phrase.octaves}
+          max={12 - pattern.octaves}
           step="1"
         />
       </label>
@@ -154,7 +153,7 @@
         Octaves
         <input
           type="number"
-          bind:value={phrase.octaves}
+          bind:value={pattern.octaves}
           size="4"
           min="1"
           max="12"
@@ -166,12 +165,12 @@
   <header>
     <section>
       <fieldset>
-        <!-- <select bind:value={state.phrase}>
-          {#each state.song.phrases as phrase}
-            <option value={phrase}>{phrase.name}</option>
+        <!-- <select bind:value={state.pattern}>
+          {#each state.song.patterns as pattern}
+            <option value={pattern}>{pattern.name}</option>
           {/each}
         </select> -->
-        <input bind:value={phrase.name} />
+        <input bind:value={pattern.name} />
         <!-- <button title="New tonal pattern" on:click={() => make("tone")}>+T</button> -->
         <!-- <button title="New percussive pattern" on:click={() => make("percussion")}>+P</button> -->
         <!-- <button title="Forget pattern" on:click={unmake}>X</button> -->
@@ -228,21 +227,21 @@
   </header>
   <main class="compact event-grid">
     <div class="timeline" bind:this={timeline}>
-      {#each times(Math.ceil(phrase.length / state.song.beatLength), (x) => x) as tick}
+      {#each times(Math.ceil(pattern.length / state.song.beatLength), (x) => x) as tick}
         <div class="tock" style="width: {scaleX * state.song.beatLength}px;">
           {tick}
         </div>
       {/each}
     </div>
     <div class="lanes scale-names" bind:this={lanes}>
-      {#each reverse(times(phrase.octaves, (x) => x + phrase.baseOctave)) as octave}
+      {#each reverse(times(pattern.octaves, (x) => x + pattern.baseOctave)) as octave}
         <div
           class="octave"
-          style="height: {scaleY * phrase.scale.degrees.length}px;"
+          style="height: {scaleY * pattern.scale.degrees.length}px;"
         >
-          {#each reverse(phrase.scale.degrees) as degree}
+          {#each reverse(pattern.scale.degrees) as degree}
             <div class="lane degree" style="height: {scaleY}px;">
-              {phrase.noteNames[phrase.tonic + degree + octave * 12]}
+              {pattern.noteNames[pattern.tonic + degree + octave * 12]}
             </div>
           {/each}
         </div>
@@ -251,9 +250,9 @@
     <div class="events" bind:this={events}>
       <div
         class="pattern"
-        style="width: {scaleX * phrase.length + 1}px; height: {scaleY *
-          phrase.scale.degrees.length *
-          phrase.octaves +
+        style="width: {scaleX * pattern.length + 1}px; height: {scaleY *
+          pattern.scale.degrees.length *
+          pattern.octaves +
           1}px;"
         on:mousemove={(e) => mousemove(e)}
         on:mousedown={(e) => mousedown(e)}
@@ -261,7 +260,7 @@
         on:mouseup={(e) => mouseup(e)}
         on:contextmenu|preventDefault={(e) => e}
         on:wheel|preventDefault|stopPropagation={(e) => mousewheel(e)}
-        >
+      >
         <div class="guides">
           <div
             class="guide degrees"
@@ -274,7 +273,7 @@
           <div
             class="guide octaves"
             style="background-size: 100% {scaleY *
-              phrase.scale.degrees.length}px"
+              pattern.scale.degrees.length}px"
           />
           <div
             class="guide beats"
@@ -292,19 +291,19 @@
             class="event note virtual {ghost.chord ? 'chord' : ''}"
             style="left:   {ghost.time * scaleX + 1}px;
                      bottom: {(ghost.degree +
-              ghost.octave * phrase.scale.degrees.length) *
+              ghost.octave * pattern.scale.degrees.length) *
               scaleY +
               1}px;
                      width:  {(scaleX - 1) * ghost.length + ghost.length - 1}px;
                      height: {scaleY - 1}px"
           />
         {/if}
-        {#each phrase.notes as note}
+        {#each pattern.notes as note}
           <div
             class="event note {note.chord ? 'chord' : ''}"
             style="left:   {note.time * scaleX + 1}px;
                  bottom: {(note.degree +
-              note.octave * phrase.scale.degrees.length) *
+              note.octave * pattern.scale.degrees.length) *
               scaleY +
               1}px;
                  width:  {(scaleX - 1) * note.length + note.length - 1}px;
@@ -317,7 +316,7 @@
         {#if $tickNum}
           <div
             class="cursor beat"
-            style="left: {scaleX * ($tickNum % phrase.length)}px;"
+            style="left: {scaleX * ($tickNum % pattern.length)}px;"
           />
         {/if}
       </div>
