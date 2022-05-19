@@ -27,9 +27,14 @@ export interface PatternDumpV1 {
   octaves:    number
   noteNames:  string[]
   barLength:  number
+  autoChord: null | {
+    degrees: number[]
+    delay: number
+  }
 }
 
 export class Pattern {
+
   id: string;
   name: string;
   type: "tone" | "percussion";
@@ -43,6 +48,10 @@ export class Pattern {
   octaves: number;
   noteNames: string[];
   barLength: number = 4;
+  autoChord: null | {
+    degrees: number[]
+    delay: number
+  } = null
 
   static load(state: State, pattern: PatternDumpV1): Pattern {
     return new Pattern(state, {
@@ -57,6 +66,7 @@ export class Pattern {
       octaves:    pattern.octaves,
       noteNames:  pattern.noteNames,
       barLength:  pattern.barLength,
+      autoChord:  pattern.autoChord || null,
     })
   }
 
@@ -75,6 +85,7 @@ export class Pattern {
       octaves:    this.octaves,
       noteNames:  this.noteNames,
       barLength:  this.barLength,
+      autoChord:  this.autoChord,
     }
   }
 

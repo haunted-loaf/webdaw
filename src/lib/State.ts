@@ -1,6 +1,6 @@
 import { clamp } from 'ramda';
 import { writable, Writable } from 'svelte/store';
-import { Dictionary, extend, filter, identity, keys, map, mapObject, times, values } from 'underscore';
+import { Dictionary, extend, filter, identity, keys, map, mapObject, random, times, values } from 'underscore';
 import { Engine } from './engine';
 import { MidiEngine } from '../engines/midi';
 import { ToneEngine } from '../engines/tone';
@@ -9,24 +9,24 @@ import { Song, SongDumpV1 } from "./Song";
 import { Scale } from './Scale';
 
 export interface StateDumpV1 {
-  kind:       "state"
-  version:    1
-  songs:      SongDumpV1[]
-  songId:     string
-  patterns:   PatternDumpV1[]
-  patternId:  string
-  scales:     Scale[]
+  kind: "state"
+  version: 1
+  songs: SongDumpV1[]
+  songId: string
+  patterns: PatternDumpV1[]
+  patternId: string
+  scales: Scale[]
 }
 
 export class State {
 
   songs: Dictionary<Song>;
   songId: string;
-  get song () { return this.songs[this.songId]; }
+  get song() { return this.songs[this.songId]; }
 
   patterns: Dictionary<Pattern>
   patternId: string;
-  get pattern () { return this.patterns[this.patternId]; }
+  get pattern() { return this.patterns[this.patternId]; }
 
   scales: Scale[];
   engines: Engine[];
@@ -34,6 +34,8 @@ export class State {
   engine: Engine;
   beatOriginMS: number;
   tickNum: Writable<number>;
+
+  randomTime: number = 0
 
   saveLoadIsOpen: Writable<boolean> = writable(true);
 
@@ -55,10 +57,10 @@ export class State {
     return this
   }
 
-  dump() : StateDumpV1 {
+  dump(): StateDumpV1 {
     return {
-      kind:       "state",
-      version:    1,
+      kind: "state",
+      version: 1,
       songs: map(values(this.songs), x => x.dump()),
       songId: this.songId,
       patterns: map(values(this.patterns), x => x.dump()),
@@ -92,7 +94,7 @@ export class State {
         }
       ],
     });
-    new Song(this, { });
+    new Song(this, {});
     new Pattern(this, { type: "tone" });
     new Pattern(this, { type: "percussion" });
     this.patternId = keys(this.patterns)[0];
@@ -127,15 +129,25 @@ export class State {
           const patternTick = instTick % pattern.length;
           filter(pattern.notes, (note) => note.time == patternTick).forEach(
             (note) => {
-              (note.chord || [0]).forEach((chord) => {
-                const pitch = clamp(
-                  0,
-                  127,
-                  this.song.baseNote +
-                  (pattern.baseOctave + note.octave) * 12 +
-                  pattern.scale.degrees[note.degree] +
-                  chord
-                );
+              const basePitch = this.song.baseNote +
+                (pattern.baseOctave + note.octave) * 12 +
+                pattern.scale.degrees[note.degree]
+              let chord = note.chord || pattern.autoChord || null
+              if (chord) {
+                chord.degrees.forEach((degree, i) => {
+                  if (degree === null)
+                    return;
+                  const pitch = clamp(0, 127, basePitch + degree)
+                  this.engine.note(
+                    timeMS + this.beatOriginMS + i * chord.delay * this.song.tickLength,
+                    track.channel,
+                    pitch,
+                    note.velocity,
+                    note.length * this.song.tickLength
+                  );
+                });
+              } else {
+                const pitch = clamp(0, 127, basePitch)
                 this.engine.note(
                   timeMS + this.beatOriginMS,
                   track.channel,
@@ -143,7 +155,7 @@ export class State {
                   note.velocity,
                   note.length * this.song.tickLength
                 );
-              });
+              }
             }
           );
           pattern.playing = true;

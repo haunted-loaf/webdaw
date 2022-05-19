@@ -10,6 +10,8 @@
   export let pattern: Pattern;
   export let snapTicks: number = 4;
 
+  let autoChordEnabled : boolean = !!pattern.autoChord
+
   let tickNum = pattern.tickNum;
 
   let ghost: Note = null;
@@ -17,6 +19,17 @@
   let defaultDuration = 16;
   let scaleX = 8;
   let scaleY = 32;
+
+  function applyAutoChordEnabled () {
+    if (autoChordEnabled) {
+      pattern.autoChord ||= {
+        degrees: [0],
+        delay: 0
+      }
+    } else {
+      pattern.autoChord = null
+    }
+  }
 
   function noteFromEvent(event: MouseEvent): Note {
     const beat = Math.floor(event.offsetX / scaleX / snapTicks) * snapTicks;
@@ -27,7 +40,8 @@
     const degree = pitch % pattern.scale.degrees.length;
     const duration = defaultDuration;
     const velocity = 100;
-    return { time: beat, octave, degree, length: duration, velocity };
+    const chord = null;
+    return { time: beat, octave, degree, length: duration, velocity, chord };
   }
 
   function mousewheel(event: WheelEvent, target: Note = null) {
@@ -170,6 +184,31 @@
           step="1"
         />
       </label>
+      <label>
+        Auto-chorder
+        <input type="checkbox" bind:checked={autoChordEnabled} on:change={applyAutoChordEnabled} />
+      </label>
+      {#if pattern.autoChord}
+      <label>
+        Chord
+        <select bind:value={pattern.autoChord.degrees}>
+          <option value={[0, 4, 7]}>Major</option>
+          <option value={[0, 4, 7]}>Major</option>
+          <option value={[0, 3, 7]}>Minor</option>
+          <option value={[0, 4, 7, 12]}>Major+1</option>
+        </select>
+      </label>
+      <label>
+        Delay
+        <input
+          type="number"
+          bind:value={pattern.autoChord.delay}
+          size="4"
+          min="0"
+          step="1"
+        />
+      </label>
+      {/if}
     {/if}
   </aside>
   <header>
