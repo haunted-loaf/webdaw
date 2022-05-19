@@ -4,9 +4,11 @@
   import { State } from "./store";
   import PhrasePane from "./lib/PhrasePad.svelte";
   import Arrangement from "./lib/Arrangement.svelte";
+  import PhraseDeck from "./lib/PhraseDeck.svelte";
 
-  let state = new State();
-  let wait = state.init();
+  export let state : State
+
+  // state.onUpdate = () => state = state
 
   function changeProgram(channel) {
     state.engine.programChange(
@@ -15,10 +17,13 @@
       state.song.channels[channel].program
     );
   }
-
 </script>
 
-<Controls bind:state/>
+<div id="patterns">
+  <PhraseDeck bind:state />
+</div>
+
+<Controls bind:state />
 
 <div id="arrangement">
   <Arrangement bind:state bind:song={state.song} />
@@ -40,16 +45,6 @@
   </div>
 </div>
 
-<!-- <div id="patterns">
-  <PhraseDeck bind:state />
-</div> -->
-
 <div id="pattern">
-  <!-- Hello
-  <div class="scroll">
-    {#each times(100, (x) => x) as _}
-      Scroll! Scroll!
-    {/each}
-  </div> -->
-  <PhrasePane bind:state bind:phrase={state.phrase} />
+  <PhrasePane bind:state bind:phrase={state.song.phrases[state.phraseId]} />
 </div>

@@ -7,7 +7,6 @@
   color: #d4d4d4;
   margin: 0;
   padding: 0;
-  user-select: none;
   background: #161616;
 }
 
@@ -21,10 +20,10 @@ body,
 #app {
   display: grid;
   grid-template:
-    "menu        menu        menu" min-content
-    "arrangement arrangement instruments" 1fr
-    "pattern     pattern     instruments" 2fr
-    / auto 1fr auto
+    "menu        menu"        min-content
+    "patterns    arrangement" 1fr
+    "instruments pattern"     2fr
+    / auto 1fr
   ;
   gap: 2px;
 }
@@ -53,10 +52,6 @@ body,
 #instruments {
   grid-area: instruments;
 }
-
-// main {
-//   overflow: auto;
-// }
 
 .scroll {
   overflow: auto;
@@ -94,11 +89,6 @@ body,
     > section:nth-child(2) {
       justify-content: right;
     }
-    > * {
-      // flex-basis: 0;
-      // flex-shrink: 0;
-      // flex-grow: 1;
-    }
   }
 
   > main {
@@ -125,18 +115,6 @@ body,
     overflow: auto;
   }
 
-  // display: grid;
-  // grid-template:
-  //   "header" auto
-  //   "main" 1fr
-  //   / 1fr;
-  // > header {
-  //   grid-area: header;
-  // }
-  // > main {
-  //   grid-area: main;
-  //   overflow: auto;
-  // }
 }
 
 input {
@@ -147,7 +125,7 @@ input {
   box-shadow: #292929 0 1px;
 }
 
-select {
+select:not([size]) {
   background: #282828;
   border: 1px solid #3d3d3d;
   border-radius: 4px;
@@ -201,48 +179,6 @@ fieldset > :last-child {
   gap: 10px;
 }
 
-// html, body, app {
-//   height: 100%;
-// }
-
-// .flex-container {
-//   display: flex;
-//   overflow: hidden;
-//   > * {
-//     .shrink;
-//     overflow: auto;
-//   }
-// }
-
-// .shrink {
-//   flex: 0 0 auto;
-// }
-
-// .stretch {
-//   flex: 1 1 auto;
-// }
-
-// .column {
-//   flex-direction: column;
-// }
-
-// [stretch] {
-//   .stretch
-// }
-
-// [gap] {
-//   gap: 21px;
-// }
-
-// [center] {
-//   align-items: center;
-// }
-
-// app {
-//   .flex-container;
-//   .column;
-// }
-
 horizontal {
   display: flex;
 }
@@ -286,7 +222,6 @@ vertical {
       align-items: center;
       justify-content: flex-end;
       padding: 0 8px 0 16px;
-      overflow: auto;
       &:last-child {
         border-bottom: 1px solid #282828 + #444;
       }

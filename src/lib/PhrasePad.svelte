@@ -9,6 +9,8 @@
   export let phrase: Phrase;
   export let snapTicks: number = 4;
 
+  let tickNum = phrase.tickNum
+
   let ghost: Note = null;
 
   let defaultDuration = 16;
@@ -42,15 +44,22 @@
     phrase = phrase;
   }
 
+  let panning = false;
+
   function mousedown(event: MouseEvent, note: Note = null) {
     if (event.button === 0) {
       phrase.notes.push(noteFromEvent(event));
       phrase.notes = phrase.notes;
     } else if (event.button === 1) {
-      if (note) phrase.notes = _.without(phrase.notes, note);
+      panning = true;
+      ghost = null;
     } else if (event.button === 2) {
       if (note) phrase.notes = _.without(phrase.notes, note);
     }
+  }
+
+  function mouseup(event: MouseEvent) {
+    panning = false;
   }
 
   function mouseleave(event: MouseEvent) {
@@ -58,6 +67,11 @@
   }
 
   function mousemove(event: MouseEvent, target: Note = null) {
+    if (panning) {
+      events.scrollLeft += -event.movementX * 2
+      events.scrollTop += -event.movementY * 2
+      return;
+    }
     if (target) {
       if (event.button === 1) phrase.notes = _.without(phrase.notes, ghost);
       ghost = null;
@@ -89,89 +103,79 @@
   onMount(() => {
     scrollLink(events, lanes, true, false);
     scrollLink(events, timeline, false, true);
+    scrollLink(lanes, events, true, false);
+    scrollLink(timeline, events, false, true);
   });
 
-  function make(type: "tone" | "percussion") {
-    const phrase: Phrase = new Phrase(state, {
-      type: type,
-    });
-    state.song.phrases.push(phrase);
-    state.phrase = phrase;
-    state = state;
-  }
-
-  function unmake() {
-    state.song.phrases = without(state.song.phrases, state.phrase);
-    state.phrase = state.song.phrases[0];
-    state = state;
-  }
 </script>
 
 <div class="pane">
-  <!-- <aside /> -->
+  <aside>
+
+    <label>
+      Phrase length
+      <input
+        type="number"
+        bind:value={phrase.length}
+        size="4"
+        min={state.song.beatLength * state.song.barLength}
+        step={state.song.beatLength * state.song.barLength}
+      />
+    </label>
+    {#if phrase.tonal}
+      <label>
+        Scale
+        <select bind:value={phrase.scale}>
+          {#each state.song.scales as scale}
+            <option value={scale}>{scale.name}</option>
+          {/each}
+        </select>
+      </label>
+      <label>
+        Tonic
+        <select bind:value={phrase.tonic}>
+          {#each notes as note, i}
+            <option value={i}>{note}</option>
+          {/each}
+        </select>
+      </label>
+      <label>
+        Base octave
+        <input
+          type="number"
+          bind:value={phrase.baseOctave}
+          size="4"
+          min="0"
+          max={12 - phrase.octaves}
+          step="1"
+        />
+      </label>
+      <label>
+        Octaves
+        <input
+          type="number"
+          bind:value={phrase.octaves}
+          size="4"
+          min="1"
+          max="12"
+          step="1"
+        />
+      </label>
+    {/if}
+  </aside>
   <header>
     <section>
       <fieldset>
-        <select bind:value={state.phrase}>
+        <!-- <select bind:value={state.phrase}>
           {#each state.song.phrases as phrase}
             <option value={phrase}>{phrase.name}</option>
           {/each}
-        </select>
+        </select> -->
         <input bind:value={phrase.name} />
-        <button title="New tonal pattern" on:click={() => make("tone")}>+T</button>
-        <button title="New percussive pattern" on:click={() => make("percussion")}>+P</button>
-        <button title="Forget pattern" on:click={unmake}>X</button>
+        <!-- <button title="New tonal pattern" on:click={() => make("tone")}>+T</button> -->
+        <!-- <button title="New percussive pattern" on:click={() => make("percussion")}>+P</button> -->
+        <!-- <button title="Forget pattern" on:click={unmake}>X</button> -->
       </fieldset>
-      <label>
-        Phrase length
-        <input
-          type="number"
-          bind:value={phrase.length}
-          size="4"
-          min={state.song.beatLength * state.song.barLength}
-          step={state.song.beatLength * state.song.barLength}
-        />
-      </label>
-      {#if phrase.tonal}
-        <label>
-          Scale
-          <select bind:value={phrase.scale}>
-            {#each state.song.scales as scale}
-              <option value={scale}>{scale.name}</option>
-            {/each}
-          </select>
-        </label>
-        <label>
-          Tonic
-          <select bind:value={phrase.tonic}>
-            {#each notes as note, i}
-              <option value={i}>{note}</option>
-            {/each}
-          </select>
-        </label>
-        <label>
-          Base octave
-          <input
-            type="number"
-            bind:value={phrase.baseOctave}
-            size="4"
-            min="0"
-            max={12 - phrase.octaves}
-            step="1"
-          />
-        </label>
-        <label>
-          Octaves
-          <input
-            type="number"
-            bind:value={phrase.octaves}
-            size="4"
-            min="1"
-            max="12"
-            step="1"
-          />
-        </label>
-      {/if}
     </section>
     <section>
       <label>
@@ -254,6 +258,7 @@
         on:mousemove={(e) => mousemove(e)}
         on:mousedown={(e) => mousedown(e)}
         on:mouseleave={(e) => mouseleave(e)}
+        on:mouseup={(e) => mouseup(e)}
         on:contextmenu|preventDefault={(e) => e}
         on:wheel|preventDefault|stopPropagation={(e) => mousewheel(e)}
         >
@@ -309,10 +314,10 @@
             on:wheel|preventDefault|stopPropagation={(e) => mousewheel(e, note)}
           />
         {/each}
-        {#if phrase.tickNum}
+        {#if $tickNum}
           <div
             class="cursor beat"
-            style="left: {scaleX * (phrase.tickNum % phrase.length)}px;"
+            style="left: {scaleX * ($tickNum % phrase.length)}px;"
           />
         {/if}
       </div>

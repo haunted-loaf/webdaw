@@ -2,11 +2,12 @@
   import { andThen, reverse } from "ramda";
   import { onMount } from "svelte";
 
-  import _, { identity, times, without } from "underscore";
+  import _, { identity, keys, times, without } from "underscore";
   import { Phrase, Note, State, Song, Instance } from "../store";
 
   export let state: State;
   export let song: Song;
+  let tickNum = state.tickNum
 
   let snapTicks: number = 64;
   let ghost: Instance = null;
@@ -16,8 +17,9 @@
   function instanceFromEvent(event: MouseEvent): Instance {
     const time = Math.floor(event.offsetX / scaleX / snapTicks) * snapTicks;
     const track = Math.floor(event.offsetY / scaleY);
-    const length = state.phrase.length;
-    return { time, length, phrase: state.phrase, track: track };
+    const phrase = state.song.phrases[state.phraseId]
+    const length = phrase.length;
+    return { time, length, phrase: state.phraseId, track: track };
   }
 
   function mousewheel(event: WheelEvent, target: Instance = null) {
@@ -25,8 +27,10 @@
       target.length -= Math.sign(event.deltaY) * snapTicks;
       target.length = Math.max(1, target.length);
     }
-    // state = stae;
+    state = state;
   }
+
+  let panning = false;
 
   function mousedown(event: MouseEvent, target: Instance = null) {
     if (event.button === 0) {
@@ -34,7 +38,8 @@
       target = instanceFromEvent(event);
       song.tracks[target.track].instances.push(target);
     } else if (event.button === 1) {
-      // do nothing
+      panning = true;
+      ghost = null;
     } else if (event.button === 2) {
       if (target)
         song.tracks[target.track].instances = _.without(
@@ -45,11 +50,20 @@
     state = state;
   }
 
+  function mouseup(event: MouseEvent) {
+    panning = false;
+  }
+
   function mouseleave(event: MouseEvent) {
     ghost = null;
   }
 
   function mousemove(event: MouseEvent, target: Instance = null) {
+    if (panning) {
+      events.scrollLeft += -event.movementX * 2
+      events.scrollTop += -event.movementY * 2
+      return;
+    }
     if (target) {
       ghost = null;
       return;
@@ -80,25 +94,75 @@
   onMount(() => {
     scrollLink(events, lanes, true, false);
     scrollLink(events, timeline, false, true);
+    scrollLink(lanes, events, true, false);
+    scrollLink(timeline, events, false, true);
   });
 
   function make() {
     const phrase: Phrase = new Phrase(state, {
-      name: `Phrase ${state.song.phrases.length + 1}`,
+      name: `Phrase ${keys(state.song.phrases).length + 1}`,
     });
-    state.song.phrases.push(phrase);
-    state.phrase = phrase;
+    state.phraseId = phrase.id;
     state = state;
   }
 
   function unmake() {
-    state.song.phrases = without(state.song.phrases, state.phrase);
-    state.phrase = state.song.phrases[0];
+    delete state.song.phrases[state.phraseId];
+    state.phraseId = keys(state.song.phrases)[0];
     state = state;
   }
 </script>
 
 <div class="pane">
+  <aside>
+
+    <label>
+      Arrangement length
+      <input
+        type="number"
+        bind:value={state.song.length}
+        size="4"
+        min={song.beatLength * song.barLength}
+        step={song.beatLength * song.barLength}
+      />
+    </label>
+    <label>
+      Transpose <input
+        type="number"
+        bind:value={state.song.baseNote}
+        size="4"
+        min="0"
+        max="127"
+      />
+    </label>
+    <label>
+      Tick length <input
+        type="number"
+        bind:value={state.song.tickLength}
+        size="4"
+        min="1"
+        max="1000"
+      />
+    </label>
+    <label>
+      Ticks per beat <input
+        type="number"
+        bind:value={state.song.beatLength}
+        size="4"
+        min="1"
+        max="127"
+      /></label
+    >
+    <label>
+      Beats per bar <input
+        type="number"
+        bind:value={state.song.barLength}
+        size="4"
+        min="1"
+        max="127"
+      />
+    </label>
+  </aside>
   <header>
     <section>
       <fieldset>
@@ -111,52 +175,6 @@
         <!-- <button on:click={make}>+</button>
         <button on:click={unmake}>-</button> -->
       </fieldset>
-      <label>
-        Arrangement length
-        <input
-          type="number"
-          bind:value={state.song.length}
-          size="4"
-          min={song.beatLength * song.barLength}
-          step={song.beatLength * song.barLength}
-        />
-      </label>
-      <label>
-        Transpose <input
-          type="number"
-          bind:value={state.song.baseNote}
-          size="4"
-          min="0"
-          max="127"
-        />
-      </label>
-      <label>
-        Tick length <input
-          type="number"
-          bind:value={state.song.tickLength}
-          size="4"
-          min="1"
-          max="1000"
-        />
-      </label>
-      <label>
-        Ticks per beat <input
-          type="number"
-          bind:value={state.song.beatLength}
-          size="4"
-          min="1"
-          max="127"
-        /></label
-      >
-      <label>
-        Beats per bar <input
-          type="number"
-          bind:value={state.song.barLength}
-          size="4"
-          min="1"
-          max="127"
-        />
-      </label>
     </section>
     <section>
       <label>
@@ -227,7 +245,9 @@
         on:mousemove={(e) => mousemove(e)}
         on:mousedown={(e) => mousedown(e)}
         on:mouseleave={(e) => mouseleave(e)}
+        on:mouseup={(e) => mouseup(e)}
         on:contextmenu|preventDefault={(e) => e}
+        on:wheel|preventDefault|stopPropagation={(e) => mousewheel(e)}
       >
         <div class="guides">
           <div
@@ -261,7 +281,7 @@
                    width:  {(scaleX - 1) * ghost.length + ghost.length - 1}px;
                    height: {scaleY - 1}px"
           >
-            {ghost.phrase.name}
+            {state.song.phrases[ghost.phrase].name}
           </div>
         {/if}
         {#each song.tracks as track, i}
@@ -278,14 +298,14 @@
               on:mousemove|stopPropagation={(e) => mousemove(e, instance)}
               on:wheel|preventDefault|stopPropagation={(e) => mousewheel(e, instance)}
             >
-              {instance.phrase.name}
+              {state.song.phrases[instance.phrase].name}
             </div>
           {/each}
         {/each}
         {#if state.tickNum}
           <div
             class="cursor beat"
-            style="left: {scaleX * (state.tickNum % song.length)}px;"
+            style="left: {scaleX * ($tickNum % song.length)}px;"
           />
         {/if}
       </div>

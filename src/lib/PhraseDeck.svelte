@@ -1,38 +1,37 @@
 <script lang="ts">
-  import { colours } from "@/colours";
-  import { afterUpdate } from "svelte";
-  import { without } from "underscore";
+  import { keys, values, without } from "underscore";
   import { Phrase, State } from "../store";
-  import PhrasePad from "./PhrasePad.svelte";
+
   export let state: State;
 
-  function make() {
+  function make(type: "tone" | "percussion") {
     const phrase: Phrase = new Phrase(state, {
-      name: `Phrase ${state.song.phrases.length + 1}`,
+      type: type,
     });
-    state.song.phrases.push(phrase);
-    state.phrase = phrase;
-    state = state;
+    state.phraseId = phrase.id;
   }
 
   function unmake() {
-    state.song.phrases = without(state.song.phrases, state.phrase);
-    state.phrase = state.song.phrases[0];
-    state = state;
+    delete state.song.phrases[state.phraseId];
+    state.phraseId = keys(state.song.phrases)[0];
+    // state = state;
   }
+
+  let value : string
 </script>
 
 <div class="pane" style="min-width: 20em">
   <header>Patterns</header>
-  <main>
-    <horizontal>
-      <select bind:value={state.phrase}>
-        {#each state.song.phrases as phrase}
-          <option value={phrase}>{phrase.name}</option>
-        {/each}
-      </select>
-      <button on:click={make}>+</button>
-      <button on:click={unmake}>-</button>
-    </horizontal>
+  <main style="display: flex; flex-direction: column">
+    <select bind:value={state.phraseId} size="10" style="flex-grow: 1">
+      {#each values(state.song.phrases) as phrase}
+        <option value={phrase.id}>{phrase.name}</option>
+      {/each}
+    </select>
+    <div style="display: flex">
+      <button title="New tonal pattern" on:click={() => make("tone")}>🎹</button>
+      <button title="New percussive pattern" on:click={() => make("percussion")}>🥁</button>
+      <button title="Remove pattern" on:click={unmake}>❌</button>
+    </div>
   </main>
 </div>
