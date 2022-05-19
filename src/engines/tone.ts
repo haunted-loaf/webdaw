@@ -23,7 +23,7 @@ export class ToneEngine implements Engine {
 
   note(time: number, channel: number, pitch: number, velocity: number, duration: number) {
     var f = 440 * Math.pow(2, (pitch - 69) / 12)
-    this.voices[channel].triggerAttackRelease(f, duration / 1000)
+    this.voices[channel].triggerAttackRelease(f, duration / 1000, time / 1000, velocity / 1000)
   }
 
   programChange(time: number, channel: number, program: number) {

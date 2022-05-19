@@ -73,6 +73,16 @@ export class Song {
     state.songs[this.id] = this;
   }
 
+  setupChannels(state: State) {
+    this.channels.forEach((channel, i) => {
+      state.engine.programChange(
+        0,
+        i,
+        channel.program
+      );
+    })
+  }
+
   dump() : SongDumpV1 {
     return {
       kind:       "song",

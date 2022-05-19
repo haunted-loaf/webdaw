@@ -22,7 +22,7 @@
 <div class="pane" style="min-width: 15em">
   <header>Songs</header>
   <main style="display: flex; flex-direction: column">
-    <select bind:value={state.songId} size="10" style="flex-grow: 1">
+    <select bind:value={state.songId} size="10" style="flex-grow: 1" on:change={() => state.song.setupChannels(state)}>
       {#each values(state.songs) as song}
         <option value={song.id}>{song.name}</option>
       {/each}

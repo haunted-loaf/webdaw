@@ -99,6 +99,7 @@
     scrollLink(events, timeline, false, true);
     scrollLink(lanes, events, true, false);
     scrollLink(timeline, events, false, true);
+    song.setupChannels(state)
   });
 
   function make() {
@@ -133,7 +134,7 @@
         type="number"
         bind:value={state.song.baseNote}
         size="4"
-        min="0"
+        min="-127"
         max="127"
       />
     </label>

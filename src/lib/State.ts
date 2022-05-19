@@ -7,6 +7,7 @@ import { ToneEngine } from '../engines/tone';
 import { Pattern, PatternDumpV1 } from "./Pattern";
 import { Song, SongDumpV1 } from "./Song";
 import { Scale } from './Scale';
+import { Transport } from 'tone';
 
 export interface StateDumpV1 {
   kind: "state"
@@ -35,9 +36,9 @@ export class State {
   beatOriginMS: number;
   tickNum: Writable<number>;
 
-  randomTime: number = 0
+  randomTime: number = 0;
 
-  saveLoadIsOpen: Writable<boolean> = writable(true);
+  saveLoadIsOpen: Writable<boolean> = writable(false);
 
   clear() {
     this.patterns = {}
@@ -46,14 +47,16 @@ export class State {
     return this;
   }
 
-  load(data: StateDumpV1) {
+  load(data: StateDumpV1, selectSong: boolean = true, selectPattern: boolean = true) {
     this.scales = data.scales
     // this.songs = {}
     // this.patterns = {}
     data.songs.forEach(song => Song.load(this, song))
     data.patterns.forEach(pattern => Pattern.load(this, pattern))
-    this.songId = data.songId
-    this.patternId = data.patternId
+    if (selectSong)
+      this.songId = data.songId
+    if (selectPattern)
+      this.patternId = data.patternId
     return this
   }
 
@@ -105,18 +108,23 @@ export class State {
   }
 
   init() {
-    try {
-      this.engines.push(new MidiEngine());
-    } catch (e) {
-    }
+    // try {
+    //   this.engines.push(new MidiEngine());
+    // } catch (e) {
+    // }
     this.engines.push(new ToneEngine());
     this.engine = this.engines[0];
   }
 
-  tick(timeMS: number) {
-    const tickNum = Math.floor(timeMS / this.song.tickLength);
-    this.tickNum.set(tickNum);
-    const playTick = (tickNum + 1) % this.song.length;
+  origin: number = 0;
+  period: number = 100
+  timerId: number = null;
+  onUpdate: Function;
+
+  update(time: number) {
+    const tick = time / this.song.tickLength;
+    this.tickNum.set(tick);
+    const playTick = (tick + 1) % this.song.length;
     for (let pattern of values(this.patterns)) {
       pattern.playing = false;
       pattern.tickNum.set(0);
@@ -127,11 +135,11 @@ export class State {
         const instTick = playTick - instance.time;
         if (instTick >= 0 && instTick < instance.length) {
           const patternTick = instTick % pattern.length;
-          filter(pattern.notes, (note) => note.time == patternTick).forEach(
+          filter(pattern.notes, (note) => (note.time >= patternTick) && (note.time < patternTick + this.period / this.song.tickLength)).forEach(
             (note) => {
               const basePitch = this.song.baseNote +
                 (pattern.baseOctave + note.octave) * 12 +
-                pattern.scale.degrees[note.degree]
+                pattern.scale.degrees[note.degree] + pattern.tonic
               let chord = note.chord || pattern.autoChord || null
               if (chord) {
                 chord.degrees.forEach((degree, i) => {
@@ -139,7 +147,7 @@ export class State {
                     return;
                   const pitch = clamp(0, 127, basePitch + degree)
                   this.engine.note(
-                    timeMS + this.beatOriginMS + i * chord.delay * this.song.tickLength,
+                    this.origin + (note.time + instance.time + i * chord.delay) * this.song.tickLength,
                     track.channel,
                     pitch,
                     note.velocity,
@@ -149,7 +157,7 @@ export class State {
               } else {
                 const pitch = clamp(0, 127, basePitch)
                 this.engine.note(
-                  timeMS + this.beatOriginMS,
+                  this.origin + (note.time + instance.time) * this.song.tickLength,
                   track.channel,
                   pitch,
                   note.velocity,
@@ -159,37 +167,37 @@ export class State {
             }
           );
           pattern.playing = true;
-          pattern.tickNum.set(patternTick);
+          pattern.tickNum.set(patternTick / this.song.tickLength);
         }
       }
-    }
-  }
-
-  timerId: number = null;
-
-  onUpdate: Function;
-
-  async update(timeMS: number) {
-    const beatsPerUpdate = Math.max(1, 100 / this.song.tickLength);
-    for (let i = 0; i < beatsPerUpdate; ++i) {
-      this.tick(timeMS + i * this.song.tickLength);
     }
     if (this.onUpdate)
       this.onUpdate();
   }
 
+  onStart (time: number) { this.origin = time * 1000 }
+  onStop (time: number) {}
+  onPause (time: number) {}
+  onLoop (time: number) { this.origin = time * 1000 }
+
   async start() {
-    this.stop();
-    this.timerId = window.setInterval(() => {
-      const time = performance.now() - this.beatOriginMS;
-      const timeQ = Math.floor(time / this.song.tickLength) * this.song.tickLength;
-      this.update(timeQ + this.song.tickLength);
-    }, 100);
+    Transport.on("start", (time) => this.onStart(time))
+    Transport.on("stop",  (time) => this.onStop(time))
+    Transport.on("pause", (time) => this.onPause(time))
+    Transport.on("loop",  (time) => this.onLoop(time))
+    this.timerId = Transport.scheduleRepeat((time) => {
+      this.update(time * 1000 - this.origin)
+    }, this.period / 1000)
+    Transport.start(0, 0)
+    Transport.loopStart = 0
+    // Transport.loopEnd = this.song.length * this.song.tickLength / 1000
+    Transport.loopEnd = 2
+    Transport.loop = true
   }
 
   stop() {
     if (this.timerId)
-      window.clearInterval(this.timerId);
+      Transport.clear(this.timerId)
     this.timerId = null;
   }
 
