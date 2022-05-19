@@ -1,12 +1,22 @@
 import { clamp } from 'ramda';
 import { writable, Writable } from 'svelte/store';
-import { Dictionary, extend, filter, identity, keys, times, values } from 'underscore';
+import { Dictionary, extend, filter, identity, keys, map, mapObject, times, values } from 'underscore';
 import { Engine } from './engine';
 import { MidiEngine } from '../engines/midi';
 import { ToneEngine } from '../engines/tone';
-import { Pattern } from "./Pattern";
-import { Song } from "./Song";
+import { Pattern, PatternDumpV1 } from "./Pattern";
+import { Song, SongDumpV1 } from "./Song";
 import { Scale } from './Scale';
+
+export interface StateDumpV1 {
+  kind:       "state"
+  version:    1
+  songs:      SongDumpV1[]
+  songId:     string
+  patterns:   PatternDumpV1[]
+  patternId:  string
+  scales:     Scale[]
+}
 
 export class State {
 
@@ -25,7 +35,39 @@ export class State {
   beatOriginMS: number;
   tickNum: Writable<number>;
 
-  constructor() {
+  saveLoadIsOpen: Writable<boolean> = writable(true);
+
+  clear() {
+    this.patterns = {}
+    this.songs = {}
+    this.scales = []
+    return this;
+  }
+
+  load(data: StateDumpV1) {
+    this.scales = data.scales
+    // this.songs = {}
+    // this.patterns = {}
+    data.songs.forEach(song => Song.load(this, song))
+    data.patterns.forEach(pattern => Pattern.load(this, pattern))
+    this.songId = data.songId
+    this.patternId = data.patternId
+    return this
+  }
+
+  dump() : StateDumpV1 {
+    return {
+      kind:       "state",
+      version:    1,
+      songs: map(values(this.songs), x => x.dump()),
+      songId: this.songId,
+      patterns: map(values(this.patterns), x => x.dump()),
+      patternId: this.patternId,
+      scales: this.scales,
+    }
+  }
+
+  constructor(options: Partial<State> = {}) {
     extend(this, {
       patterns: {},
       songs: {},
@@ -50,11 +92,12 @@ export class State {
         }
       ],
     });
-    new Song(this, { name: "Untitled Song" });
+    new Song(this, { });
     new Pattern(this, { type: "tone" });
     new Pattern(this, { type: "percussion" });
     this.patternId = keys(this.patterns)[0];
     this.songId = keys(this.songs)[0];
+    extend(this, options)
     this.stop();
     this.tickNum = writable(0);
   }

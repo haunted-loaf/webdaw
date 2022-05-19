@@ -2,9 +2,23 @@ import { Chord } from './Chord';
 import { Scale } from './Scale';
 import { Track } from "./Track";
 import { Channel } from "./Channel";
-import { State } from './State';
-import { extend, identity, times } from 'underscore';
+import { State, StateDumpV1 } from './State';
+import { extend, identity, keys, times } from 'underscore';
 import cryptoRandomString from 'crypto-random-string';
+
+export interface SongDumpV1 {
+  kind:       "song"
+  version:    1
+  id:         string
+  name:       string
+  tickLength: number
+  beatLength: number
+  barLength:  number
+  baseNote:   number
+  channels:   Channel[]
+  tracks:     Track[]
+  length:     number
+}
 
 export class Song {
 
@@ -19,11 +33,24 @@ export class Song {
   length: number;
   chords: Chord[];
 
+  static load(state: State, song: SongDumpV1): Song {
+    return new Song(state, {
+      id:         song.id,
+      name:       song.name,
+      tickLength: song.tickLength,
+      beatLength: song.beatLength,
+      barLength:  song.barLength,
+      baseNote:   song.baseNote,
+      channels:   song.channels,
+      tracks:     song.tracks,
+      length:     song.length,
+    })
+  }
+
   constructor(state: State, options: Partial<Song> = {}) {
     const defaults = {
       id: cryptoRandomString({ length: 10 }),
-      name: "Untitled Song",
-      midiFailed: false,
+      name: `Song ${keys(state.songs).length + 1}`,
       tickLength: 32,
       beatLength: 16,
       barLength: 4,
@@ -44,6 +71,22 @@ export class Song {
     }
     extend(this, defaults, options)
     state.songs[this.id] = this;
+  }
+
+  dump() : SongDumpV1 {
+    return {
+      kind:       "song",
+      version:    1,
+      id:         this.id,
+      name:       this.name,
+      tickLength: this.tickLength,
+      beatLength: this.beatLength,
+      barLength:  this.barLength,
+      baseNote:   this.baseNote,
+      channels:   this.channels,
+      tracks:     this.tracks,
+      length:     this.length,
+    }
   }
 
 }

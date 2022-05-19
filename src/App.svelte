@@ -3,8 +3,10 @@
   import Controls from "./panes/Controls.svelte";
   import PatternPane from "./panes/Pattern.svelte";
   import Song from "./panes/Song.svelte";
+  import Songs from "./panes/Songs.svelte";
   import Patterns from "./panes/Patterns.svelte";
   import { State } from "./lib/State";
+  import SaveLoad from "./panes/SaveLoad.svelte";
 
   export let state: State;
 
@@ -16,6 +18,12 @@
     );
   }
 </script>
+
+<SaveLoad bind:state />
+
+<div id="songs">
+  <Songs bind:state />
+</div>
 
 <div id="patterns">
   <Patterns bind:state />

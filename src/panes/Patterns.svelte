@@ -21,7 +21,7 @@
   let value : string
 </script>
 
-<div class="pane" style="min-width: 20em">
+<div class="pane" style="min-width: 15em">
   <header>Patterns</header>
   <main style="display: flex; flex-direction: column">
     <select bind:value={state.patternId} size="10" style="flex-grow: 1">

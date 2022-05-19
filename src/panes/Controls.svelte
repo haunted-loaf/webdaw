@@ -2,6 +2,7 @@
   import * as _ from "underscore";
   import { onDestroy, onMount } from "svelte";
 import { State } from "@/lib/State";
+import { set } from "ramda";
 
   export let state: State;
 
@@ -16,6 +17,7 @@ import { State } from "@/lib/State";
           <option value={engine}>{engine.name}</option>
         {/each}
       </select>
+      <button on:click={() => state.saveLoadIsOpen.set(true)}>Save/Load</button>
       <!-- <fieldset>
         <button on:click={start}>Start</button>
         <button on:click={stop}>Stop</button>

@@ -40,6 +40,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@rgossiaux/svelte-headlessui@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@rgossiaux/svelte-headlessui/-/svelte-headlessui-1.0.1.tgz#0c92453c75afcf9521c0fdc8f472da7e762ba0c8"
+  integrity sha512-Gp8Chf6moPiXAhVjtT0KiCBsv+4rPob85ctpyNGgjFkyA8PL7Hmb19FDZd+Z0o9JhCh4kYYqTfVl1TVo9L3F9w==
+
 "@rollup/pluginutils@^4.2.1":
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-4.2.1.tgz#e6c6c3aba0744edce3fb2074922d3776c0af2a6d"

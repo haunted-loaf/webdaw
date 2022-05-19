@@ -17,7 +17,9 @@
 
   function instanceFromEvent(event: MouseEvent): Instance {
     const time = Math.floor(event.offsetX / scaleX / snapTicks) * snapTicks;
-    const track = Math.floor(event.offsetY / scaleY);
+    const track = song.tracks.length - Math.floor(
+      ((event.target as HTMLElement).offsetHeight - event.offsetY) / scaleY
+    ) - 1;
     const pattern = state.patterns[state.patternId];
     const length = pattern.length;
     return { time, length, pattern: state.patternId, track: track };
