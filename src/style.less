@@ -29,7 +29,7 @@ body,
 }
 
 #app>* {
-  overflow: auto;
+  overflow: hidden;
   display: flex;
 }
 
@@ -55,6 +55,16 @@ body,
 
 #instruments {
   grid-area: instruments;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  > * {
+    flex: 1 0 0;
+  }
+  #midi, #synth {
+    display: flex;
+    overflow: hidden;
+  }
 }
 
 .scroll {

@@ -32,6 +32,7 @@ export class Song {
   tracks: Track[];
   length: number;
   chords: Chord[];
+  synth: any;
 
   static load(state: State, song: SongDumpV1): Song {
     return new Song(state, {

@@ -7,60 +7,46 @@
   import Patterns from "./panes/Patterns.svelte";
   import { State } from "./lib/State";
   import SaveLoad from "./panes/SaveLoad.svelte";
+  import InstrumentsMidi from "./panes/Instruments_Midi.svelte";
+  import InstrumentsTone from "./panes/Instruments_Tone.svelte";
 
   export let state: State;
 
-  let waiter = Promise.all(state.engines.map(e => e.waiter))
-
-  function changeProgram(channel) {
-    state.engine.programChange(
-      0,
-      channel,
-      state.song.channels[channel].program
-    );
-  }
+  let waiter = Promise.all(state.engines.map((e) => e.waiter));
 </script>
 
 {#await waiter}
-
-Loading
-
+  Loading
 {:then _}
+  <SaveLoad bind:state />
 
-<SaveLoad bind:state />
-
-<div id="songs">
-  <Songs bind:state />
-</div>
-
-<div id="patterns">
-  <Patterns bind:state />
-</div>
-
-<Controls bind:state />
-
-<div id="arrangement">
-  <Song bind:state song={state.song} />
-</div>
-
-<div id="instruments">
-  <div class="pane">
-    <header>Instruments</header>
-    <main>
-      {#each state.song.channels as _, i}
-        <ChannelUI
-          bind:state
-          bind:channel={state.song.channels[i]}
-          number={i}
-          on:change={(e) => changeProgram(i)}
-        />
-      {/each}
-    </main>
+  <div id="songs">
+    <Songs bind:state />
   </div>
-</div>
 
-<div id="pattern">
-  <PatternPane bind:state bind:pattern={state.patterns[state.patternId]} />
-</div>
-  
+  <div id="patterns">
+    <Patterns bind:state />
+  </div>
+
+  <Controls bind:state />
+
+  <div id="arrangement">
+    <Song bind:state song={state.song} />
+  </div>
+
+  <div id="instruments">
+    <div id="midi">
+      <InstrumentsMidi bind:state />
+    </div>
+
+    <div id="synth">
+      <InstrumentsTone bind:state />
+    </div>
+  </div>
+
+  <div id="pattern">
+    <PatternPane bind:state bind:pattern={state.patterns[state.patternId]} />
+  </div>
+{:catch e}
+  {e}
 {/await}

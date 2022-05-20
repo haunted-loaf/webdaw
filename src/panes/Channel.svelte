@@ -14,6 +14,11 @@ import { State } from "@/lib/State";
 
   function onChange(num: number) {
     channel.program += num
+    state.engine.programChange(
+      0,
+      number,
+      channel.program
+    );
     dispatch("change", { program: channel.program });
   }
 </script>
