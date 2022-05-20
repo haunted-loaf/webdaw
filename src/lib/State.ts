@@ -116,15 +116,20 @@ export class State {
     this.engine = this.engines[0];
   }
 
-  origin: number = 0;
+  lastTime: number = 0
+  songTime: number = 0
+  timeOffset: number = 0
   period: number = 100
   timerId: number = null;
   onUpdate: Function;
 
-  update(time: number) {
+  update(wallTime: number) {
+    const time = wallTime % (this.song.length * this.song.tickLength)
+    const origin = wallTime - time
     const tick = time / this.song.tickLength;
     this.tickNum.set(tick);
-    const playTick = (tick + 1) % this.song.length;
+    const playTick = (tick) % this.song.length;
+    console.log(playTick)
     for (let pattern of values(this.patterns)) {
       pattern.playing = false;
       pattern.tickNum.set(0);
@@ -140,30 +145,19 @@ export class State {
               const basePitch = this.song.baseNote +
                 (pattern.baseOctave + note.octave) * 12 +
                 pattern.scale.degrees[note.degree] + pattern.tonic
-              let chord = note.chord || pattern.autoChord || null
-              if (chord) {
-                chord.degrees.forEach((degree, i) => {
-                  if (degree === null)
-                    return;
-                  const pitch = clamp(0, 127, basePitch + degree)
-                  this.engine.note(
-                    this.origin + (note.time + instance.time + i * chord.delay) * this.song.tickLength,
-                    track.channel,
-                    pitch,
-                    note.velocity,
-                    note.length * this.song.tickLength
-                  );
-                });
-              } else {
-                const pitch = clamp(0, 127, basePitch)
+              let chord = note.chord || pattern.autoChord || {degrees: [0], delay: 0}
+              chord.degrees.forEach((degree, i) => {
+                if (degree === null)
+                  return;
+                const pitch = clamp(0, 127, basePitch + degree)
                 this.engine.note(
-                  this.origin + (note.time + instance.time) * this.song.tickLength,
+                  (note.time + instance.time + i * chord.delay) * this.song.tickLength - origin + this.timeOffset,
                   track.channel,
                   pitch,
                   note.velocity,
                   note.length * this.song.tickLength
                 );
-              }
+              });
             }
           );
           pattern.playing = true;
@@ -175,31 +169,32 @@ export class State {
       this.onUpdate();
   }
 
-  onStart (time: number) { this.origin = time * 1000 }
-  onStop (time: number) {}
-  onPause (time: number) {}
-  onLoop (time: number) { this.origin = time * 1000 }
-
   async start() {
-    Transport.on("start", (time) => this.onStart(time))
-    Transport.on("stop",  (time) => this.onStop(time))
-    Transport.on("pause", (time) => this.onPause(time))
-    Transport.on("loop",  (time) => this.onLoop(time))
-    this.timerId = Transport.scheduleRepeat((time) => {
-      this.update(time * 1000 - this.origin)
-    }, this.period / 1000)
-    Transport.start(0, 0)
-    Transport.loopStart = 0
-    // Transport.loopEnd = this.song.length * this.song.tickLength / 1000
-    Transport.loopEnd = 2
-    Transport.loop = true
+    function helper() {
+      this.songTime = performance.now() - this.timeOffset
+      this.update(this.songTime)
+      this.lastTime = this.songTime
+    }
+    this.stop()
+    this.timeOffset = performance.now() - this.songTime
+    this.lastTime = 0
+    this.timerId = window.setInterval(helper.bind(this), this.period)
+  }
+
+  restart() {
+    this.timeOffset = performance.now()
+    this.lastTime = 0
+  }
+
+  goto(time: number) {
+    this.timeOffset = performance.now() - time * this.song.tickLength
   }
 
   stop() {
-    if (this.timerId)
-      Transport.clear(this.timerId)
+    if (this.timerId) {
+      window.clearInterval(this.timerId)
+    }
     this.timerId = null;
   }
-
 
 }

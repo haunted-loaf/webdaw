@@ -222,6 +222,7 @@
         <div
           class="tock"
           style="width: {scaleX * (song.beatLength * song.barLength)}px;"
+          on:click={() => state.goto(tick * song.beatLength * song.barLength)}
         >
           {tick}
         </div>

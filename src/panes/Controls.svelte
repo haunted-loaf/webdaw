@@ -1,10 +1,22 @@
 <script lang="ts">
   import * as _ from "underscore";
   import { onDestroy, onMount } from "svelte";
-import { State } from "@/lib/State";
-import { set } from "ramda";
+  import { State } from "@/lib/State";
+  import { set } from "ramda";
 
   export let state: State;
+
+  function restart() {
+    state.restart()
+  }
+
+  function start() {
+    state.start()
+  }
+
+  function stop() {
+    state.stop()
+  }
 
 </script>
 
@@ -18,10 +30,11 @@ import { set } from "ramda";
         {/each}
       </select>
       <button on:click={() => state.saveLoadIsOpen.set(true)}>Save/Load</button>
-      <!-- <fieldset>
-        <button on:click={start}>Start</button>
+      <fieldset>
+        <button on:click={restart}>Restart</button>
+        <button on:click={start}>Play</button>
         <button on:click={stop}>Stop</button>
-      </fieldset> -->
+      </fieldset>
     </section>
     <section>
       <a href="https://github.com/haunted-loaf/webdaw">Github</a>
