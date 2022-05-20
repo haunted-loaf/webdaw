@@ -401,8 +401,8 @@ export let builtin: StateDumpV1 =
       "kind": "song",
       "version": 1,
       "id": "e6a4380159ef3f4427dc880110cbf028",
-      "name": "Bella ciao",
-      "tickLength": 32,
+      "name": "Bella Ciao",
+      "tickLength": 24,
       "beatLength": 16,
       "barLength": 4,
       "baseNote": 0,
@@ -13199,7 +13199,7 @@ export let builtin: StateDumpV1 =
       "kind": "pattern",
       "version": 1,
       "id": "0fd363348273bfcbe92feb42fa9d3b2b",
-      "name": "Bella ciao",
+      "name": "Bella Ciao",
       "type": "tone",
       "notes": [
         {
