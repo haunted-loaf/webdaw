@@ -4,6 +4,7 @@ import { Dictionary, extend, filter, identity, keys, map, mapObject, random, tim
 import { Engine } from './engine';
 import { MidiEngine } from '../engines/midi';
 import { ToneEngine } from '../engines/tone';
+import { OcelotEngine } from '../engines/ocelot';
 import { Pattern, PatternDumpV1 } from "./Pattern";
 import { Song, SongDumpV1 } from "./Song";
 import { Scale } from './Scale';
@@ -116,6 +117,7 @@ export class State {
       this.engines.push(new MidiEngine());
     } catch (e) {
     }
+    this.engines.push(new OcelotEngine());
     this.engines.push(new ToneEngine());
     this.engine = this.engines[0];
   }
