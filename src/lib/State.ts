@@ -147,8 +147,9 @@ export class State {
           for (let i = 0; i < chord.degrees.length; i++) {
             const noteTick = chordTick + i * chord.delay
             const noteTime = noteTick * song.tickLength + this.timer.offset
-            const notePitch = chordPitch + chord.degrees[i]
-            this.engine.note(noteTime, track.channel, notePitch, note.velocity, note.length * song.tickLength)
+            const notePitch = clamp(0, 127, chordPitch + chord.degrees[i])
+            const velocity = clamp(0, 127, note.velocity + pattern.gain)
+            this.engine.note(noteTime, track.channel, notePitch, velocity, note.length * song.tickLength)
           }
         }
       }

@@ -31,6 +31,7 @@ export interface PatternDumpV1 {
     degrees: number[]
     delay: number
   }
+  gain:       number
 }
 
 export class Pattern {
@@ -52,6 +53,7 @@ export class Pattern {
     degrees: number[]
     delay: number
   } = null
+  gain:       number
 
   static load(state: State, pattern: PatternDumpV1): Pattern {
     return new Pattern(state, {
@@ -67,6 +69,7 @@ export class Pattern {
       noteNames:  pattern.noteNames,
       barLength:  pattern.barLength,
       autoChord:  pattern.autoChord || null,
+      gain:       pattern.gain || 0
     })
   }
 
@@ -86,7 +89,8 @@ export class Pattern {
       noteNames:  this.noteNames,
       barLength:  this.barLength,
       autoChord:  this.autoChord,
-    }
+      gain:       this.gain,
+}
   }
 
   get tonal(): boolean {
@@ -105,6 +109,7 @@ export class Pattern {
       notes: [],
       scale: state.scales[0],
       noteNames: flatten(times(12, (o) => times(12, (p) => notes[p] + (o - 1)))),
+      gain: 0,
     };
     this.type = options.type;
     if (this.tonal) {

@@ -126,6 +126,17 @@
 <div class="pane">
   <aside>
     <label>
+      Gain
+      <input
+        type="number"
+        bind:value={pattern.gain}
+        size="4"
+        min={-100}
+        max={+100}
+        step={0.1}
+      />
+    </label>
+    <label>
       Pattern length
       <input
         type="number"
