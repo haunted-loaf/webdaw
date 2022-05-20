@@ -6,6 +6,8 @@
 
   export let state: State;
 
+  let rushing = state.rushing
+
   function restart() {
     state.restart()
   }
@@ -35,6 +37,9 @@
         <button on:click={start}>Play</button>
         <button on:click={stop}>Stop</button>
       </fieldset>
+      {#if $rushing > 0}
+      Behind {$rushing} update{#if $rushing > 1}s{/if}.
+      {/if}
     </section>
     <section>
       <a href="https://github.com/haunted-loaf/webdaw">Github</a>

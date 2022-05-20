@@ -16,13 +16,13 @@
   let scaleY = 32;
 
   function instanceFromEvent(event: MouseEvent): Instance {
-    const time = Math.floor(event.offsetX / scaleX / snapTicks) * snapTicks;
+    const tick = Math.floor(event.offsetX / scaleX / snapTicks) * snapTicks;
     const track = song.tracks.length - Math.floor(
       ((event.target as HTMLElement).offsetHeight - event.offsetY) / scaleY
     ) - 1;
     const pattern = state.patterns[state.patternId];
     const length = pattern.length;
-    return { time, length, pattern: state.patternId, track: track };
+    return { tick, length, pattern: state.patternId, track: track };
   }
 
   function mousewheel(event: WheelEvent, target: Instance = null) {
@@ -280,7 +280,7 @@
         {#if ghost}
           <div
             class="event note virtual"
-            style="left:   {ghost.time * scaleX + 1}px;
+            style="left:   {ghost.tick * scaleX + 1}px;
                    top:    {ghost.track * scaleY + 1}px;
                    width:  {(scaleX - 1) * ghost.length + ghost.length - 1}px;
                    height: {scaleY - 1}px"
@@ -292,7 +292,7 @@
           {#each track.instances as instance}
             <div
               class="event instance"
-              style="left:   {instance.time * scaleX + 1}px;
+              style="left:   {instance.tick * scaleX + 1}px;
                  top:    {i * scaleY + 1}px;
                  width:  {(scaleX - 1) * instance.length +
                 instance.length -
@@ -307,12 +307,10 @@
             </div>
           {/each}
         {/each}
-        {#if state.tickNum}
-          <div
-            class="cursor beat"
-            style="left: {scaleX * ($tickNum % song.length)}px;"
-          />
-        {/if}
+        <div
+          class="cursor beat"
+          style="left: {scaleX * $tickNum}px;"
+        />
       </div>
     </div>
   </main>

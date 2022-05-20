@@ -41,7 +41,7 @@
     const duration = defaultDuration;
     const velocity = 100;
     const chord = null;
-    return { time: beat, octave, degree, length: duration, velocity, chord };
+    return { tick: beat, octave, degree, length: duration, velocity, chord };
   }
 
   function mousewheel(event: WheelEvent, target: Note = null) {
@@ -54,7 +54,7 @@
     }
     if (ghost) {
       ghost.length = defaultDuration;
-      ghost.time = Math.floor(ghost.time);
+      ghost.tick = Math.floor(ghost.tick);
     }
     pattern = pattern;
   }
@@ -338,7 +338,7 @@
         {#if ghost}
           <div
             class="event note virtual {ghost.chord ? 'chord' : ''}"
-            style="left:   {ghost.time * scaleX + 1}px;
+            style="left:   {ghost.tick * scaleX + 1}px;
                      bottom: {(ghost.degree +
               ghost.octave * pattern.scale.degrees.length) *
               scaleY +
@@ -350,7 +350,7 @@
         {#each pattern.notes as note}
           <div
             class="event note {note.chord ? 'chord' : ''}"
-            style="left:   {note.time * scaleX + 1}px;
+            style="left:   {note.tick * scaleX + 1}px;
                  bottom: {(note.degree +
               note.octave * pattern.scale.degrees.length) *
               scaleY +

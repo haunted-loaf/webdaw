@@ -7,7 +7,6 @@ export class ToneEngine implements Engine {
 
   waiter: Promise<this>
   voices: Tone.PolySynth[]
-  transportOffset: number
 
   constructor() {
     this.waiter = this.init()
@@ -15,8 +14,6 @@ export class ToneEngine implements Engine {
 
   async init(): Promise<this> {
     this.voices = times(16, () => new Tone.PolySynth<Tone.FMSynth>().toDestination())
-    this.transportOffset = performance.now() - Tone.Transport.immediate() * 1000
-    console.log(this.transportOffset)
     return this
   }
 

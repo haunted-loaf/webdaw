@@ -10,6 +10,8 @@
 
   export let state: State;
 
+  let waiter = Promise.all(state.engines.map(e => e.waiter))
+
   function changeProgram(channel) {
     state.engine.programChange(
       0,
@@ -18,6 +20,12 @@
     );
   }
 </script>
+
+{#await waiter}
+
+Loading
+
+{:then _}
 
 <SaveLoad bind:state />
 
@@ -54,3 +62,5 @@
 <div id="pattern">
   <PatternPane bind:state bind:pattern={state.patterns[state.patternId]} />
 </div>
+  
+{/await}

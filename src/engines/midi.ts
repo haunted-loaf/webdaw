@@ -23,10 +23,8 @@ export class MidiEngine implements Engine {
   }
 
   note(time: number, channel: number, pitch: number, velocity: number, duration: number) {
-    const output = this.output
-    console.log([time, duration])
-    output.send([0x90 + channel, pitch, velocity], time)
-    output.send([0x80 + channel, pitch, velocity], time + duration - 1)
+    this.output.send([0x90 + channel, pitch, velocity], time)
+    this.output.send([0x80 + channel, pitch, velocity], time + duration - 1)
   }
 
   programChange(time: number, channel: number, program: number) {

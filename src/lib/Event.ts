@@ -1,5 +1,5 @@
 
 export interface Event {
-  time: number;
+  tick: number;
   length: number;
 }

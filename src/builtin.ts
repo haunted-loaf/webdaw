@@ -86,7 +86,7 @@ export let builtin: StateDumpV1 =
           "channel": 0,
           "instances": [
             {
-              "time": 0,
+              "tick": 0,
               "length": 2688,
               "pattern": "746fac2e47",
               "track": 0
@@ -282,7 +282,7 @@ export let builtin: StateDumpV1 =
           "channel": 0,
           "instances": [
             {
-              "time": 0,
+              "tick": 0,
               "length": 2112,
               "pattern": "746fac2e46",
               "track": 0
@@ -478,7 +478,7 @@ export let builtin: StateDumpV1 =
           "channel": 0,
           "instances": [
             {
-              "time": 0,
+              "tick": 0,
               "length": 2112,
               "pattern": "0fd363348273bfcbe92feb42fa9d3b2b",
               "track": 0
@@ -604,7 +604,7 @@ export let builtin: StateDumpV1 =
       "type": "tone",
       "notes": [
         {
-          "time": 0,
+          "tick": 0,
           "length": 47,
           "octave": 4,
           "degree": 4,
@@ -612,7 +612,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 0,
+          "tick": 0,
           "length": 47,
           "octave": 4,
           "degree": 2,
@@ -620,7 +620,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 0,
+          "tick": 0,
           "length": 47,
           "octave": 4,
           "degree": 0,
@@ -628,7 +628,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 0,
+          "tick": 0,
           "length": 63,
           "octave": 3,
           "degree": 0,
@@ -636,7 +636,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 0,
+          "tick": 0,
           "length": 63,
           "octave": 2,
           "degree": 0,
@@ -644,7 +644,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 0,
+          "tick": 0,
           "length": 47,
           "octave": 5,
           "degree": 0,
@@ -652,7 +652,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 56,
+          "tick": 56,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -660,7 +660,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 64,
+          "tick": 64,
           "length": 15,
           "octave": 5,
           "degree": 0,
@@ -668,7 +668,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 64,
+          "tick": 64,
           "length": 15,
           "octave": 2,
           "degree": 0,
@@ -676,7 +676,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 64,
+          "tick": 64,
           "length": 31,
           "octave": 3,
           "degree": 0,
@@ -684,7 +684,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 64,
+          "tick": 64,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -692,7 +692,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 64,
+          "tick": 64,
           "length": 15,
           "octave": 4,
           "degree": 2,
@@ -700,7 +700,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 64,
+          "tick": 64,
           "length": 15,
           "octave": 4,
           "degree": 4,
@@ -708,7 +708,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 80,
+          "tick": 80,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -716,7 +716,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 80,
+          "tick": 80,
           "length": 15,
           "octave": 2,
           "degree": 0,
@@ -724,7 +724,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 80,
+          "tick": 80,
           "length": 15,
           "octave": 4,
           "degree": 2,
@@ -732,7 +732,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 80,
+          "tick": 80,
           "length": 11,
           "octave": 4,
           "degree": 4,
@@ -740,7 +740,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 92,
+          "tick": 92,
           "length": 3,
           "octave": 4,
           "degree": 5,
@@ -748,7 +748,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 96,
+          "tick": 96,
           "length": 15,
           "octave": 4,
           "degree": 6,
@@ -756,7 +756,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 96,
+          "tick": 96,
           "length": 15,
           "octave": 4,
           "degree": 4,
@@ -764,7 +764,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 96,
+          "tick": 96,
           "length": 15,
           "octave": 4,
           "degree": 2,
@@ -772,7 +772,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 96,
+          "tick": 96,
           "length": 15,
           "octave": 3,
           "degree": 6,
@@ -780,7 +780,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 96,
+          "tick": 96,
           "length": 31,
           "octave": 3,
           "degree": 2,
@@ -788,7 +788,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 96,
+          "tick": 96,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -796,7 +796,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 112,
+          "tick": 112,
           "length": 15,
           "octave": 3,
           "degree": 6,
@@ -804,7 +804,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 112,
+          "tick": 112,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -812,7 +812,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 112,
+          "tick": 112,
           "length": 15,
           "octave": 3,
           "degree": 4,
@@ -820,7 +820,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 112,
+          "tick": 112,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -828,7 +828,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 120,
+          "tick": 120,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -836,7 +836,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 128,
+          "tick": 128,
           "length": 31,
           "octave": 3,
           "degree": 3,
@@ -844,7 +844,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 128,
+          "tick": 128,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -852,7 +852,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 128,
+          "tick": 128,
           "length": 15,
           "octave": 4,
           "degree": 5,
@@ -860,7 +860,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 128,
+          "tick": 128,
           "length": 15,
           "octave": 2,
           "degree": 3,
@@ -868,7 +868,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 128,
+          "tick": 128,
           "length": 15,
           "octave": 3,
           "degree": 5,
@@ -876,7 +876,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 144,
+          "tick": 144,
           "length": 11,
           "octave": 4,
           "degree": 4,
@@ -884,7 +884,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 144,
+          "tick": 144,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -892,7 +892,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 144,
+          "tick": 144,
           "length": 15,
           "octave": 3,
           "degree": 5,
@@ -900,7 +900,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 144,
+          "tick": 144,
           "length": 15,
           "octave": 2,
           "degree": 3,
@@ -908,7 +908,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 156,
+          "tick": 156,
           "length": 3,
           "octave": 4,
           "degree": 3,
@@ -916,7 +916,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 160,
+          "tick": 160,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -924,7 +924,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 160,
+          "tick": 160,
           "length": 15,
           "octave": 4,
           "degree": 4,
@@ -932,7 +932,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 160,
+          "tick": 160,
           "length": 31,
           "octave": 3,
           "degree": 2,
@@ -940,7 +940,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 160,
+          "tick": 160,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -948,7 +948,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 160,
+          "tick": 160,
           "length": 15,
           "octave": 3,
           "degree": 4,
@@ -956,7 +956,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 176,
+          "tick": 176,
           "length": 7,
           "octave": 4,
           "degree": 0,
@@ -964,7 +964,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 176,
+          "tick": 176,
           "length": 15,
           "octave": 3,
           "degree": 4,
@@ -972,7 +972,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 176,
+          "tick": 176,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -980,7 +980,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 184,
+          "tick": 184,
           "length": 7,
           "octave": 4,
           "degree": 0,
@@ -988,7 +988,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 192,
+          "tick": 192,
           "length": 15,
           "octave": 4,
           "degree": 1,
@@ -996,7 +996,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 192,
+          "tick": 192,
           "length": 15,
           "octave": 2,
           "degree": 1,
@@ -1004,7 +1004,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 192,
+          "tick": 192,
           "length": 31,
           "octave": 3,
           "degree": 1,
@@ -1012,7 +1012,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 192,
+          "tick": 192,
           "length": 15,
           "octave": 3,
           "degree": 5,
@@ -1020,7 +1020,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 192,
+          "tick": 192,
           "length": 15,
           "octave": 3,
           "degree": 3,
@@ -1028,7 +1028,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 208,
+          "tick": 208,
           "length": 11,
           "octave": 4,
           "degree": 1,
@@ -1036,7 +1036,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 208,
+          "tick": 208,
           "length": 15,
           "octave": 3,
           "degree": 5,
@@ -1044,7 +1044,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 208,
+          "tick": 208,
           "length": 15,
           "octave": 3,
           "degree": 3,
@@ -1052,7 +1052,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 208,
+          "tick": 208,
           "length": 15,
           "octave": 2,
           "degree": 1,
@@ -1060,7 +1060,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 220,
+          "tick": 220,
           "length": 3,
           "octave": 4,
           "degree": 2,
@@ -1068,7 +1068,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 224,
+          "tick": 224,
           "length": 15,
           "octave": 4,
           "degree": 3,
@@ -1076,7 +1076,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 224,
+          "tick": 224,
           "length": 15,
           "octave": 3,
           "degree": 5,
@@ -1084,7 +1084,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 224,
+          "tick": 224,
           "length": 31,
           "octave": 3,
           "degree": 0,
@@ -1092,7 +1092,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 224,
+          "tick": 224,
           "length": 15,
           "octave": 2,
           "degree": 0,
@@ -1100,7 +1100,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 240,
+          "tick": 240,
           "length": 15,
           "octave": 2,
           "degree": 0,
@@ -1108,7 +1108,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 240,
+          "tick": 240,
           "length": 7,
           "octave": 3,
           "degree": 5,
@@ -1116,7 +1116,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 240,
+          "tick": 240,
           "length": 7,
           "octave": 4,
           "degree": 3,
@@ -1124,7 +1124,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 248,
+          "tick": 248,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -1132,7 +1132,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 248,
+          "tick": 248,
           "length": 7,
           "octave": 3,
           "degree": 5,
@@ -1140,7 +1140,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 256,
+          "tick": 256,
           "length": 15,
           "octave": 2,
           "degree": 0,
@@ -1148,7 +1148,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 256,
+          "tick": 256,
           "length": 15,
           "octave": 3,
           "degree": 0,
@@ -1156,7 +1156,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 256,
+          "tick": 256,
           "length": 15,
           "octave": 4,
           "degree": 5,
@@ -1164,7 +1164,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 256,
+          "tick": 256,
           "length": 15,
           "octave": 3,
           "degree": 5,
@@ -1172,7 +1172,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 272,
+          "tick": 272,
           "length": 7,
           "octave": 2,
           "degree": 6,
@@ -1180,7 +1180,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 272,
+          "tick": 272,
           "length": 7,
           "octave": 1,
           "degree": 6,
@@ -1188,7 +1188,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 272,
+          "tick": 272,
           "length": 7,
           "octave": 3,
           "degree": 6,
@@ -1196,7 +1196,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 272,
+          "tick": 272,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -1204,7 +1204,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 280,
+          "tick": 280,
           "length": 7,
           "octave": 5,
           "degree": 0,
@@ -1212,7 +1212,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 280,
+          "tick": 280,
           "length": 7,
           "octave": 4,
           "degree": 0,
@@ -1220,7 +1220,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 280,
+          "tick": 280,
           "length": 7,
           "octave": 2,
           "degree": 5,
@@ -1228,7 +1228,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 280,
+          "tick": 280,
           "length": 7,
           "octave": 1,
           "degree": 5,
@@ -1236,7 +1236,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 288,
+          "tick": 288,
           "length": 31,
           "octave": 4,
           "degree": 4,
@@ -1244,7 +1244,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 288,
+          "tick": 288,
           "length": 23,
           "octave": 5,
           "degree": 1,
@@ -1252,7 +1252,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 288,
+          "tick": 288,
           "length": 31,
           "octave": 4,
           "degree": 1,
@@ -1260,7 +1260,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 288,
+          "tick": 288,
           "length": 7,
           "octave": 2,
           "degree": 4,
@@ -1268,7 +1268,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 288,
+          "tick": 288,
           "length": 7,
           "octave": 1,
           "degree": 4,
@@ -1276,7 +1276,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 288,
+          "tick": 288,
           "length": 31,
           "octave": 4,
           "degree": 6,
@@ -1284,7 +1284,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 296,
+          "tick": 296,
           "length": 7,
           "octave": 3,
           "degree": 3,
@@ -1292,7 +1292,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 296,
+          "tick": 296,
           "length": 7,
           "octave": 2,
           "degree": 3,
@@ -1300,7 +1300,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 304,
+          "tick": 304,
           "length": 7,
           "octave": 3,
           "degree": 2,
@@ -1308,7 +1308,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 304,
+          "tick": 304,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -1316,7 +1316,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 312,
+          "tick": 312,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -1324,7 +1324,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 312,
+          "tick": 312,
           "length": 7,
           "octave": 3,
           "degree": 1,
@@ -1332,7 +1332,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 312,
+          "tick": 312,
           "length": 7,
           "octave": 2,
           "degree": 1,
@@ -1340,7 +1340,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 320,
+          "tick": 320,
           "length": 15,
           "octave": 2,
           "degree": 0,
@@ -1348,7 +1348,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 320,
+          "tick": 320,
           "length": 15,
           "octave": 3,
           "degree": 0,
@@ -1356,7 +1356,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 320,
+          "tick": 320,
           "length": 15,
           "octave": 4,
           "degree": 2,
@@ -1364,7 +1364,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 320,
+          "tick": 320,
           "length": 15,
           "octave": 4,
           "degree": 4,
@@ -1372,7 +1372,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 320,
+          "tick": 320,
           "length": 15,
           "octave": 5,
           "degree": 0,
@@ -1380,7 +1380,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 320,
+          "tick": 320,
           "length": 15,
           "octave": 5,
           "degree": 2,
@@ -1388,7 +1388,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 336,
+          "tick": 336,
           "length": 11,
           "octave": 5,
           "degree": 1,
@@ -1396,7 +1396,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 336,
+          "tick": 336,
           "length": 15,
           "octave": 4,
           "degree": 4,
@@ -1404,7 +1404,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 336,
+          "tick": 336,
           "length": 11,
           "octave": 4,
           "degree": 1,
@@ -1412,7 +1412,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 336,
+          "tick": 336,
           "length": 15,
           "octave": 3,
           "degree": 2,
@@ -1420,7 +1420,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 336,
+          "tick": 336,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -1428,7 +1428,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 348,
+          "tick": 348,
           "length": 3,
           "octave": 5,
           "degree": 0,
@@ -1436,7 +1436,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 348,
+          "tick": 348,
           "length": 3,
           "octave": 4,
           "degree": 0,
@@ -1444,7 +1444,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 352,
+          "tick": 352,
           "length": 23,
           "octave": 2,
           "degree": 4,
@@ -1452,7 +1452,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 352,
+          "tick": 352,
           "length": 7,
           "octave": 3,
           "degree": 4,
@@ -1460,7 +1460,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 352,
+          "tick": 352,
           "length": 15,
           "octave": 4,
           "degree": 1,
@@ -1468,7 +1468,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 352,
+          "tick": 352,
           "length": 15,
           "octave": 4,
           "degree": 4,
@@ -1476,7 +1476,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 352,
+          "tick": 352,
           "length": 15,
           "octave": 4,
           "degree": 6,
@@ -1484,7 +1484,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 352,
+          "tick": 352,
           "length": 15,
           "octave": 5,
           "degree": 1,
@@ -1492,7 +1492,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 360,
+          "tick": 360,
           "length": 7,
           "octave": 3,
           "degree": 1,
@@ -1500,7 +1500,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 368,
+          "tick": 368,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -1508,7 +1508,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 368,
+          "tick": 368,
           "length": 7,
           "octave": 4,
           "degree": 1,
@@ -1516,7 +1516,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 368,
+          "tick": 368,
           "length": 7,
           "octave": 2,
           "degree": 6,
@@ -1524,7 +1524,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 376,
+          "tick": 376,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -1532,7 +1532,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 376,
+          "tick": 376,
           "length": 7,
           "octave": 3,
           "degree": 6,
@@ -1540,7 +1540,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 376,
+          "tick": 376,
           "length": 7,
           "octave": 2,
           "degree": 4,
@@ -1548,7 +1548,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 384,
+          "tick": 384,
           "length": 15,
           "octave": 5,
           "degree": 0,
@@ -1556,7 +1556,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 384,
+          "tick": 384,
           "length": 15,
           "octave": 4,
           "degree": 5,
@@ -1564,7 +1564,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 384,
+          "tick": 384,
           "length": 15,
           "octave": 1,
           "degree": 5,
@@ -1572,7 +1572,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 384,
+          "tick": 384,
           "length": 15,
           "octave": 4,
           "degree": 2,
@@ -1580,7 +1580,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 384,
+          "tick": 384,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -1588,7 +1588,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 384,
+          "tick": 384,
           "length": 15,
           "octave": 2,
           "degree": 5,
@@ -1596,7 +1596,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 400,
+          "tick": 400,
           "length": 11,
           "octave": 4,
           "degree": 6,
@@ -1604,7 +1604,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 400,
+          "tick": 400,
           "length": 15,
           "octave": 3,
           "degree": 0,
@@ -1612,7 +1612,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 400,
+          "tick": 400,
           "length": 15,
           "octave": 2,
           "degree": 0,
@@ -1620,7 +1620,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 400,
+          "tick": 400,
           "length": 15,
           "octave": 4,
           "degree": 2,
@@ -1628,7 +1628,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 412,
+          "tick": 412,
           "length": 3,
           "octave": 4,
           "degree": 5,
@@ -1636,7 +1636,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 416,
+          "tick": 416,
           "length": 15,
           "octave": 4,
           "degree": 6,
@@ -1644,7 +1644,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 416,
+          "tick": 416,
           "length": 23,
           "octave": 2,
           "degree": 2,
@@ -1652,7 +1652,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 416,
+          "tick": 416,
           "length": 7,
           "octave": 3,
           "degree": 2,
@@ -1660,7 +1660,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 416,
+          "tick": 416,
           "length": 15,
           "octave": 4,
           "degree": 2,
@@ -1668,7 +1668,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 416,
+          "tick": 416,
           "length": 15,
           "octave": 3,
           "degree": 6,
@@ -1676,7 +1676,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 424,
+          "tick": 424,
           "length": 7,
           "octave": 2,
           "degree": 6,
@@ -1684,7 +1684,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 432,
+          "tick": 432,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -1692,7 +1692,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 432,
+          "tick": 432,
           "length": 7,
           "octave": 3,
           "degree": 6,
@@ -1700,7 +1700,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 432,
+          "tick": 432,
           "length": 7,
           "octave": 2,
           "degree": 4,
@@ -1708,7 +1708,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 440,
+          "tick": 440,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -1716,7 +1716,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 440,
+          "tick": 440,
           "length": 7,
           "octave": 3,
           "degree": 4,
@@ -1724,7 +1724,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 440,
+          "tick": 440,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -1732,7 +1732,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 448,
+          "tick": 448,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -1740,7 +1740,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 448,
+          "tick": 448,
           "length": 15,
           "octave": 2,
           "degree": 3,
@@ -1748,7 +1748,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 448,
+          "tick": 448,
           "length": 15,
           "octave": 3,
           "degree": 3,
@@ -1756,7 +1756,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 448,
+          "tick": 448,
           "length": 15,
           "octave": 3,
           "degree": 5,
@@ -1764,7 +1764,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 448,
+          "tick": 448,
           "length": 15,
           "octave": 4,
           "degree": 5,
@@ -1772,7 +1772,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 464,
+          "tick": 464,
           "length": 11,
           "octave": 4,
           "degree": 4,
@@ -1780,7 +1780,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 464,
+          "tick": 464,
           "length": 15,
           "octave": 3,
           "degree": 5,
@@ -1788,7 +1788,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 464,
+          "tick": 464,
           "length": 15,
           "octave": 3,
           "degree": 1,
@@ -1796,7 +1796,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 464,
+          "tick": 464,
           "length": 15,
           "octave": 2,
           "degree": 1,
@@ -1804,7 +1804,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 464,
+          "tick": 464,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -1812,7 +1812,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 476,
+          "tick": 476,
           "length": 3,
           "octave": 3,
           "degree": 3,
@@ -1820,7 +1820,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 476,
+          "tick": 476,
           "length": 3,
           "octave": 4,
           "degree": 3,
@@ -1828,7 +1828,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 480,
+          "tick": 480,
           "length": 15,
           "octave": 4,
           "degree": 4,
@@ -1836,7 +1836,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 480,
+          "tick": 480,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -1844,7 +1844,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 480,
+          "tick": 480,
           "length": 15,
           "octave": 3,
           "degree": 4,
@@ -1852,7 +1852,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 480,
+          "tick": 480,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -1860,7 +1860,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 480,
+          "tick": 480,
           "length": 15,
           "octave": 3,
           "degree": 2,
@@ -1868,7 +1868,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 496,
+          "tick": 496,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -1876,7 +1876,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 496,
+          "tick": 496,
           "length": 15,
           "octave": 3,
           "degree": 2,
@@ -1884,7 +1884,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 496,
+          "tick": 496,
           "length": 11,
           "octave": 4,
           "degree": 0,
@@ -1892,7 +1892,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 496,
+          "tick": 496,
           "length": 15,
           "octave": 3,
           "degree": 4,
@@ -1900,7 +1900,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 508,
+          "tick": 508,
           "length": 3,
           "octave": 4,
           "degree": 0,
@@ -1908,7 +1908,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 512,
+          "tick": 512,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -1916,7 +1916,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 512,
+          "tick": 512,
           "length": 15,
           "octave": 3,
           "degree": 1,
@@ -1924,7 +1924,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 512,
+          "tick": 512,
           "length": 15,
           "octave": 2,
           "degree": 1,
@@ -1932,7 +1932,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 512,
+          "tick": 512,
           "length": 15,
           "octave": 5,
           "degree": 0,
@@ -1940,7 +1940,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 528,
+          "tick": 528,
           "length": 11,
           "octave": 4,
           "degree": 6,
@@ -1948,7 +1948,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 528,
+          "tick": 528,
           "length": 15,
           "octave": 2,
           "degree": 1,
@@ -1956,7 +1956,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 528,
+          "tick": 528,
           "length": 11,
           "octave": 4,
           "degree": 2,
@@ -1964,7 +1964,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 528,
+          "tick": 528,
           "length": 11,
           "octave": 4,
           "degree": 0,
@@ -1972,7 +1972,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 528,
+          "tick": 528,
           "length": 15,
           "octave": 3,
           "degree": 1,
@@ -1980,7 +1980,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 540,
+          "tick": 540,
           "length": 3,
           "octave": 4,
           "degree": 5,
@@ -1988,7 +1988,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 544,
+          "tick": 544,
           "length": 7,
           "octave": 2,
           "degree": 4,
@@ -1996,7 +1996,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 544,
+          "tick": 544,
           "length": 7,
           "octave": 3,
           "degree": 4,
@@ -2004,7 +2004,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 544,
+          "tick": 544,
           "length": 7,
           "octave": 3,
           "degree": 6,
@@ -2012,7 +2012,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 544,
+          "tick": 544,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -2020,7 +2020,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 552,
+          "tick": 552,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -2028,7 +2028,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 552,
+          "tick": 552,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -2036,7 +2036,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 552,
+          "tick": 552,
           "length": 7,
           "octave": 3,
           "degree": 3,
@@ -2044,7 +2044,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 552,
+          "tick": 552,
           "length": 7,
           "octave": 2,
           "degree": 3,
@@ -2052,7 +2052,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 560,
+          "tick": 560,
           "length": 7,
           "octave": 5,
           "degree": 0,
@@ -2060,7 +2060,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 560,
+          "tick": 560,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -2068,7 +2068,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 560,
+          "tick": 560,
           "length": 7,
           "octave": 3,
           "degree": 2,
@@ -2076,7 +2076,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 560,
+          "tick": 560,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -2084,7 +2084,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 568,
+          "tick": 568,
           "length": 7,
           "octave": 2,
           "degree": 1,
@@ -2092,7 +2092,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 568,
+          "tick": 568,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -2100,7 +2100,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 568,
+          "tick": 568,
           "length": 7,
           "octave": 3,
           "degree": 1,
@@ -2108,7 +2108,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 568,
+          "tick": 568,
           "length": 7,
           "octave": 5,
           "degree": 1,
@@ -2116,7 +2116,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 576,
+          "tick": 576,
           "length": 31,
           "octave": 5,
           "degree": 0,
@@ -2124,7 +2124,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 576,
+          "tick": 576,
           "length": 31,
           "octave": 4,
           "degree": 4,
@@ -2132,7 +2132,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 576,
+          "tick": 576,
           "length": 31,
           "octave": 4,
           "degree": 2,
@@ -2140,7 +2140,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 576,
+          "tick": 576,
           "length": 7,
           "octave": 3,
           "degree": 0,
@@ -2148,7 +2148,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 576,
+          "tick": 576,
           "length": 7,
           "octave": 2,
           "degree": 0,
@@ -2156,7 +2156,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 576,
+          "tick": 576,
           "length": 31,
           "octave": 5,
           "degree": 2,
@@ -2164,7 +2164,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 584,
+          "tick": 584,
           "length": 7,
           "octave": 1,
           "degree": 6,
@@ -2172,7 +2172,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 584,
+          "tick": 584,
           "length": 7,
           "octave": 2,
           "degree": 6,
@@ -2180,7 +2180,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 592,
+          "tick": 592,
           "length": 7,
           "octave": 3,
           "degree": 0,
@@ -2188,7 +2188,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 592,
+          "tick": 592,
           "length": 7,
           "octave": 2,
           "degree": 0,
@@ -2196,7 +2196,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 600,
+          "tick": 600,
           "length": 7,
           "octave": 3,
           "degree": 1,
@@ -2204,7 +2204,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 600,
+          "tick": 600,
           "length": 7,
           "octave": 2,
           "degree": 1,
@@ -2212,7 +2212,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 608,
+          "tick": 608,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -2220,7 +2220,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 608,
+          "tick": 608,
           "length": 39,
           "octave": 5,
           "degree": 4,
@@ -2228,7 +2228,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 608,
+          "tick": 608,
           "length": 7,
           "octave": 5,
           "degree": 1,
@@ -2236,7 +2236,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 608,
+          "tick": 608,
           "length": 23,
           "octave": 4,
           "degree": 4,
@@ -2244,7 +2244,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 608,
+          "tick": 608,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -2252,7 +2252,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 608,
+          "tick": 608,
           "length": 15,
           "octave": 3,
           "degree": 2,
@@ -2260,7 +2260,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 616,
+          "tick": 616,
           "length": 7,
           "octave": 5,
           "degree": 0,
@@ -2268,7 +2268,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 616,
+          "tick": 616,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -2276,7 +2276,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 624,
+          "tick": 624,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -2284,7 +2284,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 624,
+          "tick": 624,
           "length": 15,
           "octave": 3,
           "degree": 2,
@@ -2292,7 +2292,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 624,
+          "tick": 624,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -2300,7 +2300,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 624,
+          "tick": 624,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -2308,7 +2308,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 632,
+          "tick": 632,
           "length": 7,
           "octave": 5,
           "degree": 0,
@@ -2316,7 +2316,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 632,
+          "tick": 632,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -2324,7 +2324,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 640,
+          "tick": 640,
           "length": 23,
           "octave": 4,
           "degree": 6,
@@ -2332,7 +2332,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 640,
+          "tick": 640,
           "length": 23,
           "octave": 5,
           "degree": 1,
@@ -2340,7 +2340,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 640,
+          "tick": 640,
           "length": 47,
           "octave": 3,
           "degree": 4,
@@ -2348,7 +2348,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 640,
+          "tick": 640,
           "length": 15,
           "octave": 2,
           "degree": 4,
@@ -2356,7 +2356,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 648,
+          "tick": 648,
           "length": 2,
           "octave": 5,
           "degree": 4,
@@ -2364,7 +2364,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 648,
+          "tick": 648,
           "length": 2,
           "octave": 4,
           "degree": 4,
@@ -2372,7 +2372,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 650,
+          "tick": 650,
           "length": 2,
           "octave": 5,
           "degree": 4,
@@ -2380,7 +2380,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 650,
+          "tick": 650,
           "length": 2,
           "octave": 4,
           "degree": 4,
@@ -2388,7 +2388,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 653,
+          "tick": 653,
           "length": 2,
           "octave": 4,
           "degree": 4,
@@ -2396,7 +2396,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 653,
+          "tick": 653,
           "length": 2,
           "octave": 5,
           "degree": 4,
@@ -2404,7 +2404,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 656,
+          "tick": 656,
           "length": 7,
           "octave": 2,
           "degree": 4,
@@ -2412,7 +2412,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 656,
+          "tick": 656,
           "length": 15,
           "octave": 4,
           "degree": 4,
@@ -2420,7 +2420,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 656,
+          "tick": 656,
           "length": 15,
           "octave": 5,
           "degree": 4,
@@ -2428,7 +2428,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 664,
+          "tick": 664,
           "length": 7,
           "octave": 3,
           "degree": 1,
@@ -2436,55 +2436,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 664,
-          "length": 7,
-          "octave": 3,
-          "degree": 6,
-          "velocity": 75.59055118110236,
-          "chord": null
-        },
-        {
-          "time": 664,
-          "length": 7,
-          "octave": 4,
-          "degree": 1,
-          "velocity": 75.59055118110236,
-          "chord": null
-        },
-        {
-          "time": 664,
-          "length": 7,
-          "octave": 4,
-          "degree": 4,
-          "velocity": 75.59055118110236,
-          "chord": null
-        },
-        {
-          "time": 672,
-          "length": 7,
-          "octave": 4,
-          "degree": 4,
-          "velocity": 75.59055118110236,
-          "chord": null
-        },
-        {
-          "time": 672,
-          "length": 15,
-          "octave": 2,
-          "degree": 4,
-          "velocity": 70.86614173228347,
-          "chord": null
-        },
-        {
-          "time": 672,
-          "length": 7,
-          "octave": 4,
-          "degree": 1,
-          "velocity": 75.59055118110236,
-          "chord": null
-        },
-        {
-          "time": 672,
+          "tick": 664,
           "length": 7,
           "octave": 3,
           "degree": 6,
@@ -2492,7 +2444,55 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 680,
+          "tick": 664,
+          "length": 7,
+          "octave": 4,
+          "degree": 1,
+          "velocity": 75.59055118110236,
+          "chord": null
+        },
+        {
+          "tick": 664,
+          "length": 7,
+          "octave": 4,
+          "degree": 4,
+          "velocity": 75.59055118110236,
+          "chord": null
+        },
+        {
+          "tick": 672,
+          "length": 7,
+          "octave": 4,
+          "degree": 4,
+          "velocity": 75.59055118110236,
+          "chord": null
+        },
+        {
+          "tick": 672,
+          "length": 15,
+          "octave": 2,
+          "degree": 4,
+          "velocity": 70.86614173228347,
+          "chord": null
+        },
+        {
+          "tick": 672,
+          "length": 7,
+          "octave": 4,
+          "degree": 1,
+          "velocity": 75.59055118110236,
+          "chord": null
+        },
+        {
+          "tick": 672,
+          "length": 7,
+          "octave": 3,
+          "degree": 6,
+          "velocity": 75.59055118110236,
+          "chord": null
+        },
+        {
+          "tick": 680,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -2500,7 +2500,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 680,
+          "tick": 680,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -2508,7 +2508,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 688,
+          "tick": 688,
           "length": 7,
           "octave": 5,
           "degree": 0,
@@ -2516,7 +2516,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 688,
+          "tick": 688,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -2524,7 +2524,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 688,
+          "tick": 688,
           "length": 7,
           "octave": 3,
           "degree": 3,
@@ -2532,7 +2532,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 688,
+          "tick": 688,
           "length": 7,
           "octave": 2,
           "degree": 3,
@@ -2540,7 +2540,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 696,
+          "tick": 696,
           "length": 7,
           "octave": 5,
           "degree": 1,
@@ -2548,7 +2548,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 696,
+          "tick": 696,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -2556,7 +2556,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 696,
+          "tick": 696,
           "length": 7,
           "octave": 3,
           "degree": 2,
@@ -2564,7 +2564,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 696,
+          "tick": 696,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -2572,7 +2572,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 704,
+          "tick": 704,
           "length": 31,
           "octave": 4,
           "degree": 0,
@@ -2580,7 +2580,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 704,
+          "tick": 704,
           "length": 31,
           "octave": 4,
           "degree": 2,
@@ -2588,7 +2588,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 704,
+          "tick": 704,
           "length": 31,
           "octave": 4,
           "degree": 5,
@@ -2596,7 +2596,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 704,
+          "tick": 704,
           "length": 31,
           "octave": 5,
           "degree": 0,
@@ -2604,7 +2604,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 704,
+          "tick": 704,
           "length": 15,
           "octave": 1,
           "degree": 5,
@@ -2612,7 +2612,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 704,
+          "tick": 704,
           "length": 7,
           "octave": 2,
           "degree": 5,
@@ -2620,7 +2620,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 712,
+          "tick": 712,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -2628,7 +2628,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 720,
+          "tick": 720,
           "length": 7,
           "octave": 2,
           "degree": 5,
@@ -2636,7 +2636,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 720,
+          "tick": 720,
           "length": 7,
           "octave": 1,
           "degree": 5,
@@ -2644,7 +2644,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 728,
+          "tick": 728,
           "length": 7,
           "octave": 1,
           "degree": 6,
@@ -2652,7 +2652,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 728,
+          "tick": 728,
           "length": 7,
           "octave": 2,
           "degree": 6,
@@ -2660,7 +2660,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 736,
+          "tick": 736,
           "length": 39,
           "octave": 5,
           "degree": 2,
@@ -2668,7 +2668,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 736,
+          "tick": 736,
           "length": 15,
           "octave": 2,
           "degree": 0,
@@ -2676,7 +2676,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 736,
+          "tick": 736,
           "length": 31,
           "octave": 3,
           "degree": 0,
@@ -2684,7 +2684,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 736,
+          "tick": 736,
           "length": 23,
           "octave": 4,
           "degree": 2,
@@ -2692,7 +2692,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 736,
+          "tick": 736,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -2700,7 +2700,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 736,
+          "tick": 736,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -2708,7 +2708,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 744,
+          "tick": 744,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -2716,7 +2716,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 752,
+          "tick": 752,
           "length": 15,
           "octave": 2,
           "degree": 0,
@@ -2724,7 +2724,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 752,
+          "tick": 752,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -2732,7 +2732,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 752,
+          "tick": 752,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -2740,7 +2740,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 760,
+          "tick": 760,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -2748,7 +2748,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 768,
+          "tick": 768,
           "length": 47,
           "octave": 3,
           "degree": 2,
@@ -2756,7 +2756,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 768,
+          "tick": 768,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -2764,7 +2764,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 768,
+          "tick": 768,
           "length": 23,
           "octave": 4,
           "degree": 4,
@@ -2772,7 +2772,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 768,
+          "tick": 768,
           "length": 23,
           "octave": 4,
           "degree": 6,
@@ -2780,7 +2780,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 776,
+          "tick": 776,
           "length": 2,
           "octave": 5,
           "degree": 2,
@@ -2788,7 +2788,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 776,
+          "tick": 776,
           "length": 2,
           "octave": 4,
           "degree": 2,
@@ -2796,7 +2796,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 776,
+          "tick": 776,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -2804,7 +2804,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 778,
+          "tick": 778,
           "length": 2,
           "octave": 5,
           "degree": 2,
@@ -2812,7 +2812,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 778,
+          "tick": 778,
           "length": 2,
           "octave": 4,
           "degree": 2,
@@ -2820,7 +2820,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 781,
+          "tick": 781,
           "length": 2,
           "octave": 5,
           "degree": 2,
@@ -2828,7 +2828,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 781,
+          "tick": 781,
           "length": 2,
           "octave": 4,
           "degree": 2,
@@ -2836,7 +2836,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 784,
+          "tick": 784,
           "length": 7,
           "octave": 2,
           "degree": 4,
@@ -2844,7 +2844,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 784,
+          "tick": 784,
           "length": 15,
           "octave": 5,
           "degree": 2,
@@ -2852,7 +2852,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 784,
+          "tick": 784,
           "length": 15,
           "octave": 4,
           "degree": 2,
@@ -2860,7 +2860,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 792,
+          "tick": 792,
           "length": 7,
           "octave": 2,
           "degree": 6,
@@ -2868,7 +2868,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 792,
+          "tick": 792,
           "length": 7,
           "octave": 3,
           "degree": 6,
@@ -2876,7 +2876,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 792,
+          "tick": 792,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -2884,7 +2884,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 792,
+          "tick": 792,
           "length": 7,
           "octave": 3,
           "degree": 4,
@@ -2892,7 +2892,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 800,
+          "tick": 800,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -2900,7 +2900,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 800,
+          "tick": 800,
           "length": 7,
           "octave": 3,
           "degree": 6,
@@ -2908,7 +2908,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 800,
+          "tick": 800,
           "length": 7,
           "octave": 3,
           "degree": 4,
@@ -2916,7 +2916,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 800,
+          "tick": 800,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -2924,7 +2924,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 808,
+          "tick": 808,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -2932,7 +2932,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 808,
+          "tick": 808,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -2940,7 +2940,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 816,
+          "tick": 816,
           "length": 7,
           "octave": 2,
           "degree": 1,
@@ -2948,7 +2948,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 816,
+          "tick": 816,
           "length": 7,
           "octave": 3,
           "degree": 1,
@@ -2956,7 +2956,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 816,
+          "tick": 816,
           "length": 7,
           "octave": 4,
           "degree": 3,
@@ -2964,7 +2964,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 816,
+          "tick": 816,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -2972,7 +2972,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 824,
+          "tick": 824,
           "length": 7,
           "octave": 1,
           "degree": 4,
@@ -2980,7 +2980,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 824,
+          "tick": 824,
           "length": 7,
           "octave": 2,
           "degree": 4,
@@ -2988,7 +2988,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 824,
+          "tick": 824,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -2996,7 +2996,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 824,
+          "tick": 824,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -3004,7 +3004,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 832,
+          "tick": 832,
           "length": 15,
           "octave": 5,
           "degree": 0,
@@ -3012,7 +3012,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 832,
+          "tick": 832,
           "length": 15,
           "octave": 4,
           "degree": 5,
@@ -3020,7 +3020,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 832,
+          "tick": 832,
           "length": 31,
           "octave": 4,
           "degree": 0,
@@ -3028,7 +3028,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 832,
+          "tick": 832,
           "length": 23,
           "octave": 2,
           "degree": 3,
@@ -3036,7 +3036,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 832,
+          "tick": 832,
           "length": 23,
           "octave": 1,
           "degree": 3,
@@ -3044,7 +3044,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 848,
+          "tick": 848,
           "length": 11,
           "octave": 4,
           "degree": 3,
@@ -3052,7 +3052,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 848,
+          "tick": 848,
           "length": 11,
           "octave": 4,
           "degree": 5,
@@ -3060,7 +3060,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 856,
+          "tick": 856,
           "length": 7,
           "octave": 3,
           "degree": 0,
@@ -3068,7 +3068,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 856,
+          "tick": 856,
           "length": 7,
           "octave": 2,
           "degree": 0,
@@ -3076,7 +3076,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 860,
+          "tick": 860,
           "length": 3,
           "octave": 4,
           "degree": 4,
@@ -3084,7 +3084,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 860,
+          "tick": 860,
           "length": 3,
           "octave": 4,
           "degree": 6,
@@ -3092,7 +3092,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 864,
+          "tick": 864,
           "length": 23,
           "octave": 2,
           "degree": 5,
@@ -3100,7 +3100,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 864,
+          "tick": 864,
           "length": 23,
           "octave": 3,
           "degree": 5,
@@ -3108,7 +3108,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 864,
+          "tick": 864,
           "length": 31,
           "octave": 4,
           "degree": 0,
@@ -3116,7 +3116,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 864,
+          "tick": 864,
           "length": 15,
           "octave": 4,
           "degree": 5,
@@ -3124,7 +3124,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 864,
+          "tick": 864,
           "length": 15,
           "octave": 5,
           "degree": 0,
@@ -3132,7 +3132,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 880,
+          "tick": 880,
           "length": 11,
           "octave": 4,
           "degree": 5,
@@ -3140,7 +3140,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 880,
+          "tick": 880,
           "length": 11,
           "octave": 4,
           "degree": 3,
@@ -3148,7 +3148,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 888,
+          "tick": 888,
           "length": 7,
           "octave": 3,
           "degree": 4,
@@ -3156,7 +3156,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 888,
+          "tick": 888,
           "length": 7,
           "octave": 2,
           "degree": 4,
@@ -3164,7 +3164,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 892,
+          "tick": 892,
           "length": 3,
           "octave": 4,
           "degree": 6,
@@ -3172,7 +3172,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 892,
+          "tick": 892,
           "length": 3,
           "octave": 4,
           "degree": 4,
@@ -3180,7 +3180,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 896,
+          "tick": 896,
           "length": 23,
           "octave": 2,
           "degree": 3,
@@ -3188,7 +3188,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 896,
+          "tick": 896,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -3196,7 +3196,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 896,
+          "tick": 896,
           "length": 15,
           "octave": 5,
           "degree": 0,
@@ -3204,7 +3204,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 896,
+          "tick": 896,
           "length": 15,
           "octave": 4,
           "degree": 5,
@@ -3212,7 +3212,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 896,
+          "tick": 896,
           "length": 23,
           "octave": 3,
           "degree": 3,
@@ -3220,7 +3220,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 912,
+          "tick": 912,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -3228,7 +3228,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 912,
+          "tick": 912,
           "length": 7,
           "octave": 4,
           "degree": 3,
@@ -3236,7 +3236,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 912,
+          "tick": 912,
           "length": 7,
           "octave": 4,
           "degree": 0,
@@ -3244,7 +3244,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 920,
+          "tick": 920,
           "length": 7,
           "octave": 3,
           "degree": 0,
@@ -3252,7 +3252,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 920,
+          "tick": 920,
           "length": 7,
           "octave": 5,
           "degree": 0,
@@ -3260,7 +3260,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 920,
+          "tick": 920,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -3268,7 +3268,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 920,
+          "tick": 920,
           "length": 7,
           "octave": 4,
           "degree": 3,
@@ -3276,7 +3276,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 920,
+          "tick": 920,
           "length": 7,
           "octave": 2,
           "degree": 0,
@@ -3284,7 +3284,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 928,
+          "tick": 928,
           "length": 7,
           "octave": 2,
           "degree": 5,
@@ -3292,7 +3292,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 928,
+          "tick": 928,
           "length": 7,
           "octave": 3,
           "degree": 5,
@@ -3300,7 +3300,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 928,
+          "tick": 928,
           "length": 7,
           "octave": 4,
           "degree": 3,
@@ -3308,7 +3308,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 928,
+          "tick": 928,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -3316,7 +3316,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 928,
+          "tick": 928,
           "length": 7,
           "octave": 5,
           "degree": 0,
@@ -3324,7 +3324,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 928,
+          "tick": 928,
           "length": 7,
           "octave": 5,
           "degree": 3,
@@ -3332,7 +3332,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 936,
+          "tick": 936,
           "length": 7,
           "octave": 2,
           "degree": 4,
@@ -3340,7 +3340,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 936,
+          "tick": 936,
           "length": 2,
           "octave": 5,
           "degree": 3,
@@ -3348,7 +3348,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 936,
+          "tick": 936,
           "length": 7,
           "octave": 3,
           "degree": 4,
@@ -3356,7 +3356,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 936,
+          "tick": 936,
           "length": 2,
           "octave": 4,
           "degree": 3,
@@ -3364,7 +3364,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 938,
+          "tick": 938,
           "length": 2,
           "octave": 4,
           "degree": 3,
@@ -3372,7 +3372,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 938,
+          "tick": 938,
           "length": 2,
           "octave": 5,
           "degree": 3,
@@ -3380,7 +3380,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 941,
+          "tick": 941,
           "length": 2,
           "octave": 4,
           "degree": 3,
@@ -3388,7 +3388,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 941,
+          "tick": 941,
           "length": 2,
           "octave": 5,
           "degree": 3,
@@ -3396,7 +3396,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 944,
+          "tick": 944,
           "length": 7,
           "octave": 5,
           "degree": 3,
@@ -3404,7 +3404,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 944,
+          "tick": 944,
           "length": 7,
           "octave": 4,
           "degree": 3,
@@ -3412,7 +3412,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 944,
+          "tick": 944,
           "length": 7,
           "octave": 3,
           "degree": 3,
@@ -3420,7 +3420,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 944,
+          "tick": 944,
           "length": 7,
           "octave": 2,
           "degree": 3,
@@ -3428,7 +3428,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 952,
+          "tick": 952,
           "length": 7,
           "octave": 5,
           "degree": 3,
@@ -3436,7 +3436,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 952,
+          "tick": 952,
           "length": 7,
           "octave": 4,
           "degree": 3,
@@ -3444,7 +3444,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 952,
+          "tick": 952,
           "length": 7,
           "octave": 3,
           "degree": 2,
@@ -3452,7 +3452,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 952,
+          "tick": 952,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -3460,7 +3460,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 960,
+          "tick": 960,
           "length": 31,
           "octave": 5,
           "degree": 3,
@@ -3468,7 +3468,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 960,
+          "tick": 960,
           "length": 31,
           "octave": 4,
           "degree": 5,
@@ -3476,7 +3476,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 960,
+          "tick": 960,
           "length": 31,
           "octave": 4,
           "degree": 3,
@@ -3484,7 +3484,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 960,
+          "tick": 960,
           "length": 23,
           "octave": 3,
           "degree": 1,
@@ -3492,7 +3492,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 960,
+          "tick": 960,
           "length": 23,
           "octave": 2,
           "degree": 1,
@@ -3500,7 +3500,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 960,
+          "tick": 960,
           "length": 31,
           "octave": 5,
           "degree": 1,
@@ -3508,7 +3508,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 984,
+          "tick": 984,
           "length": 3,
           "octave": 2,
           "degree": 2,
@@ -3516,7 +3516,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 988,
+          "tick": 988,
           "length": 3,
           "octave": 2,
           "degree": 3,
@@ -3524,7 +3524,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 992,
+          "tick": 992,
           "length": 7,
           "octave": 5,
           "degree": 2,
@@ -3532,7 +3532,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 992,
+          "tick": 992,
           "length": 15,
           "octave": 4,
           "degree": 6,
@@ -3540,7 +3540,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 992,
+          "tick": 992,
           "length": 15,
           "octave": 2,
           "degree": 4,
@@ -3548,7 +3548,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 992,
+          "tick": 992,
           "length": 15,
           "octave": 4,
           "degree": 4,
@@ -3556,7 +3556,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 992,
+          "tick": 992,
           "length": 15,
           "octave": 3,
           "degree": 4,
@@ -3564,7 +3564,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1000,
+          "tick": 1000,
           "length": 7,
           "octave": 5,
           "degree": 1,
@@ -3572,7 +3572,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1008,
+          "tick": 1008,
           "length": 7,
           "octave": 4,
           "degree": 3,
@@ -3580,7 +3580,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1008,
+          "tick": 1008,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -3588,7 +3588,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1008,
+          "tick": 1008,
           "length": 7,
           "octave": 5,
           "degree": 0,
@@ -3596,7 +3596,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1008,
+          "tick": 1008,
           "length": 15,
           "octave": 1,
           "degree": 4,
@@ -3604,7 +3604,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1008,
+          "tick": 1008,
           "length": 15,
           "octave": 2,
           "degree": 4,
@@ -3612,7 +3612,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1016,
+          "tick": 1016,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -3620,7 +3620,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1016,
+          "tick": 1016,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -3628,7 +3628,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1016,
+          "tick": 1016,
           "length": 7,
           "octave": 5,
           "degree": 1,
@@ -3636,7 +3636,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1024,
+          "tick": 1024,
           "length": 23,
           "octave": 5,
           "degree": 2,
@@ -3644,7 +3644,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1024,
+          "tick": 1024,
           "length": 7,
           "octave": 2,
           "degree": 0,
@@ -3652,7 +3652,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1024,
+          "tick": 1024,
           "length": 7,
           "octave": 3,
           "degree": 0,
@@ -3660,7 +3660,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1024,
+          "tick": 1024,
           "length": 23,
           "octave": 4,
           "degree": 2,
@@ -3668,7 +3668,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1024,
+          "tick": 1024,
           "length": 23,
           "octave": 4,
           "degree": 4,
@@ -3676,7 +3676,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1024,
+          "tick": 1024,
           "length": 23,
           "octave": 5,
           "degree": 0,
@@ -3684,7 +3684,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1032,
+          "tick": 1032,
           "length": 7,
           "octave": 1,
           "degree": 6,
@@ -3692,7 +3692,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1032,
+          "tick": 1032,
           "length": 7,
           "octave": 2,
           "degree": 6,
@@ -3700,7 +3700,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1040,
+          "tick": 1040,
           "length": 7,
           "octave": 3,
           "degree": 0,
@@ -3708,7 +3708,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1040,
+          "tick": 1040,
           "length": 7,
           "octave": 2,
           "degree": 0,
@@ -3716,7 +3716,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1048,
+          "tick": 1048,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -3724,7 +3724,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1048,
+          "tick": 1048,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -3732,7 +3732,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1048,
+          "tick": 1048,
           "length": 7,
           "octave": 3,
           "degree": 2,
@@ -3740,7 +3740,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1048,
+          "tick": 1048,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -3748,7 +3748,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1048,
+          "tick": 1048,
           "length": 7,
           "octave": 5,
           "degree": 0,
@@ -3756,7 +3756,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1056,
+          "tick": 1056,
           "length": 11,
           "octave": 4,
           "degree": 4,
@@ -3764,7 +3764,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1056,
+          "tick": 1056,
           "length": 7,
           "octave": 2,
           "degree": 1,
@@ -3772,7 +3772,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1056,
+          "tick": 1056,
           "length": 7,
           "octave": 3,
           "degree": 1,
@@ -3780,7 +3780,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1056,
+          "tick": 1056,
           "length": 31,
           "octave": 4,
           "degree": 2,
@@ -3788,7 +3788,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1056,
+          "tick": 1056,
           "length": 31,
           "octave": 5,
           "degree": 0,
@@ -3796,7 +3796,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1064,
+          "tick": 1064,
           "length": 7,
           "octave": 2,
           "degree": 0,
@@ -3804,7 +3804,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1064,
+          "tick": 1064,
           "length": 3,
           "octave": 4,
           "degree": 4,
@@ -3812,7 +3812,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1064,
+          "tick": 1064,
           "length": 3,
           "octave": 4,
           "degree": 0,
@@ -3820,7 +3820,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1064,
+          "tick": 1064,
           "length": 7,
           "octave": 3,
           "degree": 0,
@@ -3828,7 +3828,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1068,
+          "tick": 1068,
           "length": 3,
           "octave": 4,
           "degree": 4,
@@ -3836,7 +3836,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1068,
+          "tick": 1068,
           "length": 3,
           "octave": 4,
           "degree": 0,
@@ -3844,7 +3844,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1072,
+          "tick": 1072,
           "length": 3,
           "octave": 4,
           "degree": 4,
@@ -3852,7 +3852,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1072,
+          "tick": 1072,
           "length": 7,
           "octave": 1,
           "degree": 6,
@@ -3860,7 +3860,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1072,
+          "tick": 1072,
           "length": 3,
           "octave": 4,
           "degree": 0,
@@ -3868,7 +3868,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1072,
+          "tick": 1072,
           "length": 7,
           "octave": 2,
           "degree": 6,
@@ -3876,7 +3876,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1080,
+          "tick": 1080,
           "length": 3,
           "octave": 4,
           "degree": 4,
@@ -3884,7 +3884,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1080,
+          "tick": 1080,
           "length": 7,
           "octave": 1,
           "degree": 5,
@@ -3892,7 +3892,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1080,
+          "tick": 1080,
           "length": 7,
           "octave": 2,
           "degree": 5,
@@ -3900,7 +3900,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1080,
+          "tick": 1080,
           "length": 3,
           "octave": 4,
           "degree": 0,
@@ -3908,7 +3908,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1088,
+          "tick": 1088,
           "length": 23,
           "octave": 1,
           "degree": 6,
@@ -3916,7 +3916,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1088,
+          "tick": 1088,
           "length": 23,
           "octave": 2,
           "degree": 6,
@@ -3924,7 +3924,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1088,
+          "tick": 1088,
           "length": 31,
           "octave": 4,
           "degree": 1,
@@ -3932,7 +3932,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1088,
+          "tick": 1088,
           "length": 15,
           "octave": 4,
           "degree": 5,
@@ -3940,7 +3940,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1088,
+          "tick": 1088,
           "length": 31,
           "octave": 5,
           "degree": 1,
@@ -3948,7 +3948,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1104,
+          "tick": 1104,
           "length": 15,
           "octave": 4,
           "degree": 5,
@@ -3956,7 +3956,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1112,
+          "tick": 1112,
           "length": 3,
           "octave": 2,
           "degree": 0,
@@ -3964,7 +3964,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1116,
+          "tick": 1116,
           "length": 3,
           "octave": 2,
           "degree": 1,
@@ -3972,7 +3972,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1120,
+          "tick": 1120,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -3980,7 +3980,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1120,
+          "tick": 1120,
           "length": 31,
           "octave": 3,
           "degree": 2,
@@ -3988,7 +3988,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1120,
+          "tick": 1120,
           "length": 15,
           "octave": 4,
           "degree": 2,
@@ -3996,7 +3996,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1120,
+          "tick": 1120,
           "length": 7,
           "octave": 5,
           "degree": 0,
@@ -4004,7 +4004,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1128,
+          "tick": 1128,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -4012,7 +4012,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1136,
+          "tick": 1136,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -4020,7 +4020,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1136,
+          "tick": 1136,
           "length": 7,
           "octave": 4,
           "degree": 1,
@@ -4028,7 +4028,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1136,
+          "tick": 1136,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -4036,7 +4036,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1144,
+          "tick": 1144,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -4044,7 +4044,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1144,
+          "tick": 1144,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -4052,7 +4052,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1152,
+          "tick": 1152,
           "length": 23,
           "octave": 4,
           "degree": 5,
@@ -4060,7 +4060,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1152,
+          "tick": 1152,
           "length": 23,
           "octave": 4,
           "degree": 2,
@@ -4068,7 +4068,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1152,
+          "tick": 1152,
           "length": 23,
           "octave": 4,
           "degree": 0,
@@ -4076,7 +4076,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1152,
+          "tick": 1152,
           "length": 7,
           "octave": 2,
           "degree": 5,
@@ -4084,7 +4084,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1152,
+          "tick": 1152,
           "length": 7,
           "octave": 1,
           "degree": 5,
@@ -4092,7 +4092,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1152,
+          "tick": 1152,
           "length": 23,
           "octave": 5,
           "degree": 0,
@@ -4100,7 +4100,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1160,
+          "tick": 1160,
           "length": 7,
           "octave": 1,
           "degree": 6,
@@ -4108,7 +4108,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1168,
+          "tick": 1168,
           "length": 7,
           "octave": 2,
           "degree": 0,
@@ -4116,7 +4116,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1176,
+          "tick": 1176,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -4124,7 +4124,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1176,
+          "tick": 1176,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -4132,7 +4132,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1176,
+          "tick": 1176,
           "length": 7,
           "octave": 4,
           "degree": 0,
@@ -4140,7 +4140,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1176,
+          "tick": 1176,
           "length": 7,
           "octave": 2,
           "degree": 1,
@@ -4148,7 +4148,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1184,
+          "tick": 1184,
           "length": 31,
           "octave": 4,
           "degree": 5,
@@ -4156,7 +4156,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1184,
+          "tick": 1184,
           "length": 15,
           "octave": 4,
           "degree": 2,
@@ -4164,7 +4164,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1184,
+          "tick": 1184,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -4172,7 +4172,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1184,
+          "tick": 1184,
           "length": 15,
           "octave": 2,
           "degree": 5,
@@ -4180,7 +4180,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1184,
+          "tick": 1184,
           "length": 15,
           "octave": 3,
           "degree": 5,
@@ -4188,7 +4188,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1192,
+          "tick": 1192,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -4196,7 +4196,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1192,
+          "tick": 1192,
           "length": 7,
           "octave": 4,
           "degree": 0,
@@ -4204,7 +4204,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1200,
+          "tick": 1200,
           "length": 15,
           "octave": 3,
           "degree": 4,
@@ -4212,7 +4212,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1200,
+          "tick": 1200,
           "length": 15,
           "octave": 2,
           "degree": 4,
@@ -4220,7 +4220,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1208,
+          "tick": 1208,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -4228,7 +4228,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1208,
+          "tick": 1208,
           "length": 7,
           "octave": 4,
           "degree": 0,
@@ -4236,7 +4236,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1216,
+          "tick": 1216,
           "length": 15,
           "octave": 5,
           "degree": 0,
@@ -4244,7 +4244,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1216,
+          "tick": 1216,
           "length": 15,
           "octave": 4,
           "degree": 5,
@@ -4252,7 +4252,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1216,
+          "tick": 1216,
           "length": 31,
           "octave": 4,
           "degree": 0,
@@ -4260,7 +4260,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1216,
+          "tick": 1216,
           "length": 15,
           "octave": 2,
           "degree": 3,
@@ -4268,7 +4268,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1216,
+          "tick": 1216,
           "length": 15,
           "octave": 3,
           "degree": 3,
@@ -4276,7 +4276,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1232,
+          "tick": 1232,
           "length": 15,
           "octave": 3,
           "degree": 1,
@@ -4284,7 +4284,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1232,
+          "tick": 1232,
           "length": 11,
           "octave": 4,
           "degree": 6,
@@ -4292,7 +4292,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1232,
+          "tick": 1232,
           "length": 11,
           "octave": 4,
           "degree": 4,
@@ -4300,7 +4300,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1232,
+          "tick": 1232,
           "length": 15,
           "octave": 2,
           "degree": 1,
@@ -4308,7 +4308,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1244,
+          "tick": 1244,
           "length": 3,
           "octave": 4,
           "degree": 5,
@@ -4316,7 +4316,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1244,
+          "tick": 1244,
           "length": 3,
           "octave": 4,
           "degree": 3,
@@ -4324,7 +4324,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1248,
+          "tick": 1248,
           "length": 31,
           "octave": 3,
           "degree": 2,
@@ -4332,7 +4332,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1248,
+          "tick": 1248,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -4340,7 +4340,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1248,
+          "tick": 1248,
           "length": 15,
           "octave": 4,
           "degree": 4,
@@ -4348,7 +4348,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1248,
+          "tick": 1248,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -4356,7 +4356,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1264,
+          "tick": 1264,
           "length": 15,
           "octave": 3,
           "degree": 4,
@@ -4364,7 +4364,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1264,
+          "tick": 1264,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -4372,7 +4372,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1264,
+          "tick": 1264,
           "length": 7,
           "octave": 4,
           "degree": 0,
@@ -4380,7 +4380,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1272,
+          "tick": 1272,
           "length": 7,
           "octave": 4,
           "degree": 0,
@@ -4388,7 +4388,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1280,
+          "tick": 1280,
           "length": 15,
           "octave": 5,
           "degree": 0,
@@ -4396,7 +4396,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1280,
+          "tick": 1280,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -4404,7 +4404,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1280,
+          "tick": 1280,
           "length": 15,
           "octave": 2,
           "degree": 1,
@@ -4412,7 +4412,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1280,
+          "tick": 1280,
           "length": 31,
           "octave": 3,
           "degree": 1,
@@ -4420,7 +4420,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1296,
+          "tick": 1296,
           "length": 11,
           "octave": 4,
           "degree": 2,
@@ -4428,7 +4428,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1296,
+          "tick": 1296,
           "length": 15,
           "octave": 2,
           "degree": 1,
@@ -4436,7 +4436,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1296,
+          "tick": 1296,
           "length": 7,
           "octave": 4,
           "degree": 0,
@@ -4444,7 +4444,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1296,
+          "tick": 1296,
           "length": 11,
           "octave": 4,
           "degree": 6,
@@ -4452,7 +4452,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1304,
+          "tick": 1304,
           "length": 7,
           "octave": 4,
           "degree": 0,
@@ -4460,7 +4460,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1308,
+          "tick": 1308,
           "length": 3,
           "octave": 4,
           "degree": 5,
@@ -4468,7 +4468,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1312,
+          "tick": 1312,
           "length": 15,
           "octave": 2,
           "degree": 4,
@@ -4476,7 +4476,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1312,
+          "tick": 1312,
           "length": 15,
           "octave": 3,
           "degree": 4,
@@ -4484,7 +4484,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1312,
+          "tick": 1312,
           "length": 15,
           "octave": 3,
           "degree": 6,
@@ -4492,7 +4492,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1312,
+          "tick": 1312,
           "length": 23,
           "octave": 4,
           "degree": 4,
@@ -4500,7 +4500,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1328,
+          "tick": 1328,
           "length": 15,
           "octave": 1,
           "degree": 4,
@@ -4508,7 +4508,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1328,
+          "tick": 1328,
           "length": 15,
           "octave": 2,
           "degree": 4,
@@ -4516,7 +4516,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1328,
+          "tick": 1328,
           "length": 15,
           "octave": 4,
           "degree": 3,
@@ -4524,7 +4524,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1328,
+          "tick": 1328,
           "length": 15,
           "octave": 3,
           "degree": 6,
@@ -4532,7 +4532,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1336,
+          "tick": 1336,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -4540,7 +4540,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1344,
+          "tick": 1344,
           "length": 15,
           "octave": 5,
           "degree": 0,
@@ -4548,7 +4548,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1344,
+          "tick": 1344,
           "length": 15,
           "octave": 2,
           "degree": 0,
@@ -4556,7 +4556,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1344,
+          "tick": 1344,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -4564,7 +4564,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1344,
+          "tick": 1344,
           "length": 31,
           "octave": 3,
           "degree": 0,
@@ -4572,7 +4572,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1344,
+          "tick": 1344,
           "length": 15,
           "octave": 4,
           "degree": 2,
@@ -4580,7 +4580,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1344,
+          "tick": 1344,
           "length": 15,
           "octave": 4,
           "degree": 4,
@@ -4588,7 +4588,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1360,
+          "tick": 1360,
           "length": 11,
           "octave": 4,
           "degree": 4,
@@ -4596,7 +4596,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1360,
+          "tick": 1360,
           "length": 15,
           "octave": 4,
           "degree": 2,
@@ -4604,7 +4604,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1360,
+          "tick": 1360,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -4612,7 +4612,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1360,
+          "tick": 1360,
           "length": 15,
           "octave": 2,
           "degree": 0,
@@ -4620,7 +4620,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1372,
+          "tick": 1372,
           "length": 3,
           "octave": 4,
           "degree": 5,
@@ -4628,7 +4628,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1376,
+          "tick": 1376,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -4636,7 +4636,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1376,
+          "tick": 1376,
           "length": 31,
           "octave": 3,
           "degree": 2,
@@ -4644,7 +4644,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1376,
+          "tick": 1376,
           "length": 15,
           "octave": 3,
           "degree": 6,
@@ -4652,7 +4652,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1376,
+          "tick": 1376,
           "length": 15,
           "octave": 4,
           "degree": 2,
@@ -4660,7 +4660,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1376,
+          "tick": 1376,
           "length": 15,
           "octave": 4,
           "degree": 4,
@@ -4668,7 +4668,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1376,
+          "tick": 1376,
           "length": 15,
           "octave": 4,
           "degree": 6,
@@ -4676,7 +4676,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1392,
+          "tick": 1392,
           "length": 15,
           "octave": 3,
           "degree": 6,
@@ -4684,7 +4684,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1392,
+          "tick": 1392,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -4692,7 +4692,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1392,
+          "tick": 1392,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -4700,7 +4700,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1392,
+          "tick": 1392,
           "length": 15,
           "octave": 3,
           "degree": 4,
@@ -4708,7 +4708,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1400,
+          "tick": 1400,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -4716,7 +4716,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1408,
+          "tick": 1408,
           "length": 15,
           "octave": 4,
           "degree": 5,
@@ -4724,7 +4724,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1408,
+          "tick": 1408,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -4732,7 +4732,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1408,
+          "tick": 1408,
           "length": 15,
           "octave": 3,
           "degree": 5,
@@ -4740,7 +4740,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1408,
+          "tick": 1408,
           "length": 15,
           "octave": 2,
           "degree": 3,
@@ -4748,7 +4748,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1408,
+          "tick": 1408,
           "length": 31,
           "octave": 3,
           "degree": 3,
@@ -4756,7 +4756,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1424,
+          "tick": 1424,
           "length": 11,
           "octave": 4,
           "degree": 4,
@@ -4764,7 +4764,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1424,
+          "tick": 1424,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -4772,7 +4772,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1424,
+          "tick": 1424,
           "length": 15,
           "octave": 3,
           "degree": 5,
@@ -4780,7 +4780,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1424,
+          "tick": 1424,
           "length": 15,
           "octave": 2,
           "degree": 3,
@@ -4788,7 +4788,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1436,
+          "tick": 1436,
           "length": 3,
           "octave": 4,
           "degree": 3,
@@ -4796,7 +4796,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1440,
+          "tick": 1440,
           "length": 15,
           "octave": 3,
           "degree": 4,
@@ -4804,7 +4804,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1440,
+          "tick": 1440,
           "length": 15,
           "octave": 4,
           "degree": 4,
@@ -4812,7 +4812,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1440,
+          "tick": 1440,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -4820,7 +4820,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1440,
+          "tick": 1440,
           "length": 31,
           "octave": 3,
           "degree": 2,
@@ -4828,7 +4828,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1440,
+          "tick": 1440,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -4836,7 +4836,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1456,
+          "tick": 1456,
           "length": 7,
           "octave": 4,
           "degree": 0,
@@ -4844,7 +4844,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1456,
+          "tick": 1456,
           "length": 15,
           "octave": 3,
           "degree": 4,
@@ -4852,7 +4852,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1456,
+          "tick": 1456,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -4860,7 +4860,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1464,
+          "tick": 1464,
           "length": 7,
           "octave": 4,
           "degree": 0,
@@ -4868,7 +4868,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1472,
+          "tick": 1472,
           "length": 15,
           "octave": 4,
           "degree": 1,
@@ -4876,7 +4876,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1472,
+          "tick": 1472,
           "length": 15,
           "octave": 3,
           "degree": 5,
@@ -4884,7 +4884,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1472,
+          "tick": 1472,
           "length": 15,
           "octave": 3,
           "degree": 3,
@@ -4892,7 +4892,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1472,
+          "tick": 1472,
           "length": 15,
           "octave": 2,
           "degree": 1,
@@ -4900,7 +4900,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1472,
+          "tick": 1472,
           "length": 31,
           "octave": 3,
           "degree": 1,
@@ -4908,7 +4908,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1488,
+          "tick": 1488,
           "length": 11,
           "octave": 4,
           "degree": 1,
@@ -4916,7 +4916,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1488,
+          "tick": 1488,
           "length": 15,
           "octave": 3,
           "degree": 5,
@@ -4924,7 +4924,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1488,
+          "tick": 1488,
           "length": 15,
           "octave": 3,
           "degree": 3,
@@ -4932,7 +4932,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1488,
+          "tick": 1488,
           "length": 15,
           "octave": 2,
           "degree": 1,
@@ -4940,7 +4940,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1500,
+          "tick": 1500,
           "length": 3,
           "octave": 4,
           "degree": 2,
@@ -4948,7 +4948,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1504,
+          "tick": 1504,
           "length": 15,
           "octave": 2,
           "degree": 0,
@@ -4956,7 +4956,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1504,
+          "tick": 1504,
           "length": 31,
           "octave": 3,
           "degree": 0,
@@ -4964,7 +4964,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1504,
+          "tick": 1504,
           "length": 15,
           "octave": 3,
           "degree": 5,
@@ -4972,7 +4972,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1504,
+          "tick": 1504,
           "length": 15,
           "octave": 4,
           "degree": 3,
@@ -4980,7 +4980,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1520,
+          "tick": 1520,
           "length": 7,
           "octave": 4,
           "degree": 3,
@@ -4988,7 +4988,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1520,
+          "tick": 1520,
           "length": 7,
           "octave": 3,
           "degree": 5,
@@ -4996,7 +4996,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1520,
+          "tick": 1520,
           "length": 15,
           "octave": 2,
           "degree": 0,
@@ -5004,7 +5004,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1528,
+          "tick": 1528,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -5012,7 +5012,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1528,
+          "tick": 1528,
           "length": 7,
           "octave": 3,
           "degree": 5,
@@ -5020,7 +5020,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1536,
+          "tick": 1536,
           "length": 15,
           "octave": 4,
           "degree": 5,
@@ -5028,7 +5028,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1536,
+          "tick": 1536,
           "length": 15,
           "octave": 3,
           "degree": 5,
@@ -5036,7 +5036,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1536,
+          "tick": 1536,
           "length": 15,
           "octave": 3,
           "degree": 0,
@@ -5044,7 +5044,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1536,
+          "tick": 1536,
           "length": 15,
           "octave": 2,
           "degree": 0,
@@ -5052,7 +5052,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1552,
+          "tick": 1552,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -5060,7 +5060,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1552,
+          "tick": 1552,
           "length": 7,
           "octave": 2,
           "degree": 6,
@@ -5068,7 +5068,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1552,
+          "tick": 1552,
           "length": 7,
           "octave": 3,
           "degree": 6,
@@ -5076,7 +5076,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1552,
+          "tick": 1552,
           "length": 7,
           "octave": 1,
           "degree": 6,
@@ -5084,7 +5084,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1560,
+          "tick": 1560,
           "length": 7,
           "octave": 5,
           "degree": 0,
@@ -5092,7 +5092,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1560,
+          "tick": 1560,
           "length": 7,
           "octave": 4,
           "degree": 0,
@@ -5100,7 +5100,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1560,
+          "tick": 1560,
           "length": 7,
           "octave": 2,
           "degree": 5,
@@ -5108,7 +5108,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1560,
+          "tick": 1560,
           "length": 7,
           "octave": 1,
           "degree": 5,
@@ -5116,7 +5116,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1568,
+          "tick": 1568,
           "length": 23,
           "octave": 5,
           "degree": 1,
@@ -5124,7 +5124,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1568,
+          "tick": 1568,
           "length": 7,
           "octave": 1,
           "degree": 4,
@@ -5132,7 +5132,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1568,
+          "tick": 1568,
           "length": 7,
           "octave": 2,
           "degree": 4,
@@ -5140,7 +5140,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1568,
+          "tick": 1568,
           "length": 31,
           "octave": 4,
           "degree": 1,
@@ -5148,7 +5148,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1568,
+          "tick": 1568,
           "length": 31,
           "octave": 4,
           "degree": 4,
@@ -5156,7 +5156,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1568,
+          "tick": 1568,
           "length": 31,
           "octave": 4,
           "degree": 6,
@@ -5164,7 +5164,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1576,
+          "tick": 1576,
           "length": 7,
           "octave": 3,
           "degree": 3,
@@ -5172,7 +5172,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1576,
+          "tick": 1576,
           "length": 7,
           "octave": 2,
           "degree": 3,
@@ -5180,7 +5180,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1584,
+          "tick": 1584,
           "length": 7,
           "octave": 3,
           "degree": 2,
@@ -5188,7 +5188,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1584,
+          "tick": 1584,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -5196,7 +5196,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1592,
+          "tick": 1592,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -5204,7 +5204,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1592,
+          "tick": 1592,
           "length": 7,
           "octave": 2,
           "degree": 1,
@@ -5212,7 +5212,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1592,
+          "tick": 1592,
           "length": 7,
           "octave": 3,
           "degree": 1,
@@ -5220,7 +5220,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1600,
+          "tick": 1600,
           "length": 15,
           "octave": 5,
           "degree": 2,
@@ -5228,7 +5228,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1600,
+          "tick": 1600,
           "length": 15,
           "octave": 5,
           "degree": 0,
@@ -5236,7 +5236,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1600,
+          "tick": 1600,
           "length": 15,
           "octave": 2,
           "degree": 0,
@@ -5244,7 +5244,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1600,
+          "tick": 1600,
           "length": 15,
           "octave": 4,
           "degree": 4,
@@ -5252,7 +5252,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1600,
+          "tick": 1600,
           "length": 15,
           "octave": 4,
           "degree": 2,
@@ -5260,7 +5260,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1600,
+          "tick": 1600,
           "length": 15,
           "octave": 3,
           "degree": 0,
@@ -5268,7 +5268,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1616,
+          "tick": 1616,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -5276,7 +5276,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1616,
+          "tick": 1616,
           "length": 15,
           "octave": 3,
           "degree": 2,
@@ -5284,7 +5284,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1616,
+          "tick": 1616,
           "length": 15,
           "octave": 4,
           "degree": 4,
@@ -5292,7 +5292,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1616,
+          "tick": 1616,
           "length": 11,
           "octave": 4,
           "degree": 1,
@@ -5300,7 +5300,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1616,
+          "tick": 1616,
           "length": 11,
           "octave": 5,
           "degree": 1,
@@ -5308,7 +5308,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1628,
+          "tick": 1628,
           "length": 3,
           "octave": 4,
           "degree": 0,
@@ -5316,7 +5316,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1628,
+          "tick": 1628,
           "length": 3,
           "octave": 5,
           "degree": 0,
@@ -5324,7 +5324,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1632,
+          "tick": 1632,
           "length": 15,
           "octave": 5,
           "degree": 1,
@@ -5332,7 +5332,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1632,
+          "tick": 1632,
           "length": 15,
           "octave": 4,
           "degree": 6,
@@ -5340,7 +5340,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1632,
+          "tick": 1632,
           "length": 15,
           "octave": 4,
           "degree": 4,
@@ -5348,7 +5348,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1632,
+          "tick": 1632,
           "length": 15,
           "octave": 4,
           "degree": 1,
@@ -5356,7 +5356,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1632,
+          "tick": 1632,
           "length": 23,
           "octave": 2,
           "degree": 4,
@@ -5364,7 +5364,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1632,
+          "tick": 1632,
           "length": 7,
           "octave": 3,
           "degree": 4,
@@ -5372,7 +5372,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1640,
+          "tick": 1640,
           "length": 7,
           "octave": 3,
           "degree": 1,
@@ -5380,7 +5380,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1648,
+          "tick": 1648,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -5388,7 +5388,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1648,
+          "tick": 1648,
           "length": 7,
           "octave": 2,
           "degree": 6,
@@ -5396,7 +5396,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1648,
+          "tick": 1648,
           "length": 7,
           "octave": 4,
           "degree": 1,
@@ -5404,7 +5404,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1656,
+          "tick": 1656,
           "length": 7,
           "octave": 2,
           "degree": 4,
@@ -5412,7 +5412,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1656,
+          "tick": 1656,
           "length": 7,
           "octave": 3,
           "degree": 6,
@@ -5420,7 +5420,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1656,
+          "tick": 1656,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -5428,7 +5428,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1664,
+          "tick": 1664,
           "length": 15,
           "octave": 1,
           "degree": 5,
@@ -5436,7 +5436,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1664,
+          "tick": 1664,
           "length": 15,
           "octave": 2,
           "degree": 5,
@@ -5444,7 +5444,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1664,
+          "tick": 1664,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -5452,7 +5452,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1664,
+          "tick": 1664,
           "length": 15,
           "octave": 4,
           "degree": 2,
@@ -5460,7 +5460,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1664,
+          "tick": 1664,
           "length": 15,
           "octave": 4,
           "degree": 5,
@@ -5468,7 +5468,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1664,
+          "tick": 1664,
           "length": 15,
           "octave": 5,
           "degree": 0,
@@ -5476,7 +5476,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1680,
+          "tick": 1680,
           "length": 11,
           "octave": 4,
           "degree": 6,
@@ -5484,7 +5484,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1680,
+          "tick": 1680,
           "length": 15,
           "octave": 4,
           "degree": 2,
@@ -5492,7 +5492,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1680,
+          "tick": 1680,
           "length": 15,
           "octave": 3,
           "degree": 0,
@@ -5500,7 +5500,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1680,
+          "tick": 1680,
           "length": 15,
           "octave": 2,
           "degree": 0,
@@ -5508,7 +5508,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1692,
+          "tick": 1692,
           "length": 3,
           "octave": 4,
           "degree": 5,
@@ -5516,7 +5516,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1696,
+          "tick": 1696,
           "length": 15,
           "octave": 4,
           "degree": 6,
@@ -5524,7 +5524,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1696,
+          "tick": 1696,
           "length": 15,
           "octave": 4,
           "degree": 2,
@@ -5532,7 +5532,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1696,
+          "tick": 1696,
           "length": 15,
           "octave": 3,
           "degree": 6,
@@ -5540,7 +5540,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1696,
+          "tick": 1696,
           "length": 7,
           "octave": 3,
           "degree": 2,
@@ -5548,7 +5548,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1696,
+          "tick": 1696,
           "length": 23,
           "octave": 2,
           "degree": 2,
@@ -5556,7 +5556,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1704,
+          "tick": 1704,
           "length": 7,
           "octave": 2,
           "degree": 6,
@@ -5564,7 +5564,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1712,
+          "tick": 1712,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -5572,7 +5572,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1712,
+          "tick": 1712,
           "length": 7,
           "octave": 3,
           "degree": 6,
@@ -5580,7 +5580,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1712,
+          "tick": 1712,
           "length": 7,
           "octave": 2,
           "degree": 4,
@@ -5588,7 +5588,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1720,
+          "tick": 1720,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -5596,7 +5596,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1720,
+          "tick": 1720,
           "length": 7,
           "octave": 3,
           "degree": 4,
@@ -5604,7 +5604,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1720,
+          "tick": 1720,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -5612,7 +5612,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1728,
+          "tick": 1728,
           "length": 15,
           "octave": 3,
           "degree": 3,
@@ -5620,7 +5620,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1728,
+          "tick": 1728,
           "length": 15,
           "octave": 2,
           "degree": 3,
@@ -5628,7 +5628,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1728,
+          "tick": 1728,
           "length": 15,
           "octave": 3,
           "degree": 5,
@@ -5636,7 +5636,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1728,
+          "tick": 1728,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -5644,7 +5644,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1728,
+          "tick": 1728,
           "length": 15,
           "octave": 4,
           "degree": 5,
@@ -5652,7 +5652,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1744,
+          "tick": 1744,
           "length": 15,
           "octave": 3,
           "degree": 1,
@@ -5660,7 +5660,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1744,
+          "tick": 1744,
           "length": 15,
           "octave": 3,
           "degree": 5,
@@ -5668,7 +5668,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1744,
+          "tick": 1744,
           "length": 11,
           "octave": 4,
           "degree": 4,
@@ -5676,7 +5676,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1744,
+          "tick": 1744,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -5684,7 +5684,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1744,
+          "tick": 1744,
           "length": 15,
           "octave": 2,
           "degree": 1,
@@ -5692,7 +5692,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1756,
+          "tick": 1756,
           "length": 3,
           "octave": 3,
           "degree": 3,
@@ -5700,7 +5700,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1756,
+          "tick": 1756,
           "length": 3,
           "octave": 4,
           "degree": 3,
@@ -5708,7 +5708,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1760,
+          "tick": 1760,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -5716,7 +5716,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1760,
+          "tick": 1760,
           "length": 15,
           "octave": 3,
           "degree": 2,
@@ -5724,7 +5724,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1760,
+          "tick": 1760,
           "length": 15,
           "octave": 3,
           "degree": 4,
@@ -5732,7 +5732,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1760,
+          "tick": 1760,
           "length": 15,
           "octave": 4,
           "degree": 4,
@@ -5740,7 +5740,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1760,
+          "tick": 1760,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -5748,7 +5748,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1776,
+          "tick": 1776,
           "length": 11,
           "octave": 4,
           "degree": 0,
@@ -5756,7 +5756,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1776,
+          "tick": 1776,
           "length": 15,
           "octave": 3,
           "degree": 4,
@@ -5764,7 +5764,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1776,
+          "tick": 1776,
           "length": 15,
           "octave": 3,
           "degree": 2,
@@ -5772,7 +5772,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1776,
+          "tick": 1776,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -5780,7 +5780,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1788,
+          "tick": 1788,
           "length": 3,
           "octave": 4,
           "degree": 0,
@@ -5788,7 +5788,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1792,
+          "tick": 1792,
           "length": 15,
           "octave": 2,
           "degree": 1,
@@ -5796,7 +5796,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1792,
+          "tick": 1792,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -5804,7 +5804,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1792,
+          "tick": 1792,
           "length": 15,
           "octave": 5,
           "degree": 0,
@@ -5812,7 +5812,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1792,
+          "tick": 1792,
           "length": 15,
           "octave": 3,
           "degree": 1,
@@ -5820,7 +5820,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1808,
+          "tick": 1808,
           "length": 11,
           "octave": 4,
           "degree": 2,
@@ -5828,7 +5828,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1808,
+          "tick": 1808,
           "length": 15,
           "octave": 2,
           "degree": 1,
@@ -5836,7 +5836,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1808,
+          "tick": 1808,
           "length": 15,
           "octave": 3,
           "degree": 1,
@@ -5844,7 +5844,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1808,
+          "tick": 1808,
           "length": 11,
           "octave": 4,
           "degree": 0,
@@ -5852,7 +5852,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1808,
+          "tick": 1808,
           "length": 11,
           "octave": 4,
           "degree": 6,
@@ -5860,7 +5860,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1820,
+          "tick": 1820,
           "length": 3,
           "octave": 4,
           "degree": 5,
@@ -5868,7 +5868,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1824,
+          "tick": 1824,
           "length": 7,
           "octave": 3,
           "degree": 6,
@@ -5876,7 +5876,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1824,
+          "tick": 1824,
           "length": 7,
           "octave": 2,
           "degree": 4,
@@ -5884,7 +5884,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1824,
+          "tick": 1824,
           "length": 7,
           "octave": 3,
           "degree": 4,
@@ -5892,7 +5892,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1824,
+          "tick": 1824,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -5900,7 +5900,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1832,
+          "tick": 1832,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -5908,7 +5908,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1832,
+          "tick": 1832,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -5916,7 +5916,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1832,
+          "tick": 1832,
           "length": 7,
           "octave": 3,
           "degree": 3,
@@ -5924,7 +5924,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1832,
+          "tick": 1832,
           "length": 7,
           "octave": 2,
           "degree": 3,
@@ -5932,7 +5932,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1840,
+          "tick": 1840,
           "length": 7,
           "octave": 5,
           "degree": 0,
@@ -5940,7 +5940,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1840,
+          "tick": 1840,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -5948,7 +5948,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1840,
+          "tick": 1840,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -5956,7 +5956,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1840,
+          "tick": 1840,
           "length": 7,
           "octave": 3,
           "degree": 2,
@@ -5964,7 +5964,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1848,
+          "tick": 1848,
           "length": 7,
           "octave": 2,
           "degree": 1,
@@ -5972,7 +5972,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1848,
+          "tick": 1848,
           "length": 7,
           "octave": 3,
           "degree": 1,
@@ -5980,7 +5980,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1848,
+          "tick": 1848,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -5988,7 +5988,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1848,
+          "tick": 1848,
           "length": 7,
           "octave": 5,
           "degree": 1,
@@ -5996,7 +5996,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1856,
+          "tick": 1856,
           "length": 7,
           "octave": 2,
           "degree": 0,
@@ -6004,7 +6004,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1856,
+          "tick": 1856,
           "length": 31,
           "octave": 5,
           "degree": 2,
@@ -6012,7 +6012,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1856,
+          "tick": 1856,
           "length": 7,
           "octave": 3,
           "degree": 0,
@@ -6020,7 +6020,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1856,
+          "tick": 1856,
           "length": 31,
           "octave": 4,
           "degree": 4,
@@ -6028,7 +6028,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1856,
+          "tick": 1856,
           "length": 31,
           "octave": 4,
           "degree": 2,
@@ -6036,7 +6036,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1856,
+          "tick": 1856,
           "length": 31,
           "octave": 5,
           "degree": 0,
@@ -6044,7 +6044,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1864,
+          "tick": 1864,
           "length": 7,
           "octave": 2,
           "degree": 6,
@@ -6052,7 +6052,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1864,
+          "tick": 1864,
           "length": 7,
           "octave": 1,
           "degree": 6,
@@ -6060,7 +6060,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1872,
+          "tick": 1872,
           "length": 7,
           "octave": 2,
           "degree": 0,
@@ -6068,7 +6068,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1872,
+          "tick": 1872,
           "length": 7,
           "octave": 3,
           "degree": 0,
@@ -6076,7 +6076,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1880,
+          "tick": 1880,
           "length": 7,
           "octave": 3,
           "degree": 1,
@@ -6084,7 +6084,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1880,
+          "tick": 1880,
           "length": 7,
           "octave": 2,
           "degree": 1,
@@ -6092,7 +6092,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1888,
+          "tick": 1888,
           "length": 7,
           "octave": 5,
           "degree": 1,
@@ -6100,7 +6100,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1888,
+          "tick": 1888,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -6108,7 +6108,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1888,
+          "tick": 1888,
           "length": 15,
           "octave": 3,
           "degree": 2,
@@ -6116,7 +6116,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1888,
+          "tick": 1888,
           "length": 23,
           "octave": 4,
           "degree": 4,
@@ -6124,7 +6124,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1888,
+          "tick": 1888,
           "length": 39,
           "octave": 5,
           "degree": 4,
@@ -6132,7 +6132,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1888,
+          "tick": 1888,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -6140,7 +6140,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1896,
+          "tick": 1896,
           "length": 7,
           "octave": 5,
           "degree": 0,
@@ -6148,7 +6148,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1896,
+          "tick": 1896,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -6156,7 +6156,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1904,
+          "tick": 1904,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -6164,7 +6164,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1904,
+          "tick": 1904,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -6172,7 +6172,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1904,
+          "tick": 1904,
           "length": 15,
           "octave": 3,
           "degree": 2,
@@ -6180,7 +6180,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1904,
+          "tick": 1904,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -6188,7 +6188,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1912,
+          "tick": 1912,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -6196,7 +6196,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1912,
+          "tick": 1912,
           "length": 7,
           "octave": 5,
           "degree": 0,
@@ -6204,7 +6204,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1920,
+          "tick": 1920,
           "length": 23,
           "octave": 5,
           "degree": 1,
@@ -6212,7 +6212,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1920,
+          "tick": 1920,
           "length": 23,
           "octave": 4,
           "degree": 6,
@@ -6220,7 +6220,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1920,
+          "tick": 1920,
           "length": 47,
           "octave": 3,
           "degree": 4,
@@ -6228,7 +6228,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1920,
+          "tick": 1920,
           "length": 15,
           "octave": 2,
           "degree": 4,
@@ -6236,7 +6236,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1928,
+          "tick": 1928,
           "length": 2,
           "octave": 5,
           "degree": 4,
@@ -6244,7 +6244,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1928,
+          "tick": 1928,
           "length": 2,
           "octave": 4,
           "degree": 4,
@@ -6252,7 +6252,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1930,
+          "tick": 1930,
           "length": 2,
           "octave": 4,
           "degree": 4,
@@ -6260,7 +6260,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1930,
+          "tick": 1930,
           "length": 2,
           "octave": 5,
           "degree": 4,
@@ -6268,7 +6268,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1933,
+          "tick": 1933,
           "length": 2,
           "octave": 5,
           "degree": 4,
@@ -6276,7 +6276,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1933,
+          "tick": 1933,
           "length": 2,
           "octave": 4,
           "degree": 4,
@@ -6284,7 +6284,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1936,
+          "tick": 1936,
           "length": 15,
           "octave": 5,
           "degree": 4,
@@ -6292,7 +6292,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1936,
+          "tick": 1936,
           "length": 15,
           "octave": 4,
           "degree": 4,
@@ -6300,7 +6300,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1936,
+          "tick": 1936,
           "length": 7,
           "octave": 2,
           "degree": 4,
@@ -6308,7 +6308,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1944,
+          "tick": 1944,
           "length": 7,
           "octave": 3,
           "degree": 6,
@@ -6316,7 +6316,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1944,
+          "tick": 1944,
           "length": 7,
           "octave": 3,
           "degree": 1,
@@ -6324,7 +6324,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1944,
+          "tick": 1944,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -6332,7 +6332,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1944,
+          "tick": 1944,
           "length": 7,
           "octave": 4,
           "degree": 1,
@@ -6340,7 +6340,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1952,
+          "tick": 1952,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -6348,7 +6348,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1952,
+          "tick": 1952,
           "length": 15,
           "octave": 2,
           "degree": 4,
@@ -6356,7 +6356,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1952,
+          "tick": 1952,
           "length": 7,
           "octave": 4,
           "degree": 1,
@@ -6364,7 +6364,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1952,
+          "tick": 1952,
           "length": 7,
           "octave": 3,
           "degree": 6,
@@ -6372,7 +6372,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1960,
+          "tick": 1960,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -6380,7 +6380,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1960,
+          "tick": 1960,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -6388,7 +6388,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1968,
+          "tick": 1968,
           "length": 7,
           "octave": 5,
           "degree": 0,
@@ -6396,7 +6396,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1968,
+          "tick": 1968,
           "length": 7,
           "octave": 3,
           "degree": 3,
@@ -6404,7 +6404,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1968,
+          "tick": 1968,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -6412,7 +6412,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1968,
+          "tick": 1968,
           "length": 7,
           "octave": 2,
           "degree": 3,
@@ -6420,7 +6420,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1976,
+          "tick": 1976,
           "length": 7,
           "octave": 5,
           "degree": 1,
@@ -6428,7 +6428,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1976,
+          "tick": 1976,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -6436,7 +6436,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1976,
+          "tick": 1976,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -6444,7 +6444,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1976,
+          "tick": 1976,
           "length": 7,
           "octave": 3,
           "degree": 2,
@@ -6452,7 +6452,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1984,
+          "tick": 1984,
           "length": 31,
           "octave": 5,
           "degree": 0,
@@ -6460,7 +6460,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1984,
+          "tick": 1984,
           "length": 31,
           "octave": 4,
           "degree": 5,
@@ -6468,7 +6468,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1984,
+          "tick": 1984,
           "length": 31,
           "octave": 4,
           "degree": 2,
@@ -6476,7 +6476,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1984,
+          "tick": 1984,
           "length": 31,
           "octave": 4,
           "degree": 0,
@@ -6484,7 +6484,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1984,
+          "tick": 1984,
           "length": 7,
           "octave": 2,
           "degree": 5,
@@ -6492,7 +6492,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1984,
+          "tick": 1984,
           "length": 15,
           "octave": 1,
           "degree": 5,
@@ -6500,7 +6500,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1992,
+          "tick": 1992,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -6508,7 +6508,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2000,
+          "tick": 2000,
           "length": 7,
           "octave": 1,
           "degree": 5,
@@ -6516,7 +6516,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2000,
+          "tick": 2000,
           "length": 7,
           "octave": 2,
           "degree": 5,
@@ -6524,7 +6524,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2008,
+          "tick": 2008,
           "length": 7,
           "octave": 1,
           "degree": 6,
@@ -6532,7 +6532,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2008,
+          "tick": 2008,
           "length": 7,
           "octave": 2,
           "degree": 6,
@@ -6540,7 +6540,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2016,
+          "tick": 2016,
           "length": 39,
           "octave": 5,
           "degree": 2,
@@ -6548,7 +6548,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2016,
+          "tick": 2016,
           "length": 15,
           "octave": 2,
           "degree": 0,
@@ -6556,7 +6556,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2016,
+          "tick": 2016,
           "length": 31,
           "octave": 3,
           "degree": 0,
@@ -6564,7 +6564,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2016,
+          "tick": 2016,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -6572,7 +6572,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2016,
+          "tick": 2016,
           "length": 23,
           "octave": 4,
           "degree": 2,
@@ -6580,7 +6580,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2016,
+          "tick": 2016,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -6588,7 +6588,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2024,
+          "tick": 2024,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -6596,7 +6596,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2032,
+          "tick": 2032,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -6604,7 +6604,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2032,
+          "tick": 2032,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -6612,7 +6612,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2032,
+          "tick": 2032,
           "length": 15,
           "octave": 2,
           "degree": 0,
@@ -6620,7 +6620,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2040,
+          "tick": 2040,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -6628,7 +6628,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2048,
+          "tick": 2048,
           "length": 23,
           "octave": 4,
           "degree": 6,
@@ -6636,7 +6636,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2048,
+          "tick": 2048,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -6644,7 +6644,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2048,
+          "tick": 2048,
           "length": 23,
           "octave": 4,
           "degree": 4,
@@ -6652,7 +6652,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2048,
+          "tick": 2048,
           "length": 47,
           "octave": 3,
           "degree": 2,
@@ -6660,7 +6660,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2056,
+          "tick": 2056,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -6668,7 +6668,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2056,
+          "tick": 2056,
           "length": 2,
           "octave": 4,
           "degree": 2,
@@ -6676,7 +6676,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2056,
+          "tick": 2056,
           "length": 2,
           "octave": 5,
           "degree": 2,
@@ -6684,7 +6684,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2058,
+          "tick": 2058,
           "length": 2,
           "octave": 5,
           "degree": 2,
@@ -6692,7 +6692,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2058,
+          "tick": 2058,
           "length": 2,
           "octave": 4,
           "degree": 2,
@@ -6700,7 +6700,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2061,
+          "tick": 2061,
           "length": 2,
           "octave": 4,
           "degree": 2,
@@ -6708,7 +6708,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2061,
+          "tick": 2061,
           "length": 2,
           "octave": 5,
           "degree": 2,
@@ -6716,7 +6716,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2064,
+          "tick": 2064,
           "length": 15,
           "octave": 4,
           "degree": 2,
@@ -6724,7 +6724,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2064,
+          "tick": 2064,
           "length": 7,
           "octave": 2,
           "degree": 4,
@@ -6732,7 +6732,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2064,
+          "tick": 2064,
           "length": 15,
           "octave": 5,
           "degree": 2,
@@ -6740,7 +6740,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2072,
+          "tick": 2072,
           "length": 7,
           "octave": 3,
           "degree": 4,
@@ -6748,7 +6748,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2072,
+          "tick": 2072,
           "length": 7,
           "octave": 3,
           "degree": 6,
@@ -6756,7 +6756,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2072,
+          "tick": 2072,
           "length": 7,
           "octave": 2,
           "degree": 6,
@@ -6764,7 +6764,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2072,
+          "tick": 2072,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -6772,7 +6772,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2080,
+          "tick": 2080,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -6780,7 +6780,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2080,
+          "tick": 2080,
           "length": 7,
           "octave": 3,
           "degree": 6,
@@ -6788,7 +6788,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2080,
+          "tick": 2080,
           "length": 7,
           "octave": 3,
           "degree": 4,
@@ -6796,7 +6796,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2080,
+          "tick": 2080,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -6804,7 +6804,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2088,
+          "tick": 2088,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -6812,7 +6812,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2088,
+          "tick": 2088,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -6820,7 +6820,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2096,
+          "tick": 2096,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -6828,7 +6828,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2096,
+          "tick": 2096,
           "length": 7,
           "octave": 2,
           "degree": 1,
@@ -6836,7 +6836,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2096,
+          "tick": 2096,
           "length": 7,
           "octave": 3,
           "degree": 1,
@@ -6844,7 +6844,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2096,
+          "tick": 2096,
           "length": 7,
           "octave": 4,
           "degree": 3,
@@ -6852,7 +6852,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2104,
+          "tick": 2104,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -6860,7 +6860,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2104,
+          "tick": 2104,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -6868,7 +6868,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2104,
+          "tick": 2104,
           "length": 7,
           "octave": 2,
           "degree": 4,
@@ -6876,7 +6876,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2104,
+          "tick": 2104,
           "length": 7,
           "octave": 1,
           "degree": 4,
@@ -6884,7 +6884,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2112,
+          "tick": 2112,
           "length": 15,
           "octave": 5,
           "degree": 0,
@@ -6892,7 +6892,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2112,
+          "tick": 2112,
           "length": 15,
           "octave": 4,
           "degree": 5,
@@ -6900,7 +6900,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2112,
+          "tick": 2112,
           "length": 23,
           "octave": 1,
           "degree": 3,
@@ -6908,7 +6908,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2112,
+          "tick": 2112,
           "length": 23,
           "octave": 2,
           "degree": 3,
@@ -6916,7 +6916,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2112,
+          "tick": 2112,
           "length": 31,
           "octave": 4,
           "degree": 0,
@@ -6924,7 +6924,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2128,
+          "tick": 2128,
           "length": 11,
           "octave": 4,
           "degree": 5,
@@ -6932,7 +6932,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2128,
+          "tick": 2128,
           "length": 11,
           "octave": 4,
           "degree": 3,
@@ -6940,7 +6940,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2136,
+          "tick": 2136,
           "length": 7,
           "octave": 3,
           "degree": 0,
@@ -6948,7 +6948,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2136,
+          "tick": 2136,
           "length": 7,
           "octave": 2,
           "degree": 0,
@@ -6956,7 +6956,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2140,
+          "tick": 2140,
           "length": 3,
           "octave": 4,
           "degree": 4,
@@ -6964,7 +6964,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2140,
+          "tick": 2140,
           "length": 3,
           "octave": 4,
           "degree": 6,
@@ -6972,7 +6972,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2144,
+          "tick": 2144,
           "length": 15,
           "octave": 5,
           "degree": 0,
@@ -6980,7 +6980,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2144,
+          "tick": 2144,
           "length": 23,
           "octave": 2,
           "degree": 5,
@@ -6988,7 +6988,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2144,
+          "tick": 2144,
           "length": 23,
           "octave": 3,
           "degree": 5,
@@ -6996,7 +6996,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2144,
+          "tick": 2144,
           "length": 31,
           "octave": 4,
           "degree": 0,
@@ -7004,7 +7004,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2144,
+          "tick": 2144,
           "length": 15,
           "octave": 4,
           "degree": 5,
@@ -7012,7 +7012,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2160,
+          "tick": 2160,
           "length": 11,
           "octave": 4,
           "degree": 5,
@@ -7020,7 +7020,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2160,
+          "tick": 2160,
           "length": 11,
           "octave": 4,
           "degree": 3,
@@ -7028,7 +7028,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2168,
+          "tick": 2168,
           "length": 7,
           "octave": 3,
           "degree": 4,
@@ -7036,7 +7036,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2168,
+          "tick": 2168,
           "length": 7,
           "octave": 2,
           "degree": 4,
@@ -7044,7 +7044,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2172,
+          "tick": 2172,
           "length": 3,
           "octave": 4,
           "degree": 4,
@@ -7052,7 +7052,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2172,
+          "tick": 2172,
           "length": 3,
           "octave": 4,
           "degree": 6,
@@ -7060,7 +7060,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2176,
+          "tick": 2176,
           "length": 23,
           "octave": 2,
           "degree": 3,
@@ -7068,7 +7068,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2176,
+          "tick": 2176,
           "length": 23,
           "octave": 3,
           "degree": 3,
@@ -7076,7 +7076,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2176,
+          "tick": 2176,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -7084,7 +7084,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2176,
+          "tick": 2176,
           "length": 15,
           "octave": 4,
           "degree": 5,
@@ -7092,7 +7092,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2176,
+          "tick": 2176,
           "length": 15,
           "octave": 5,
           "degree": 0,
@@ -7100,7 +7100,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2192,
+          "tick": 2192,
           "length": 7,
           "octave": 4,
           "degree": 0,
@@ -7108,7 +7108,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2192,
+          "tick": 2192,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -7116,7 +7116,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2192,
+          "tick": 2192,
           "length": 7,
           "octave": 4,
           "degree": 3,
@@ -7124,7 +7124,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2200,
+          "tick": 2200,
           "length": 7,
           "octave": 3,
           "degree": 0,
@@ -7132,7 +7132,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2200,
+          "tick": 2200,
           "length": 7,
           "octave": 5,
           "degree": 0,
@@ -7140,7 +7140,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2200,
+          "tick": 2200,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -7148,7 +7148,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2200,
+          "tick": 2200,
           "length": 7,
           "octave": 4,
           "degree": 3,
@@ -7156,7 +7156,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2200,
+          "tick": 2200,
           "length": 7,
           "octave": 2,
           "degree": 0,
@@ -7164,7 +7164,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2208,
+          "tick": 2208,
           "length": 7,
           "octave": 5,
           "degree": 3,
@@ -7172,7 +7172,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2208,
+          "tick": 2208,
           "length": 7,
           "octave": 5,
           "degree": 0,
@@ -7180,7 +7180,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2208,
+          "tick": 2208,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -7188,7 +7188,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2208,
+          "tick": 2208,
           "length": 7,
           "octave": 2,
           "degree": 5,
@@ -7196,7 +7196,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2208,
+          "tick": 2208,
           "length": 7,
           "octave": 4,
           "degree": 3,
@@ -7204,7 +7204,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2208,
+          "tick": 2208,
           "length": 7,
           "octave": 3,
           "degree": 5,
@@ -7212,7 +7212,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2216,
+          "tick": 2216,
           "length": 2,
           "octave": 5,
           "degree": 3,
@@ -7220,7 +7220,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2216,
+          "tick": 2216,
           "length": 2,
           "octave": 4,
           "degree": 3,
@@ -7228,7 +7228,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2216,
+          "tick": 2216,
           "length": 7,
           "octave": 3,
           "degree": 4,
@@ -7236,7 +7236,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2216,
+          "tick": 2216,
           "length": 7,
           "octave": 2,
           "degree": 4,
@@ -7244,7 +7244,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2218,
+          "tick": 2218,
           "length": 2,
           "octave": 5,
           "degree": 3,
@@ -7252,7 +7252,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2218,
+          "tick": 2218,
           "length": 2,
           "octave": 4,
           "degree": 3,
@@ -7260,7 +7260,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2221,
+          "tick": 2221,
           "length": 2,
           "octave": 5,
           "degree": 3,
@@ -7268,7 +7268,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2221,
+          "tick": 2221,
           "length": 2,
           "octave": 4,
           "degree": 3,
@@ -7276,7 +7276,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2224,
+          "tick": 2224,
           "length": 7,
           "octave": 5,
           "degree": 3,
@@ -7284,7 +7284,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2224,
+          "tick": 2224,
           "length": 7,
           "octave": 2,
           "degree": 3,
@@ -7292,7 +7292,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2224,
+          "tick": 2224,
           "length": 7,
           "octave": 3,
           "degree": 3,
@@ -7300,7 +7300,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2224,
+          "tick": 2224,
           "length": 7,
           "octave": 4,
           "degree": 3,
@@ -7308,7 +7308,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2232,
+          "tick": 2232,
           "length": 7,
           "octave": 5,
           "degree": 3,
@@ -7316,7 +7316,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2232,
+          "tick": 2232,
           "length": 7,
           "octave": 4,
           "degree": 3,
@@ -7324,7 +7324,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2232,
+          "tick": 2232,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -7332,7 +7332,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2232,
+          "tick": 2232,
           "length": 7,
           "octave": 3,
           "degree": 2,
@@ -7340,7 +7340,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2240,
+          "tick": 2240,
           "length": 31,
           "octave": 5,
           "degree": 3,
@@ -7348,7 +7348,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2240,
+          "tick": 2240,
           "length": 31,
           "octave": 5,
           "degree": 1,
@@ -7356,7 +7356,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2240,
+          "tick": 2240,
           "length": 31,
           "octave": 4,
           "degree": 5,
@@ -7364,7 +7364,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2240,
+          "tick": 2240,
           "length": 31,
           "octave": 4,
           "degree": 3,
@@ -7372,7 +7372,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2240,
+          "tick": 2240,
           "length": 23,
           "octave": 3,
           "degree": 1,
@@ -7380,7 +7380,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2240,
+          "tick": 2240,
           "length": 23,
           "octave": 2,
           "degree": 1,
@@ -7388,7 +7388,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2264,
+          "tick": 2264,
           "length": 3,
           "octave": 2,
           "degree": 2,
@@ -7396,7 +7396,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2268,
+          "tick": 2268,
           "length": 3,
           "octave": 2,
           "degree": 3,
@@ -7404,7 +7404,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2272,
+          "tick": 2272,
           "length": 7,
           "octave": 5,
           "degree": 2,
@@ -7412,7 +7412,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2272,
+          "tick": 2272,
           "length": 15,
           "octave": 4,
           "degree": 6,
@@ -7420,7 +7420,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2272,
+          "tick": 2272,
           "length": 15,
           "octave": 4,
           "degree": 4,
@@ -7428,7 +7428,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2272,
+          "tick": 2272,
           "length": 15,
           "octave": 2,
           "degree": 4,
@@ -7436,7 +7436,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2272,
+          "tick": 2272,
           "length": 15,
           "octave": 3,
           "degree": 4,
@@ -7444,7 +7444,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2280,
+          "tick": 2280,
           "length": 7,
           "octave": 5,
           "degree": 1,
@@ -7452,7 +7452,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2288,
+          "tick": 2288,
           "length": 7,
           "octave": 4,
           "degree": 3,
@@ -7460,7 +7460,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2288,
+          "tick": 2288,
           "length": 15,
           "octave": 1,
           "degree": 4,
@@ -7468,7 +7468,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2288,
+          "tick": 2288,
           "length": 15,
           "octave": 2,
           "degree": 4,
@@ -7476,7 +7476,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2288,
+          "tick": 2288,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -7484,7 +7484,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2288,
+          "tick": 2288,
           "length": 7,
           "octave": 5,
           "degree": 0,
@@ -7492,7 +7492,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2296,
+          "tick": 2296,
           "length": 7,
           "octave": 5,
           "degree": 1,
@@ -7500,7 +7500,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2296,
+          "tick": 2296,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -7508,7 +7508,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2296,
+          "tick": 2296,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -7516,7 +7516,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2304,
+          "tick": 2304,
           "length": 7,
           "octave": 2,
           "degree": 0,
@@ -7524,7 +7524,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2304,
+          "tick": 2304,
           "length": 7,
           "octave": 3,
           "degree": 0,
@@ -7532,7 +7532,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2304,
+          "tick": 2304,
           "length": 23,
           "octave": 4,
           "degree": 2,
@@ -7540,7 +7540,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2304,
+          "tick": 2304,
           "length": 23,
           "octave": 4,
           "degree": 4,
@@ -7548,7 +7548,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2304,
+          "tick": 2304,
           "length": 23,
           "octave": 5,
           "degree": 2,
@@ -7556,7 +7556,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2304,
+          "tick": 2304,
           "length": 23,
           "octave": 5,
           "degree": 0,
@@ -7564,7 +7564,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2312,
+          "tick": 2312,
           "length": 7,
           "octave": 2,
           "degree": 6,
@@ -7572,7 +7572,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2312,
+          "tick": 2312,
           "length": 7,
           "octave": 1,
           "degree": 6,
@@ -7580,7 +7580,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2320,
+          "tick": 2320,
           "length": 7,
           "octave": 2,
           "degree": 0,
@@ -7588,7 +7588,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2320,
+          "tick": 2320,
           "length": 7,
           "octave": 3,
           "degree": 0,
@@ -7596,7 +7596,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2328,
+          "tick": 2328,
           "length": 7,
           "octave": 4,
           "degree": 4,
@@ -7604,7 +7604,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2328,
+          "tick": 2328,
           "length": 7,
           "octave": 5,
           "degree": 0,
@@ -7612,7 +7612,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2328,
+          "tick": 2328,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -7620,7 +7620,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2328,
+          "tick": 2328,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -7628,7 +7628,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2328,
+          "tick": 2328,
           "length": 7,
           "octave": 3,
           "degree": 2,
@@ -7636,7 +7636,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2336,
+          "tick": 2336,
           "length": 31,
           "octave": 5,
           "degree": 0,
@@ -7644,7 +7644,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2336,
+          "tick": 2336,
           "length": 11,
           "octave": 4,
           "degree": 4,
@@ -7652,7 +7652,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2336,
+          "tick": 2336,
           "length": 7,
           "octave": 2,
           "degree": 1,
@@ -7660,7 +7660,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2336,
+          "tick": 2336,
           "length": 31,
           "octave": 4,
           "degree": 2,
@@ -7668,7 +7668,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2336,
+          "tick": 2336,
           "length": 7,
           "octave": 3,
           "degree": 1,
@@ -7676,7 +7676,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2344,
+          "tick": 2344,
           "length": 7,
           "octave": 2,
           "degree": 0,
@@ -7684,7 +7684,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2344,
+          "tick": 2344,
           "length": 7,
           "octave": 3,
           "degree": 0,
@@ -7692,7 +7692,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2344,
+          "tick": 2344,
           "length": 3,
           "octave": 4,
           "degree": 4,
@@ -7700,7 +7700,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2344,
+          "tick": 2344,
           "length": 3,
           "octave": 4,
           "degree": 0,
@@ -7708,7 +7708,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2348,
+          "tick": 2348,
           "length": 3,
           "octave": 4,
           "degree": 4,
@@ -7716,7 +7716,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2348,
+          "tick": 2348,
           "length": 3,
           "octave": 4,
           "degree": 0,
@@ -7724,7 +7724,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2352,
+          "tick": 2352,
           "length": 7,
           "octave": 1,
           "degree": 6,
@@ -7732,7 +7732,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2352,
+          "tick": 2352,
           "length": 3,
           "octave": 4,
           "degree": 4,
@@ -7740,7 +7740,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2352,
+          "tick": 2352,
           "length": 7,
           "octave": 2,
           "degree": 6,
@@ -7748,7 +7748,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2352,
+          "tick": 2352,
           "length": 3,
           "octave": 4,
           "degree": 0,
@@ -7756,7 +7756,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2360,
+          "tick": 2360,
           "length": 3,
           "octave": 4,
           "degree": 0,
@@ -7764,7 +7764,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2360,
+          "tick": 2360,
           "length": 7,
           "octave": 2,
           "degree": 5,
@@ -7772,7 +7772,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2360,
+          "tick": 2360,
           "length": 3,
           "octave": 4,
           "degree": 4,
@@ -7780,7 +7780,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2360,
+          "tick": 2360,
           "length": 7,
           "octave": 1,
           "degree": 5,
@@ -7788,7 +7788,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2368,
+          "tick": 2368,
           "length": 31,
           "octave": 5,
           "degree": 1,
@@ -7796,7 +7796,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2368,
+          "tick": 2368,
           "length": 15,
           "octave": 4,
           "degree": 5,
@@ -7804,7 +7804,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2368,
+          "tick": 2368,
           "length": 31,
           "octave": 4,
           "degree": 1,
@@ -7812,7 +7812,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2368,
+          "tick": 2368,
           "length": 23,
           "octave": 1,
           "degree": 6,
@@ -7820,7 +7820,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2368,
+          "tick": 2368,
           "length": 23,
           "octave": 2,
           "degree": 6,
@@ -7828,7 +7828,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2384,
+          "tick": 2384,
           "length": 15,
           "octave": 4,
           "degree": 5,
@@ -7836,7 +7836,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2392,
+          "tick": 2392,
           "length": 3,
           "octave": 2,
           "degree": 0,
@@ -7844,7 +7844,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2396,
+          "tick": 2396,
           "length": 3,
           "octave": 2,
           "degree": 1,
@@ -7852,7 +7852,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2400,
+          "tick": 2400,
           "length": 15,
           "octave": 4,
           "degree": 2,
@@ -7860,7 +7860,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2400,
+          "tick": 2400,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -7868,7 +7868,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2400,
+          "tick": 2400,
           "length": 31,
           "octave": 3,
           "degree": 2,
@@ -7876,7 +7876,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2400,
+          "tick": 2400,
           "length": 7,
           "octave": 5,
           "degree": 0,
@@ -7884,7 +7884,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2408,
+          "tick": 2408,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -7892,7 +7892,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2416,
+          "tick": 2416,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -7900,7 +7900,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2416,
+          "tick": 2416,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -7908,7 +7908,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2416,
+          "tick": 2416,
           "length": 7,
           "octave": 4,
           "degree": 1,
@@ -7916,7 +7916,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2424,
+          "tick": 2424,
           "length": 7,
           "octave": 4,
           "degree": 6,
@@ -7924,7 +7924,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2424,
+          "tick": 2424,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -7932,7 +7932,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2432,
+          "tick": 2432,
           "length": 23,
           "octave": 4,
           "degree": 5,
@@ -7940,7 +7940,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2432,
+          "tick": 2432,
           "length": 7,
           "octave": 2,
           "degree": 5,
@@ -7948,7 +7948,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2432,
+          "tick": 2432,
           "length": 23,
           "octave": 5,
           "degree": 0,
@@ -7956,7 +7956,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2432,
+          "tick": 2432,
           "length": 23,
           "octave": 4,
           "degree": 2,
@@ -7964,7 +7964,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2432,
+          "tick": 2432,
           "length": 7,
           "octave": 1,
           "degree": 5,
@@ -7972,7 +7972,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2432,
+          "tick": 2432,
           "length": 23,
           "octave": 4,
           "degree": 0,
@@ -7980,7 +7980,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2440,
+          "tick": 2440,
           "length": 7,
           "octave": 1,
           "degree": 6,
@@ -7988,7 +7988,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2448,
+          "tick": 2448,
           "length": 7,
           "octave": 2,
           "degree": 0,
@@ -7996,7 +7996,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2456,
+          "tick": 2456,
           "length": 7,
           "octave": 4,
           "degree": 5,
@@ -8004,7 +8004,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2456,
+          "tick": 2456,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -8012,7 +8012,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2456,
+          "tick": 2456,
           "length": 7,
           "octave": 2,
           "degree": 1,
@@ -8020,7 +8020,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2456,
+          "tick": 2456,
           "length": 7,
           "octave": 4,
           "degree": 0,
@@ -8028,7 +8028,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2464,
+          "tick": 2464,
           "length": 15,
           "octave": 2,
           "degree": 5,
@@ -8036,7 +8036,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2464,
+          "tick": 2464,
           "length": 15,
           "octave": 3,
           "degree": 5,
@@ -8044,7 +8044,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2464,
+          "tick": 2464,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -8052,7 +8052,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2464,
+          "tick": 2464,
           "length": 15,
           "octave": 4,
           "degree": 2,
@@ -8060,7 +8060,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2464,
+          "tick": 2464,
           "length": 31,
           "octave": 4,
           "degree": 5,
@@ -8068,7 +8068,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2472,
+          "tick": 2472,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -8076,7 +8076,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2472,
+          "tick": 2472,
           "length": 7,
           "octave": 4,
           "degree": 0,
@@ -8084,7 +8084,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2480,
+          "tick": 2480,
           "length": 15,
           "octave": 2,
           "degree": 4,
@@ -8092,7 +8092,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2480,
+          "tick": 2480,
           "length": 15,
           "octave": 3,
           "degree": 4,
@@ -8100,7 +8100,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2488,
+          "tick": 2488,
           "length": 7,
           "octave": 4,
           "degree": 0,
@@ -8108,7 +8108,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2488,
+          "tick": 2488,
           "length": 7,
           "octave": 4,
           "degree": 2,
@@ -8116,7 +8116,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2496,
+          "tick": 2496,
           "length": 15,
           "octave": 2,
           "degree": 3,
@@ -8124,7 +8124,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2496,
+          "tick": 2496,
           "length": 15,
           "octave": 3,
           "degree": 3,
@@ -8132,7 +8132,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2496,
+          "tick": 2496,
           "length": 31,
           "octave": 4,
           "degree": 0,
@@ -8140,7 +8140,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2496,
+          "tick": 2496,
           "length": 15,
           "octave": 4,
           "degree": 5,
@@ -8148,7 +8148,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2496,
+          "tick": 2496,
           "length": 15,
           "octave": 5,
           "degree": 0,
@@ -8156,7 +8156,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2512,
+          "tick": 2512,
           "length": 11,
           "octave": 4,
           "degree": 6,
@@ -8164,7 +8164,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2512,
+          "tick": 2512,
           "length": 15,
           "octave": 2,
           "degree": 1,
@@ -8172,7 +8172,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2512,
+          "tick": 2512,
           "length": 15,
           "octave": 3,
           "degree": 1,
@@ -8180,7 +8180,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2512,
+          "tick": 2512,
           "length": 11,
           "octave": 4,
           "degree": 4,
@@ -8188,7 +8188,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2524,
+          "tick": 2524,
           "length": 3,
           "octave": 4,
           "degree": 3,
@@ -8196,7 +8196,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2524,
+          "tick": 2524,
           "length": 3,
           "octave": 4,
           "degree": 5,
@@ -8204,7 +8204,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2528,
+          "tick": 2528,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -8212,7 +8212,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2528,
+          "tick": 2528,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -8220,7 +8220,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2528,
+          "tick": 2528,
           "length": 31,
           "octave": 3,
           "degree": 2,
@@ -8228,7 +8228,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2528,
+          "tick": 2528,
           "length": 15,
           "octave": 3,
           "degree": 4,
@@ -8236,7 +8236,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2528,
+          "tick": 2528,
           "length": 15,
           "octave": 4,
           "degree": 4,
@@ -8244,7 +8244,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2544,
+          "tick": 2544,
           "length": 7,
           "octave": 4,
           "degree": 0,
@@ -8252,7 +8252,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2544,
+          "tick": 2544,
           "length": 15,
           "octave": 3,
           "degree": 4,
@@ -8260,7 +8260,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2544,
+          "tick": 2544,
           "length": 15,
           "octave": 2,
           "degree": 2,
@@ -8268,7 +8268,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2552,
+          "tick": 2552,
           "length": 7,
           "octave": 4,
           "degree": 0,
@@ -8276,7 +8276,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2560,
+          "tick": 2560,
           "length": 31,
           "octave": 4,
           "degree": 3,
@@ -8284,7 +8284,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2560,
+          "tick": 2560,
           "length": 31,
           "octave": 1,
           "degree": 4,
@@ -8292,7 +8292,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2560,
+          "tick": 2560,
           "length": 31,
           "octave": 2,
           "degree": 4,
@@ -8300,7 +8300,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2560,
+          "tick": 2560,
           "length": 31,
           "octave": 3,
           "degree": 4,
@@ -8308,7 +8308,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2560,
+          "tick": 2560,
           "length": 31,
           "octave": 3,
           "degree": 6,
@@ -8316,7 +8316,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2560,
+          "tick": 2560,
           "length": 31,
           "octave": 4,
           "degree": 4,
@@ -8324,7 +8324,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2592,
+          "tick": 2592,
           "length": 15,
           "octave": 4,
           "degree": 3,
@@ -8332,7 +8332,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2592,
+          "tick": 2592,
           "length": 15,
           "octave": 4,
           "degree": 5,
@@ -8340,7 +8340,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2592,
+          "tick": 2592,
           "length": 15,
           "octave": 4,
           "degree": 4,
@@ -8348,7 +8348,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2592,
+          "tick": 2592,
           "length": 15,
           "octave": 2,
           "degree": 3,
@@ -8356,7 +8356,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2592,
+          "tick": 2592,
           "length": 15,
           "octave": 1,
           "degree": 3,
@@ -8364,7 +8364,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2592,
+          "tick": 2592,
           "length": 15,
           "octave": 3,
           "degree": 5,
@@ -8372,7 +8372,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2608,
+          "tick": 2608,
           "length": 15,
           "octave": 2,
           "degree": 4,
@@ -8380,7 +8380,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2608,
+          "tick": 2608,
           "length": 15,
           "octave": 1,
           "degree": 4,
@@ -8388,7 +8388,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2608,
+          "tick": 2608,
           "length": 15,
           "octave": 3,
           "degree": 6,
@@ -8396,7 +8396,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2608,
+          "tick": 2608,
           "length": 15,
           "octave": 4,
           "degree": 1,
@@ -8404,7 +8404,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2608,
+          "tick": 2608,
           "length": 15,
           "octave": 4,
           "degree": 3,
@@ -8412,7 +8412,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2608,
+          "tick": 2608,
           "length": 15,
           "octave": 4,
           "degree": 6,
@@ -8420,7 +8420,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2624,
+          "tick": 2624,
           "length": 63,
           "octave": 4,
           "degree": 4,
@@ -8428,7 +8428,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2624,
+          "tick": 2624,
           "length": 63,
           "octave": 1,
           "degree": 0,
@@ -8436,7 +8436,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2624,
+          "tick": 2624,
           "length": 63,
           "octave": 2,
           "degree": 0,
@@ -8444,7 +8444,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2624,
+          "tick": 2624,
           "length": 63,
           "octave": 4,
           "degree": 0,
@@ -8452,7 +8452,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2624,
+          "tick": 2624,
           "length": 63,
           "octave": 4,
           "degree": 2,
@@ -8460,7 +8460,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2624,
+          "tick": 2624,
           "length": 63,
           "octave": 5,
           "degree": 0,
@@ -8641,7 +8641,7 @@ export let builtin: StateDumpV1 =
       "type": "tone",
       "notes": [
         {
-          "time": 48,
+          "tick": 48,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -8649,7 +8649,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 48,
+          "tick": 48,
           "length": 16,
           "octave": 4,
           "degree": 4,
@@ -8657,7 +8657,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 64,
+          "tick": 64,
           "length": 32,
           "octave": 4,
           "degree": 4,
@@ -8665,7 +8665,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 64,
+          "tick": 64,
           "length": 32,
           "octave": 4,
           "degree": 1,
@@ -8673,7 +8673,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 64,
+          "tick": 64,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -8681,7 +8681,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 64,
+          "tick": 64,
           "length": 16,
           "octave": 1,
           "degree": 9,
@@ -8689,7 +8689,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 64,
+          "tick": 64,
           "length": 24,
           "octave": 4,
           "degree": 9,
@@ -8697,7 +8697,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 80,
+          "tick": 80,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -8705,7 +8705,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 80,
+          "tick": 80,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -8713,7 +8713,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 88,
+          "tick": 88,
           "length": 8,
           "octave": 4,
           "degree": 8,
@@ -8721,7 +8721,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 96,
+          "tick": 96,
           "length": 8,
           "octave": 4,
           "degree": 11,
@@ -8729,7 +8729,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 96,
+          "tick": 96,
           "length": 16,
           "octave": 2,
           "degree": 1,
@@ -8737,7 +8737,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 96,
+          "tick": 96,
           "length": 24,
           "octave": 4,
           "degree": 4,
@@ -8745,7 +8745,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 96,
+          "tick": 96,
           "length": 16,
           "octave": 3,
           "degree": 1,
@@ -8753,7 +8753,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 104,
+          "tick": 104,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -8761,7 +8761,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 112,
+          "tick": 112,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -8769,7 +8769,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 112,
+          "tick": 112,
           "length": 16,
           "octave": 1,
           "degree": 9,
@@ -8777,7 +8777,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 112,
+          "tick": 112,
           "length": 8,
           "octave": 4,
           "degree": 4,
@@ -8785,7 +8785,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 120,
+          "tick": 120,
           "length": 8,
           "octave": 4,
           "degree": 1,
@@ -8793,7 +8793,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 128,
+          "tick": 128,
           "length": 32,
           "octave": 3,
           "degree": 9,
@@ -8801,7 +8801,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 128,
+          "tick": 128,
           "length": 32,
           "octave": 4,
           "degree": 6,
@@ -8809,7 +8809,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 128,
+          "tick": 128,
           "length": 16,
           "octave": 2,
           "degree": 2,
@@ -8817,7 +8817,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 128,
+          "tick": 128,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -8825,7 +8825,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 128,
+          "tick": 128,
           "length": 32,
           "octave": 4,
           "degree": 2,
@@ -8833,7 +8833,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 144,
+          "tick": 144,
           "length": 16,
           "octave": 2,
           "degree": 1,
@@ -8841,7 +8841,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 144,
+          "tick": 144,
           "length": 16,
           "octave": 3,
           "degree": 1,
@@ -8849,7 +8849,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 160,
+          "tick": 160,
           "length": 16,
           "octave": 4,
           "degree": 2,
@@ -8857,7 +8857,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 160,
+          "tick": 160,
           "length": 16,
           "octave": 3,
           "degree": 11,
@@ -8865,7 +8865,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 160,
+          "tick": 160,
           "length": 16,
           "octave": 2,
           "degree": 11,
@@ -8873,7 +8873,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 160,
+          "tick": 160,
           "length": 16,
           "octave": 1,
           "degree": 11,
@@ -8881,7 +8881,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 160,
+          "tick": 160,
           "length": 16,
           "octave": 3,
           "degree": 6,
@@ -8889,7 +8889,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 176,
+          "tick": 176,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -8897,7 +8897,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 176,
+          "tick": 176,
           "length": 16,
           "octave": 1,
           "degree": 9,
@@ -8905,7 +8905,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 184,
+          "tick": 184,
           "length": 8,
           "octave": 4,
           "degree": 6,
@@ -8913,7 +8913,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 192,
+          "tick": 192,
           "length": 16,
           "octave": 2,
           "degree": 8,
@@ -8921,7 +8921,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 192,
+          "tick": 192,
           "length": 24,
           "octave": 4,
           "degree": 11,
@@ -8929,7 +8929,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 192,
+          "tick": 192,
           "length": 32,
           "octave": 3,
           "degree": 11,
@@ -8937,7 +8937,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 192,
+          "tick": 192,
           "length": 16,
           "octave": 1,
           "degree": 8,
@@ -8945,7 +8945,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 192,
+          "tick": 192,
           "length": 32,
           "octave": 4,
           "degree": 4,
@@ -8953,7 +8953,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 208,
+          "tick": 208,
           "length": 16,
           "octave": 1,
           "degree": 4,
@@ -8961,7 +8961,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 208,
+          "tick": 208,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -8969,7 +8969,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 216,
+          "tick": 216,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -8977,7 +8977,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 224,
+          "tick": 224,
           "length": 16,
           "octave": 4,
           "degree": 2,
@@ -8985,7 +8985,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 224,
+          "tick": 224,
           "length": 16,
           "octave": 1,
           "degree": 6,
@@ -8993,7 +8993,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 224,
+          "tick": 224,
           "length": 16,
           "octave": 2,
           "degree": 6,
@@ -9001,7 +9001,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 224,
+          "tick": 224,
           "length": 16,
           "octave": 3,
           "degree": 11,
@@ -9009,7 +9009,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 224,
+          "tick": 224,
           "length": 8,
           "octave": 4,
           "degree": 8,
@@ -9017,7 +9017,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 232,
+          "tick": 232,
           "length": 8,
           "octave": 4,
           "degree": 6,
@@ -9025,7 +9025,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 240,
+          "tick": 240,
           "length": 8,
           "octave": 4,
           "degree": 4,
@@ -9033,7 +9033,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 240,
+          "tick": 240,
           "length": 16,
           "octave": 3,
           "degree": 11,
@@ -9041,7 +9041,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 240,
+          "tick": 240,
           "length": 16,
           "octave": 1,
           "degree": 8,
@@ -9049,7 +9049,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 240,
+          "tick": 240,
           "length": 16,
           "octave": 2,
           "degree": 8,
@@ -9057,7 +9057,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 248,
+          "tick": 248,
           "length": 8,
           "octave": 4,
           "degree": 2,
@@ -9065,7 +9065,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 256,
+          "tick": 256,
           "length": 48,
           "octave": 3,
           "degree": 9,
@@ -9073,7 +9073,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 256,
+          "tick": 256,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -9081,7 +9081,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 256,
+          "tick": 256,
           "length": 16,
           "octave": 1,
           "degree": 9,
@@ -9089,7 +9089,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 256,
+          "tick": 256,
           "length": 48,
           "octave": 4,
           "degree": 1,
@@ -9097,7 +9097,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 272,
+          "tick": 272,
           "length": 12,
           "octave": 3,
           "degree": 1,
@@ -9105,7 +9105,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 272,
+          "tick": 272,
           "length": 12,
           "octave": 2,
           "degree": 1,
@@ -9113,7 +9113,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 284,
+          "tick": 284,
           "length": 4,
           "octave": 3,
           "degree": 2,
@@ -9121,7 +9121,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 284,
+          "tick": 284,
           "length": 4,
           "octave": 2,
           "degree": 2,
@@ -9129,7 +9129,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 288,
+          "tick": 288,
           "length": 32,
           "octave": 2,
           "degree": 4,
@@ -9137,7 +9137,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 288,
+          "tick": 288,
           "length": 32,
           "octave": 3,
           "degree": 4,
@@ -9145,7 +9145,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 304,
+          "tick": 304,
           "length": 16,
           "octave": 4,
           "degree": 4,
@@ -9153,7 +9153,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 304,
+          "tick": 304,
           "length": 16,
           "octave": 3,
           "degree": 8,
@@ -9161,7 +9161,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 304,
+          "tick": 304,
           "length": 16,
           "octave": 4,
           "degree": 2,
@@ -9169,7 +9169,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 304,
+          "tick": 304,
           "length": 16,
           "octave": 3,
           "degree": 11,
@@ -9177,7 +9177,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 320,
+          "tick": 320,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -9185,7 +9185,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 320,
+          "tick": 320,
           "length": 16,
           "octave": 1,
           "degree": 9,
@@ -9193,7 +9193,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 320,
+          "tick": 320,
           "length": 32,
           "octave": 4,
           "degree": 4,
@@ -9201,7 +9201,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 320,
+          "tick": 320,
           "length": 32,
           "octave": 4,
           "degree": 1,
@@ -9209,7 +9209,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 320,
+          "tick": 320,
           "length": 24,
           "octave": 4,
           "degree": 9,
@@ -9217,7 +9217,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 336,
+          "tick": 336,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -9225,7 +9225,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 336,
+          "tick": 336,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -9233,7 +9233,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 344,
+          "tick": 344,
           "length": 8,
           "octave": 4,
           "degree": 8,
@@ -9241,7 +9241,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 352,
+          "tick": 352,
           "length": 8,
           "octave": 4,
           "degree": 11,
@@ -9249,7 +9249,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 352,
+          "tick": 352,
           "length": 24,
           "octave": 4,
           "degree": 4,
@@ -9257,7 +9257,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 352,
+          "tick": 352,
           "length": 16,
           "octave": 3,
           "degree": 1,
@@ -9265,7 +9265,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 352,
+          "tick": 352,
           "length": 16,
           "octave": 2,
           "degree": 1,
@@ -9273,7 +9273,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 360,
+          "tick": 360,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -9281,7 +9281,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 368,
+          "tick": 368,
           "length": 8,
           "octave": 4,
           "degree": 4,
@@ -9289,7 +9289,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 368,
+          "tick": 368,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -9297,7 +9297,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 368,
+          "tick": 368,
           "length": 16,
           "octave": 1,
           "degree": 9,
@@ -9305,7 +9305,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 376,
+          "tick": 376,
           "length": 8,
           "octave": 4,
           "degree": 1,
@@ -9313,7 +9313,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 384,
+          "tick": 384,
           "length": 16,
           "octave": 3,
           "degree": 9,
@@ -9321,7 +9321,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 384,
+          "tick": 384,
           "length": 16,
           "octave": 2,
           "degree": 2,
@@ -9329,7 +9329,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 384,
+          "tick": 384,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -9337,7 +9337,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 384,
+          "tick": 384,
           "length": 32,
           "octave": 3,
           "degree": 6,
@@ -9345,7 +9345,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 384,
+          "tick": 384,
           "length": 16,
           "octave": 4,
           "degree": 2,
@@ -9353,7 +9353,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 384,
+          "tick": 384,
           "length": 32,
           "octave": 4,
           "degree": 6,
@@ -9361,7 +9361,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 400,
+          "tick": 400,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -9369,7 +9369,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 400,
+          "tick": 400,
           "length": 16,
           "octave": 4,
           "degree": 4,
@@ -9377,7 +9377,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 400,
+          "tick": 400,
           "length": 16,
           "octave": 2,
           "degree": 1,
@@ -9385,7 +9385,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 400,
+          "tick": 400,
           "length": 16,
           "octave": 3,
           "degree": 1,
@@ -9393,7 +9393,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 416,
+          "tick": 416,
           "length": 16,
           "octave": 1,
           "degree": 11,
@@ -9401,7 +9401,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 416,
+          "tick": 416,
           "length": 16,
           "octave": 2,
           "degree": 11,
@@ -9409,7 +9409,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 416,
+          "tick": 416,
           "length": 16,
           "octave": 3,
           "degree": 6,
@@ -9417,7 +9417,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 416,
+          "tick": 416,
           "length": 16,
           "octave": 3,
           "degree": 11,
@@ -9425,7 +9425,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 416,
+          "tick": 416,
           "length": 16,
           "octave": 4,
           "degree": 2,
@@ -9433,7 +9433,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 432,
+          "tick": 432,
           "length": 16,
           "octave": 2,
           "degree": 2,
@@ -9441,7 +9441,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 432,
+          "tick": 432,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -9449,7 +9449,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 432,
+          "tick": 432,
           "length": 16,
           "octave": 4,
           "degree": 6,
@@ -9457,7 +9457,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 432,
+          "tick": 432,
           "length": 16,
           "octave": 3,
           "degree": 11,
@@ -9465,7 +9465,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 432,
+          "tick": 432,
           "length": 8,
           "octave": 4,
           "degree": 11,
@@ -9473,7 +9473,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 440,
+          "tick": 440,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -9481,7 +9481,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 448,
+          "tick": 448,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -9489,7 +9489,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 448,
+          "tick": 448,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -9497,7 +9497,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 448,
+          "tick": 448,
           "length": 16,
           "octave": 3,
           "degree": 11,
@@ -9505,7 +9505,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 448,
+          "tick": 448,
           "length": 16,
           "octave": 4,
           "degree": 4,
@@ -9513,7 +9513,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 448,
+          "tick": 448,
           "length": 16,
           "octave": 4,
           "degree": 8,
@@ -9521,7 +9521,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 464,
+          "tick": 464,
           "length": 16,
           "octave": 4,
           "degree": 11,
@@ -9529,7 +9529,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 464,
+          "tick": 464,
           "length": 32,
           "octave": 4,
           "degree": 6,
@@ -9537,7 +9537,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 464,
+          "tick": 464,
           "length": 32,
           "octave": 4,
           "degree": 2,
@@ -9545,7 +9545,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 464,
+          "tick": 464,
           "length": 8,
           "octave": 3,
           "degree": 2,
@@ -9553,7 +9553,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 464,
+          "tick": 464,
           "length": 8,
           "octave": 2,
           "degree": 2,
@@ -9561,7 +9561,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 472,
+          "tick": 472,
           "length": 8,
           "octave": 3,
           "degree": 1,
@@ -9569,7 +9569,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 472,
+          "tick": 472,
           "length": 8,
           "octave": 2,
           "degree": 1,
@@ -9577,7 +9577,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 480,
+          "tick": 480,
           "length": 16,
           "octave": 1,
           "degree": 11,
@@ -9585,7 +9585,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 480,
+          "tick": 480,
           "length": 16,
           "octave": 2,
           "degree": 11,
@@ -9593,7 +9593,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 480,
+          "tick": 480,
           "length": 16,
           "octave": 5,
           "degree": 2,
@@ -9601,7 +9601,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 496,
+          "tick": 496,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -9609,7 +9609,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 496,
+          "tick": 496,
           "length": 16,
           "octave": 3,
           "degree": 11,
@@ -9617,7 +9617,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 496,
+          "tick": 496,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -9625,7 +9625,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 496,
+          "tick": 496,
           "length": 16,
           "octave": 4,
           "degree": 2,
@@ -9633,7 +9633,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 496,
+          "tick": 496,
           "length": 16,
           "octave": 4,
           "degree": 8,
@@ -9641,7 +9641,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 512,
+          "tick": 512,
           "length": 48,
           "octave": 4,
           "degree": 9,
@@ -9649,7 +9649,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 512,
+          "tick": 512,
           "length": 48,
           "octave": 4,
           "degree": 1,
@@ -9657,7 +9657,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 512,
+          "tick": 512,
           "length": 48,
           "octave": 3,
           "degree": 9,
@@ -9665,7 +9665,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 512,
+          "tick": 512,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -9673,7 +9673,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 512,
+          "tick": 512,
           "length": 16,
           "octave": 1,
           "degree": 9,
@@ -9681,7 +9681,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 528,
+          "tick": 528,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -9689,7 +9689,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 544,
+          "tick": 544,
           "length": 16,
           "octave": 1,
           "degree": 9,
@@ -9697,7 +9697,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 560,
+          "tick": 560,
           "length": 8,
           "octave": 5,
           "degree": 1,
@@ -9705,7 +9705,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 568,
+          "tick": 568,
           "length": 7,
           "octave": 4,
           "degree": 11,
@@ -9713,7 +9713,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 576,
+          "tick": 576,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -9721,7 +9721,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 576,
+          "tick": 576,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -9729,7 +9729,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 576,
+          "tick": 576,
           "length": 32,
           "octave": 3,
           "degree": 11,
@@ -9737,7 +9737,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 576,
+          "tick": 576,
           "length": 32,
           "octave": 4,
           "degree": 4,
@@ -9745,7 +9745,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 576,
+          "tick": 576,
           "length": 24,
           "octave": 4,
           "degree": 8,
@@ -9753,7 +9753,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 592,
+          "tick": 592,
           "length": 16,
           "octave": 1,
           "degree": 8,
@@ -9761,7 +9761,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 592,
+          "tick": 592,
           "length": 16,
           "octave": 2,
           "degree": 8,
@@ -9769,7 +9769,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 600,
+          "tick": 600,
           "length": 8,
           "octave": 4,
           "degree": 8,
@@ -9777,7 +9777,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 608,
+          "tick": 608,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -9785,7 +9785,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 608,
+          "tick": 608,
           "length": 16,
           "octave": 1,
           "degree": 9,
@@ -9793,7 +9793,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 608,
+          "tick": 608,
           "length": 16,
           "octave": 4,
           "degree": 1,
@@ -9801,7 +9801,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 608,
+          "tick": 608,
           "length": 16,
           "octave": 4,
           "degree": 4,
@@ -9809,7 +9809,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 608,
+          "tick": 608,
           "length": 8,
           "octave": 4,
           "degree": 6,
@@ -9817,7 +9817,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 616,
+          "tick": 616,
           "length": 8,
           "octave": 4,
           "degree": 8,
@@ -9825,7 +9825,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 624,
+          "tick": 624,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -9833,7 +9833,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 624,
+          "tick": 624,
           "length": 16,
           "octave": 4,
           "degree": 3,
@@ -9841,7 +9841,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 624,
+          "tick": 624,
           "length": 16,
           "octave": 3,
           "degree": 11,
@@ -9849,7 +9849,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 624,
+          "tick": 624,
           "length": 16,
           "octave": 2,
           "degree": 11,
@@ -9857,7 +9857,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 624,
+          "tick": 624,
           "length": 16,
           "octave": 1,
           "degree": 11,
@@ -9865,7 +9865,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 632,
+          "tick": 632,
           "length": 8,
           "octave": 4,
           "degree": 6,
@@ -9873,7 +9873,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 640,
+          "tick": 640,
           "length": 32,
           "octave": 3,
           "degree": 11,
@@ -9881,7 +9881,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 640,
+          "tick": 640,
           "length": 32,
           "octave": 4,
           "degree": 8,
@@ -9889,7 +9889,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 640,
+          "tick": 640,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -9897,7 +9897,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 640,
+          "tick": 640,
           "length": 32,
           "octave": 4,
           "degree": 4,
@@ -9905,7 +9905,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 640,
+          "tick": 640,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -9913,7 +9913,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 656,
+          "tick": 656,
           "length": 16,
           "octave": 2,
           "degree": 3,
@@ -9921,7 +9921,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 656,
+          "tick": 656,
           "length": 16,
           "octave": 3,
           "degree": 3,
@@ -9929,7 +9929,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 672,
+          "tick": 672,
           "length": 8,
           "octave": 4,
           "degree": 4,
@@ -9937,7 +9937,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 672,
+          "tick": 672,
           "length": 32,
           "octave": 4,
           "degree": 1,
@@ -9945,7 +9945,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 672,
+          "tick": 672,
           "length": 32,
           "octave": 3,
           "degree": 8,
@@ -9953,7 +9953,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 672,
+          "tick": 672,
           "length": 16,
           "octave": 3,
           "degree": 1,
@@ -9961,7 +9961,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 672,
+          "tick": 672,
           "length": 16,
           "octave": 2,
           "degree": 1,
@@ -9969,7 +9969,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 680,
+          "tick": 680,
           "length": 8,
           "octave": 4,
           "degree": 4,
@@ -9977,7 +9977,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 688,
+          "tick": 688,
           "length": 8,
           "octave": 4,
           "degree": 3,
@@ -9985,7 +9985,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 688,
+          "tick": 688,
           "length": 16,
           "octave": 2,
           "degree": 11,
@@ -9993,7 +9993,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 688,
+          "tick": 688,
           "length": 16,
           "octave": 1,
           "degree": 11,
@@ -10001,7 +10001,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 696,
+          "tick": 696,
           "length": 8,
           "octave": 4,
           "degree": 4,
@@ -10009,7 +10009,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 704,
+          "tick": 704,
           "length": 32,
           "octave": 4,
           "degree": 4,
@@ -10017,7 +10017,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 704,
+          "tick": 704,
           "length": 32,
           "octave": 4,
           "degree": 1,
@@ -10025,7 +10025,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 704,
+          "tick": 704,
           "length": 24,
           "octave": 4,
           "degree": 6,
@@ -10033,7 +10033,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 704,
+          "tick": 704,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -10041,7 +10041,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 704,
+          "tick": 704,
           "length": 16,
           "octave": 1,
           "degree": 9,
@@ -10049,7 +10049,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 720,
+          "tick": 720,
           "length": 16,
           "octave": 2,
           "degree": 8,
@@ -10057,7 +10057,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 720,
+          "tick": 720,
           "length": 16,
           "octave": 1,
           "degree": 8,
@@ -10065,7 +10065,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 728,
+          "tick": 728,
           "length": 8,
           "octave": 4,
           "degree": 6,
@@ -10073,7 +10073,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 736,
+          "tick": 736,
           "length": 16,
           "octave": 2,
           "degree": 6,
@@ -10081,7 +10081,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 736,
+          "tick": 736,
           "length": 24,
           "octave": 4,
           "degree": 11,
@@ -10089,7 +10089,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 736,
+          "tick": 736,
           "length": 32,
           "octave": 3,
           "degree": 11,
@@ -10097,7 +10097,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 736,
+          "tick": 736,
           "length": 16,
           "octave": 1,
           "degree": 6,
@@ -10105,7 +10105,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 736,
+          "tick": 736,
           "length": 32,
           "octave": 4,
           "degree": 3,
@@ -10113,7 +10113,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 752,
+          "tick": 752,
           "length": 16,
           "octave": 2,
           "degree": 11,
@@ -10121,7 +10121,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 752,
+          "tick": 752,
           "length": 16,
           "octave": 1,
           "degree": 11,
@@ -10129,7 +10129,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 760,
+          "tick": 760,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -10137,7 +10137,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 768,
+          "tick": 768,
           "length": 48,
           "octave": 3,
           "degree": 11,
@@ -10145,7 +10145,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 768,
+          "tick": 768,
           "length": 48,
           "octave": 4,
           "degree": 4,
@@ -10153,7 +10153,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 768,
+          "tick": 768,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -10161,7 +10161,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 768,
+          "tick": 768,
           "length": 16,
           "octave": 1,
           "degree": 4,
@@ -10169,7 +10169,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 768,
+          "tick": 768,
           "length": 48,
           "octave": 4,
           "degree": 8,
@@ -10177,7 +10177,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 784,
+          "tick": 784,
           "length": 16,
           "octave": 2,
           "degree": 11,
@@ -10185,7 +10185,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 784,
+          "tick": 784,
           "length": 16,
           "octave": 1,
           "degree": 11,
@@ -10193,7 +10193,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 800,
+          "tick": 800,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -10201,7 +10201,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 800,
+          "tick": 800,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -10209,7 +10209,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 816,
+          "tick": 816,
           "length": 16,
           "octave": 4,
           "degree": 11,
@@ -10217,7 +10217,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 816,
+          "tick": 816,
           "length": 16,
           "octave": 4,
           "degree": 9,
@@ -10225,7 +10225,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 816,
+          "tick": 816,
           "length": 16,
           "octave": 4,
           "degree": 3,
@@ -10233,7 +10233,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 816,
+          "tick": 816,
           "length": 16,
           "octave": 2,
           "degree": 6,
@@ -10241,7 +10241,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 816,
+          "tick": 816,
           "length": 16,
           "octave": 3,
           "degree": 11,
@@ -10249,7 +10249,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 816,
+          "tick": 816,
           "length": 16,
           "octave": 3,
           "degree": 6,
@@ -10257,7 +10257,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 832,
+          "tick": 832,
           "length": 16,
           "octave": 3,
           "degree": 8,
@@ -10265,7 +10265,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 832,
+          "tick": 832,
           "length": 16,
           "octave": 2,
           "degree": 8,
@@ -10273,7 +10273,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 832,
+          "tick": 832,
           "length": 40,
           "octave": 3,
           "degree": 11,
@@ -10281,7 +10281,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 832,
+          "tick": 832,
           "length": 24,
           "octave": 4,
           "degree": 11,
@@ -10289,7 +10289,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 832,
+          "tick": 832,
           "length": 32,
           "octave": 4,
           "degree": 4,
@@ -10297,7 +10297,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 848,
+          "tick": 848,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -10305,7 +10305,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 848,
+          "tick": 848,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -10313,7 +10313,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 856,
+          "tick": 856,
           "length": 8,
           "octave": 4,
           "degree": 8,
@@ -10321,7 +10321,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 864,
+          "tick": 864,
           "length": 8,
           "octave": 4,
           "degree": 4,
@@ -10329,7 +10329,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 864,
+          "tick": 864,
           "length": 16,
           "octave": 3,
           "degree": 6,
@@ -10337,7 +10337,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 864,
+          "tick": 864,
           "length": 16,
           "octave": 2,
           "degree": 6,
@@ -10345,7 +10345,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 872,
+          "tick": 872,
           "length": 8,
           "octave": 4,
           "degree": 4,
@@ -10353,7 +10353,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 872,
+          "tick": 872,
           "length": 24,
           "octave": 3,
           "degree": 11,
@@ -10361,7 +10361,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 880,
+          "tick": 880,
           "length": 16,
           "octave": 3,
           "degree": 8,
@@ -10369,7 +10369,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 880,
+          "tick": 880,
           "length": 16,
           "octave": 2,
           "degree": 8,
@@ -10377,7 +10377,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 880,
+          "tick": 880,
           "length": 8,
           "octave": 4,
           "degree": 3,
@@ -10385,7 +10385,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 888,
+          "tick": 888,
           "length": 8,
           "octave": 4,
           "degree": 4,
@@ -10393,7 +10393,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 896,
+          "tick": 896,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -10401,7 +10401,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 896,
+          "tick": 896,
           "length": 16,
           "octave": 3,
           "degree": 9,
@@ -10409,7 +10409,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 896,
+          "tick": 896,
           "length": 16,
           "octave": 4,
           "degree": 4,
@@ -10417,7 +10417,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 896,
+          "tick": 896,
           "length": 32,
           "octave": 5,
           "degree": 1,
@@ -10425,7 +10425,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 896,
+          "tick": 896,
           "length": 32,
           "octave": 4,
           "degree": 1,
@@ -10433,7 +10433,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 912,
+          "tick": 912,
           "length": 16,
           "octave": 2,
           "degree": 8,
@@ -10441,7 +10441,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 912,
+          "tick": 912,
           "length": 16,
           "octave": 3,
           "degree": 8,
@@ -10449,7 +10449,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 912,
+          "tick": 912,
           "length": 16,
           "octave": 4,
           "degree": 5,
@@ -10457,7 +10457,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 928,
+          "tick": 928,
           "length": 16,
           "octave": 2,
           "degree": 6,
@@ -10465,7 +10465,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 928,
+          "tick": 928,
           "length": 16,
           "octave": 3,
           "degree": 6,
@@ -10473,7 +10473,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 928,
+          "tick": 928,
           "length": 16,
           "octave": 4,
           "degree": 1,
@@ -10481,7 +10481,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 928,
+          "tick": 928,
           "length": 16,
           "octave": 4,
           "degree": 6,
@@ -10489,7 +10489,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 928,
+          "tick": 928,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -10497,7 +10497,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 936,
+          "tick": 936,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -10505,7 +10505,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 944,
+          "tick": 944,
           "length": 16,
           "octave": 2,
           "degree": 3,
@@ -10513,7 +10513,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 944,
+          "tick": 944,
           "length": 16,
           "octave": 3,
           "degree": 3,
@@ -10521,7 +10521,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 944,
+          "tick": 944,
           "length": 16,
           "octave": 3,
           "degree": 11,
@@ -10529,7 +10529,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 944,
+          "tick": 944,
           "length": 8,
           "octave": 4,
           "degree": 8,
@@ -10537,7 +10537,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 952,
+          "tick": 952,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -10545,7 +10545,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 960,
+          "tick": 960,
           "length": 16,
           "octave": 2,
           "degree": 8,
@@ -10553,7 +10553,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 960,
+          "tick": 960,
           "length": 16,
           "octave": 4,
           "degree": 4,
@@ -10561,7 +10561,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 960,
+          "tick": 960,
           "length": 16,
           "octave": 3,
           "degree": 11,
@@ -10569,7 +10569,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 960,
+          "tick": 960,
           "length": 16,
           "octave": 3,
           "degree": 8,
@@ -10577,7 +10577,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 960,
+          "tick": 960,
           "length": 16,
           "octave": 4,
           "degree": 11,
@@ -10585,7 +10585,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 976,
+          "tick": 976,
           "length": 16,
           "octave": 4,
           "degree": 11,
@@ -10593,7 +10593,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 976,
+          "tick": 976,
           "length": 16,
           "octave": 4,
           "degree": 5,
@@ -10601,7 +10601,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 976,
+          "tick": 976,
           "length": 16,
           "octave": 3,
           "degree": 11,
@@ -10609,7 +10609,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 976,
+          "tick": 976,
           "length": 16,
           "octave": 2,
           "degree": 1,
@@ -10617,7 +10617,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 976,
+          "tick": 976,
           "length": 16,
           "octave": 3,
           "degree": 1,
@@ -10625,7 +10625,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 992,
+          "tick": 992,
           "length": 16,
           "octave": 4,
           "degree": 9,
@@ -10633,7 +10633,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 992,
+          "tick": 992,
           "length": 16,
           "octave": 4,
           "degree": 6,
@@ -10641,7 +10641,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 992,
+          "tick": 992,
           "length": 16,
           "octave": 4,
           "degree": 1,
@@ -10649,7 +10649,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 992,
+          "tick": 992,
           "length": 16,
           "octave": 2,
           "degree": 6,
@@ -10657,7 +10657,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 992,
+          "tick": 992,
           "length": 16,
           "octave": 3,
           "degree": 6,
@@ -10665,7 +10665,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1008,
+          "tick": 1008,
           "length": 16,
           "octave": 2,
           "degree": 11,
@@ -10673,7 +10673,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1008,
+          "tick": 1008,
           "length": 16,
           "octave": 1,
           "degree": 11,
@@ -10681,7 +10681,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1008,
+          "tick": 1008,
           "length": 16,
           "octave": 4,
           "degree": 3,
@@ -10689,7 +10689,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1008,
+          "tick": 1008,
           "length": 16,
           "octave": 4,
           "degree": 6,
@@ -10697,7 +10697,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1008,
+          "tick": 1008,
           "length": 16,
           "octave": 3,
           "degree": 9,
@@ -10705,7 +10705,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1024,
+          "tick": 1024,
           "length": 16,
           "octave": 3,
           "degree": 8,
@@ -10713,7 +10713,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1024,
+          "tick": 1024,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -10721,7 +10721,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1024,
+          "tick": 1024,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -10729,7 +10729,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1024,
+          "tick": 1024,
           "length": 48,
           "octave": 4,
           "degree": 4,
@@ -10737,7 +10737,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1024,
+          "tick": 1024,
           "length": 16,
           "octave": 3,
           "degree": 11,
@@ -10745,7 +10745,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1040,
+          "tick": 1040,
           "length": 16,
           "octave": 3,
           "degree": 8,
@@ -10753,7 +10753,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1040,
+          "tick": 1040,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -10761,7 +10761,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1040,
+          "tick": 1040,
           "length": 32,
           "octave": 2,
           "degree": 4,
@@ -10769,7 +10769,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1040,
+          "tick": 1040,
           "length": 32,
           "octave": 1,
           "degree": 4,
@@ -10777,7 +10777,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1040,
+          "tick": 1040,
           "length": 16,
           "octave": 4,
           "degree": 1,
@@ -10785,7 +10785,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1056,
+          "tick": 1056,
           "length": 16,
           "octave": 3,
           "degree": 6,
@@ -10793,7 +10793,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1056,
+          "tick": 1056,
           "length": 16,
           "octave": 4,
           "degree": 2,
@@ -10801,7 +10801,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1056,
+          "tick": 1056,
           "length": 16,
           "octave": 3,
           "degree": 9,
@@ -10809,7 +10809,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1072,
+          "tick": 1072,
           "length": 12,
           "octave": 4,
           "degree": 1,
@@ -10817,7 +10817,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1072,
+          "tick": 1072,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -10825,7 +10825,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1072,
+          "tick": 1072,
           "length": 12,
           "octave": 5,
           "degree": 1,
@@ -10833,7 +10833,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1072,
+          "tick": 1072,
           "length": 12,
           "octave": 4,
           "degree": 4,
@@ -10841,7 +10841,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1074,
+          "tick": 1074,
           "length": 13,
           "octave": 3,
           "degree": 8,
@@ -10849,7 +10849,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1084,
+          "tick": 1084,
           "length": 4,
           "octave": 4,
           "degree": 11,
@@ -10857,7 +10857,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1084,
+          "tick": 1084,
           "length": 4,
           "octave": 3,
           "degree": 11,
@@ -10865,7 +10865,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1084,
+          "tick": 1084,
           "length": 4,
           "octave": 4,
           "degree": 2,
@@ -10873,7 +10873,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1088,
+          "tick": 1088,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -10881,7 +10881,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1088,
+          "tick": 1088,
           "length": 32,
           "octave": 3,
           "degree": 9,
@@ -10889,7 +10889,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1088,
+          "tick": 1088,
           "length": 32,
           "octave": 4,
           "degree": 1,
@@ -10897,7 +10897,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1088,
+          "tick": 1088,
           "length": 32,
           "octave": 4,
           "degree": 9,
@@ -10905,7 +10905,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1104,
+          "tick": 1104,
           "length": 16,
           "octave": 1,
           "degree": 9,
@@ -10913,7 +10913,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1104,
+          "tick": 1104,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -10921,7 +10921,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1120,
+          "tick": 1120,
           "length": 32,
           "octave": 4,
           "degree": 1,
@@ -10929,7 +10929,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1120,
+          "tick": 1120,
           "length": 16,
           "octave": 1,
           "degree": 11,
@@ -10937,7 +10937,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1120,
+          "tick": 1120,
           "length": 16,
           "octave": 2,
           "degree": 11,
@@ -10945,7 +10945,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1120,
+          "tick": 1120,
           "length": 32,
           "octave": 3,
           "degree": 9,
@@ -10953,7 +10953,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1120,
+          "tick": 1120,
           "length": 32,
           "octave": 4,
           "degree": 4,
@@ -10961,7 +10961,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1136,
+          "tick": 1136,
           "length": 16,
           "octave": 2,
           "degree": 1,
@@ -10969,7 +10969,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1136,
+          "tick": 1136,
           "length": 16,
           "octave": 3,
           "degree": 1,
@@ -10977,7 +10977,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1152,
+          "tick": 1152,
           "length": 32,
           "octave": 4,
           "degree": 2,
@@ -10985,7 +10985,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1152,
+          "tick": 1152,
           "length": 16,
           "octave": 2,
           "degree": 2,
@@ -10993,7 +10993,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1152,
+          "tick": 1152,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -11001,7 +11001,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1152,
+          "tick": 1152,
           "length": 32,
           "octave": 3,
           "degree": 9,
@@ -11009,7 +11009,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1152,
+          "tick": 1152,
           "length": 32,
           "octave": 4,
           "degree": 6,
@@ -11017,7 +11017,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1168,
+          "tick": 1168,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -11025,7 +11025,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1168,
+          "tick": 1168,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -11033,7 +11033,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1184,
+          "tick": 1184,
           "length": 16,
           "octave": 4,
           "degree": 2,
@@ -11041,7 +11041,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1184,
+          "tick": 1184,
           "length": 16,
           "octave": 3,
           "degree": 9,
@@ -11049,7 +11049,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1184,
+          "tick": 1184,
           "length": 16,
           "octave": 2,
           "degree": 6,
@@ -11057,7 +11057,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1184,
+          "tick": 1184,
           "length": 16,
           "octave": 3,
           "degree": 6,
@@ -11065,7 +11065,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1200,
+          "tick": 1200,
           "length": 12,
           "octave": 4,
           "degree": 11,
@@ -11073,7 +11073,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1200,
+          "tick": 1200,
           "length": 16,
           "octave": 4,
           "degree": 6,
@@ -11081,7 +11081,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1200,
+          "tick": 1200,
           "length": 16,
           "octave": 4,
           "degree": 2,
@@ -11089,7 +11089,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1200,
+          "tick": 1200,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -11097,7 +11097,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1200,
+          "tick": 1200,
           "length": 16,
           "octave": 2,
           "degree": 2,
@@ -11105,7 +11105,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1212,
+          "tick": 1212,
           "length": 4,
           "octave": 4,
           "degree": 9,
@@ -11113,7 +11113,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1216,
+          "tick": 1216,
           "length": 32,
           "octave": 4,
           "degree": 2,
@@ -11121,7 +11121,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1216,
+          "tick": 1216,
           "length": 32,
           "octave": 3,
           "degree": 11,
@@ -11129,7 +11129,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1216,
+          "tick": 1216,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -11137,7 +11137,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1216,
+          "tick": 1216,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -11145,7 +11145,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1216,
+          "tick": 1216,
           "length": 32,
           "octave": 4,
           "degree": 8,
@@ -11153,7 +11153,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1232,
+          "tick": 1232,
           "length": 16,
           "octave": 1,
           "degree": 4,
@@ -11161,7 +11161,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1232,
+          "tick": 1232,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -11169,7 +11169,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1248,
+          "tick": 1248,
           "length": 16,
           "octave": 2,
           "degree": 6,
@@ -11177,7 +11177,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1248,
+          "tick": 1248,
           "length": 24,
           "octave": 4,
           "degree": 6,
@@ -11185,7 +11185,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1248,
+          "tick": 1248,
           "length": 32,
           "octave": 4,
           "degree": 2,
@@ -11193,7 +11193,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1248,
+          "tick": 1248,
           "length": 16,
           "octave": 1,
           "degree": 6,
@@ -11201,7 +11201,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1248,
+          "tick": 1248,
           "length": 16,
           "octave": 3,
           "degree": 9,
@@ -11209,7 +11209,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1264,
+          "tick": 1264,
           "length": 16,
           "octave": 3,
           "degree": 11,
@@ -11217,7 +11217,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1264,
+          "tick": 1264,
           "length": 16,
           "octave": 1,
           "degree": 8,
@@ -11225,7 +11225,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1264,
+          "tick": 1264,
           "length": 16,
           "octave": 2,
           "degree": 8,
@@ -11233,7 +11233,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1272,
+          "tick": 1272,
           "length": 8,
           "octave": 4,
           "degree": 4,
@@ -11241,7 +11241,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1280,
+          "tick": 1280,
           "length": 48,
           "octave": 4,
           "degree": 4,
@@ -11249,7 +11249,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1280,
+          "tick": 1280,
           "length": 16,
           "octave": 1,
           "degree": 9,
@@ -11257,7 +11257,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1280,
+          "tick": 1280,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -11265,7 +11265,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1280,
+          "tick": 1280,
           "length": 48,
           "octave": 3,
           "degree": 9,
@@ -11273,7 +11273,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1280,
+          "tick": 1280,
           "length": 48,
           "octave": 4,
           "degree": 1,
@@ -11281,7 +11281,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1296,
+          "tick": 1296,
           "length": 16,
           "octave": 1,
           "degree": 11,
@@ -11289,7 +11289,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1296,
+          "tick": 1296,
           "length": 16,
           "octave": 2,
           "degree": 11,
@@ -11297,7 +11297,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1312,
+          "tick": 1312,
           "length": 16,
           "octave": 3,
           "degree": 1,
@@ -11305,7 +11305,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1312,
+          "tick": 1312,
           "length": 16,
           "octave": 2,
           "degree": 1,
@@ -11313,7 +11313,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1328,
+          "tick": 1328,
           "length": 16,
           "octave": 4,
           "degree": 4,
@@ -11321,7 +11321,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1328,
+          "tick": 1328,
           "length": 16,
           "octave": 4,
           "degree": 2,
@@ -11329,7 +11329,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1328,
+          "tick": 1328,
           "length": 16,
           "octave": 3,
           "degree": 8,
@@ -11337,7 +11337,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1328,
+          "tick": 1328,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -11345,7 +11345,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1328,
+          "tick": 1328,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -11353,7 +11353,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1344,
+          "tick": 1344,
           "length": 32,
           "octave": 4,
           "degree": 9,
@@ -11361,7 +11361,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1344,
+          "tick": 1344,
           "length": 24,
           "octave": 5,
           "degree": 1,
@@ -11369,7 +11369,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1344,
+          "tick": 1344,
           "length": 32,
           "octave": 4,
           "degree": 4,
@@ -11377,7 +11377,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1344,
+          "tick": 1344,
           "length": 32,
           "octave": 4,
           "degree": 1,
@@ -11385,7 +11385,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1344,
+          "tick": 1344,
           "length": 16,
           "octave": 1,
           "degree": 9,
@@ -11393,7 +11393,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1344,
+          "tick": 1344,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -11401,7 +11401,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1360,
+          "tick": 1360,
           "length": 16,
           "octave": 3,
           "degree": 1,
@@ -11409,7 +11409,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1360,
+          "tick": 1360,
           "length": 16,
           "octave": 2,
           "degree": 1,
@@ -11417,7 +11417,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1368,
+          "tick": 1368,
           "length": 8,
           "octave": 5,
           "degree": 1,
@@ -11425,7 +11425,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1376,
+          "tick": 1376,
           "length": 16,
           "octave": 3,
           "degree": 11,
@@ -11433,7 +11433,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1376,
+          "tick": 1376,
           "length": 32,
           "octave": 2,
           "degree": 4,
@@ -11441,7 +11441,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1376,
+          "tick": 1376,
           "length": 32,
           "octave": 3,
           "degree": 4,
@@ -11449,7 +11449,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1376,
+          "tick": 1376,
           "length": 16,
           "octave": 4,
           "degree": 4,
@@ -11457,7 +11457,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1376,
+          "tick": 1376,
           "length": 16,
           "octave": 4,
           "degree": 11,
@@ -11465,7 +11465,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1376,
+          "tick": 1376,
           "length": 16,
           "octave": 4,
           "degree": 8,
@@ -11473,7 +11473,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1392,
+          "tick": 1392,
           "length": 16,
           "octave": 4,
           "degree": 4,
@@ -11481,7 +11481,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1408,
+          "tick": 1408,
           "length": 16,
           "octave": 1,
           "degree": 6,
@@ -11489,7 +11489,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1408,
+          "tick": 1408,
           "length": 16,
           "octave": 2,
           "degree": 6,
@@ -11497,7 +11497,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1408,
+          "tick": 1408,
           "length": 32,
           "octave": 4,
           "degree": 9,
@@ -11505,7 +11505,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1408,
+          "tick": 1408,
           "length": 32,
           "octave": 3,
           "degree": 9,
@@ -11513,7 +11513,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1408,
+          "tick": 1408,
           "length": 32,
           "octave": 4,
           "degree": 1,
@@ -11521,7 +11521,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1408,
+          "tick": 1408,
           "length": 32,
           "octave": 4,
           "degree": 6,
@@ -11529,7 +11529,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1424,
+          "tick": 1424,
           "length": 16,
           "octave": 1,
           "degree": 9,
@@ -11537,7 +11537,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1424,
+          "tick": 1424,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -11545,7 +11545,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1440,
+          "tick": 1440,
           "length": 16,
           "octave": 4,
           "degree": 8,
@@ -11553,7 +11553,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1440,
+          "tick": 1440,
           "length": 16,
           "octave": 4,
           "degree": 4,
@@ -11561,7 +11561,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1440,
+          "tick": 1440,
           "length": 16,
           "octave": 4,
           "degree": 1,
@@ -11569,7 +11569,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1440,
+          "tick": 1440,
           "length": 16,
           "octave": 3,
           "degree": 8,
@@ -11577,7 +11577,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1440,
+          "tick": 1440,
           "length": 32,
           "octave": 2,
           "degree": 1,
@@ -11585,7 +11585,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1440,
+          "tick": 1440,
           "length": 32,
           "octave": 3,
           "degree": 1,
@@ -11593,7 +11593,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1464,
+          "tick": 1464,
           "length": 8,
           "octave": 4,
           "degree": 8,
@@ -11601,7 +11601,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1472,
+          "tick": 1472,
           "length": 24,
           "octave": 4,
           "degree": 6,
@@ -11609,7 +11609,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1472,
+          "tick": 1472,
           "length": 48,
           "octave": 4,
           "degree": 4,
@@ -11617,7 +11617,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1472,
+          "tick": 1472,
           "length": 48,
           "octave": 4,
           "degree": 1,
@@ -11625,7 +11625,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1472,
+          "tick": 1472,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -11633,7 +11633,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1472,
+          "tick": 1472,
           "length": 16,
           "octave": 1,
           "degree": 9,
@@ -11641,7 +11641,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1488,
+          "tick": 1488,
           "length": 16,
           "octave": 2,
           "degree": 6,
@@ -11649,7 +11649,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1488,
+          "tick": 1488,
           "length": 16,
           "octave": 1,
           "degree": 6,
@@ -11657,7 +11657,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1496,
+          "tick": 1496,
           "length": 8,
           "octave": 4,
           "degree": 5,
@@ -11665,7 +11665,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1504,
+          "tick": 1504,
           "length": 16,
           "octave": 4,
           "degree": 6,
@@ -11673,7 +11673,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1504,
+          "tick": 1504,
           "length": 16,
           "octave": 3,
           "degree": 6,
@@ -11681,7 +11681,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1504,
+          "tick": 1504,
           "length": 16,
           "octave": 2,
           "degree": 6,
@@ -11689,7 +11689,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1520,
+          "tick": 1520,
           "length": 16,
           "octave": 4,
           "degree": 11,
@@ -11697,7 +11697,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1520,
+          "tick": 1520,
           "length": 16,
           "octave": 4,
           "degree": 9,
@@ -11705,7 +11705,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1520,
+          "tick": 1520,
           "length": 16,
           "octave": 4,
           "degree": 3,
@@ -11713,7 +11713,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1520,
+          "tick": 1520,
           "length": 16,
           "octave": 1,
           "degree": 11,
@@ -11721,7 +11721,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1520,
+          "tick": 1520,
           "length": 16,
           "octave": 3,
           "degree": 11,
@@ -11729,7 +11729,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1520,
+          "tick": 1520,
           "length": 16,
           "octave": 2,
           "degree": 11,
@@ -11737,7 +11737,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1536,
+          "tick": 1536,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -11745,7 +11745,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1536,
+          "tick": 1536,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -11753,7 +11753,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1536,
+          "tick": 1536,
           "length": 48,
           "octave": 3,
           "degree": 11,
@@ -11761,7 +11761,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1536,
+          "tick": 1536,
           "length": 48,
           "octave": 4,
           "degree": 2,
@@ -11769,7 +11769,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1536,
+          "tick": 1536,
           "length": 48,
           "octave": 4,
           "degree": 8,
@@ -11777,7 +11777,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1536,
+          "tick": 1536,
           "length": 48,
           "octave": 4,
           "degree": 11,
@@ -11785,7 +11785,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1552,
+          "tick": 1552,
           "length": 16,
           "octave": 2,
           "degree": 11,
@@ -11793,7 +11793,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1552,
+          "tick": 1552,
           "length": 16,
           "octave": 1,
           "degree": 11,
@@ -11801,7 +11801,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1568,
+          "tick": 1568,
           "length": 16,
           "octave": 1,
           "degree": 4,
@@ -11809,7 +11809,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1568,
+          "tick": 1568,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -11817,7 +11817,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1584,
+          "tick": 1584,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -11825,7 +11825,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1584,
+          "tick": 1584,
           "length": 12,
           "octave": 4,
           "degree": 4,
@@ -11833,7 +11833,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1584,
+          "tick": 1584,
           "length": 12,
           "octave": 5,
           "degree": 1,
@@ -11841,7 +11841,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1584,
+          "tick": 1584,
           "length": 12,
           "octave": 4,
           "degree": 8,
@@ -11849,7 +11849,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1586,
+          "tick": 1586,
           "length": 13,
           "octave": 3,
           "degree": 8,
@@ -11857,7 +11857,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1596,
+          "tick": 1596,
           "length": 4,
           "octave": 4,
           "degree": 11,
@@ -11865,7 +11865,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1596,
+          "tick": 1596,
           "length": 4,
           "octave": 4,
           "degree": 8,
@@ -11873,7 +11873,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1596,
+          "tick": 1596,
           "length": 4,
           "octave": 4,
           "degree": 2,
@@ -11881,7 +11881,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1600,
+          "tick": 1600,
           "length": 32,
           "octave": 4,
           "degree": 9,
@@ -11889,7 +11889,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1600,
+          "tick": 1600,
           "length": 32,
           "octave": 4,
           "degree": 4,
@@ -11897,7 +11897,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1600,
+          "tick": 1600,
           "length": 32,
           "octave": 4,
           "degree": 1,
@@ -11905,7 +11905,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1600,
+          "tick": 1600,
           "length": 16,
           "octave": 3,
           "degree": 9,
@@ -11913,7 +11913,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1600,
+          "tick": 1600,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -11921,7 +11921,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1616,
+          "tick": 1616,
           "length": 16,
           "octave": 1,
           "degree": 9,
@@ -11929,7 +11929,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1616,
+          "tick": 1616,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -11937,7 +11937,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1632,
+          "tick": 1632,
           "length": 32,
           "octave": 4,
           "degree": 4,
@@ -11945,7 +11945,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1632,
+          "tick": 1632,
           "length": 16,
           "octave": 1,
           "degree": 11,
@@ -11953,7 +11953,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1632,
+          "tick": 1632,
           "length": 16,
           "octave": 2,
           "degree": 11,
@@ -11961,7 +11961,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1632,
+          "tick": 1632,
           "length": 32,
           "octave": 4,
           "degree": 1,
@@ -11969,7 +11969,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1632,
+          "tick": 1632,
           "length": 32,
           "octave": 3,
           "degree": 9,
@@ -11977,7 +11977,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1648,
+          "tick": 1648,
           "length": 16,
           "octave": 2,
           "degree": 1,
@@ -11985,7 +11985,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1648,
+          "tick": 1648,
           "length": 16,
           "octave": 3,
           "degree": 1,
@@ -11993,7 +11993,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1664,
+          "tick": 1664,
           "length": 32,
           "octave": 4,
           "degree": 6,
@@ -12001,7 +12001,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1664,
+          "tick": 1664,
           "length": 32,
           "octave": 4,
           "degree": 2,
@@ -12009,7 +12009,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1664,
+          "tick": 1664,
           "length": 16,
           "octave": 2,
           "degree": 2,
@@ -12017,7 +12017,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1664,
+          "tick": 1664,
           "length": 32,
           "octave": 3,
           "degree": 9,
@@ -12025,7 +12025,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1664,
+          "tick": 1664,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -12033,7 +12033,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1680,
+          "tick": 1680,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -12041,7 +12041,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1680,
+          "tick": 1680,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -12049,7 +12049,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1696,
+          "tick": 1696,
           "length": 16,
           "octave": 3,
           "degree": 9,
@@ -12057,7 +12057,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1696,
+          "tick": 1696,
           "length": 16,
           "octave": 2,
           "degree": 6,
@@ -12065,7 +12065,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1696,
+          "tick": 1696,
           "length": 16,
           "octave": 3,
           "degree": 6,
@@ -12073,7 +12073,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1696,
+          "tick": 1696,
           "length": 16,
           "octave": 4,
           "degree": 2,
@@ -12081,7 +12081,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1712,
+          "tick": 1712,
           "length": 12,
           "octave": 4,
           "degree": 11,
@@ -12089,7 +12089,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1712,
+          "tick": 1712,
           "length": 16,
           "octave": 2,
           "degree": 2,
@@ -12097,7 +12097,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1712,
+          "tick": 1712,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -12105,7 +12105,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1712,
+          "tick": 1712,
           "length": 16,
           "octave": 4,
           "degree": 2,
@@ -12113,7 +12113,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1712,
+          "tick": 1712,
           "length": 16,
           "octave": 4,
           "degree": 6,
@@ -12121,7 +12121,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1724,
+          "tick": 1724,
           "length": 4,
           "octave": 4,
           "degree": 9,
@@ -12129,7 +12129,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1728,
+          "tick": 1728,
           "length": 32,
           "octave": 4,
           "degree": 8,
@@ -12137,7 +12137,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1728,
+          "tick": 1728,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -12145,7 +12145,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1728,
+          "tick": 1728,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -12153,7 +12153,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1728,
+          "tick": 1728,
           "length": 32,
           "octave": 3,
           "degree": 11,
@@ -12161,7 +12161,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1728,
+          "tick": 1728,
           "length": 32,
           "octave": 4,
           "degree": 2,
@@ -12169,7 +12169,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1744,
+          "tick": 1744,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -12177,7 +12177,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1744,
+          "tick": 1744,
           "length": 16,
           "octave": 1,
           "degree": 4,
@@ -12185,7 +12185,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1760,
+          "tick": 1760,
           "length": 16,
           "octave": 3,
           "degree": 9,
@@ -12193,7 +12193,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1760,
+          "tick": 1760,
           "length": 24,
           "octave": 4,
           "degree": 6,
@@ -12201,7 +12201,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1760,
+          "tick": 1760,
           "length": 32,
           "octave": 4,
           "degree": 2,
@@ -12209,7 +12209,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1760,
+          "tick": 1760,
           "length": 16,
           "octave": 1,
           "degree": 6,
@@ -12217,7 +12217,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1760,
+          "tick": 1760,
           "length": 16,
           "octave": 2,
           "degree": 6,
@@ -12225,7 +12225,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1776,
+          "tick": 1776,
           "length": 16,
           "octave": 3,
           "degree": 11,
@@ -12233,7 +12233,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1776,
+          "tick": 1776,
           "length": 16,
           "octave": 2,
           "degree": 8,
@@ -12241,7 +12241,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1776,
+          "tick": 1776,
           "length": 16,
           "octave": 1,
           "degree": 8,
@@ -12249,7 +12249,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1784,
+          "tick": 1784,
           "length": 8,
           "octave": 4,
           "degree": 4,
@@ -12257,7 +12257,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1792,
+          "tick": 1792,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -12265,7 +12265,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1792,
+          "tick": 1792,
           "length": 16,
           "octave": 1,
           "degree": 9,
@@ -12273,7 +12273,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1792,
+          "tick": 1792,
           "length": 48,
           "octave": 4,
           "degree": 1,
@@ -12281,7 +12281,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1792,
+          "tick": 1792,
           "length": 48,
           "octave": 4,
           "degree": 4,
@@ -12289,7 +12289,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1792,
+          "tick": 1792,
           "length": 48,
           "octave": 5,
           "degree": 1,
@@ -12297,7 +12297,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1808,
+          "tick": 1808,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -12305,7 +12305,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1808,
+          "tick": 1808,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -12313,7 +12313,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1824,
+          "tick": 1824,
           "length": 16,
           "octave": 3,
           "degree": 9,
@@ -12321,7 +12321,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1824,
+          "tick": 1824,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -12329,7 +12329,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1840,
+          "tick": 1840,
           "length": 16,
           "octave": 4,
           "degree": 1,
@@ -12337,7 +12337,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1840,
+          "tick": 1840,
           "length": 16,
           "octave": 4,
           "degree": 4,
@@ -12345,7 +12345,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1840,
+          "tick": 1840,
           "length": 16,
           "octave": 5,
           "degree": 1,
@@ -12353,7 +12353,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1856,
+          "tick": 1856,
           "length": 24,
           "octave": 5,
           "degree": 4,
@@ -12361,7 +12361,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1856,
+          "tick": 1856,
           "length": 24,
           "octave": 4,
           "degree": 10,
@@ -12369,7 +12369,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1856,
+          "tick": 1856,
           "length": 24,
           "octave": 4,
           "degree": 4,
@@ -12377,7 +12377,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1856,
+          "tick": 1856,
           "length": 24,
           "octave": 2,
           "degree": 6,
@@ -12385,7 +12385,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1856,
+          "tick": 1856,
           "length": 24,
           "octave": 1,
           "degree": 6,
@@ -12393,7 +12393,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1872,
+          "tick": 1872,
           "length": 8,
           "octave": 4,
           "degree": 4,
@@ -12401,7 +12401,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1872,
+          "tick": 1872,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -12409,7 +12409,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1872,
+          "tick": 1872,
           "length": 16,
           "octave": 3,
           "degree": 6,
@@ -12417,7 +12417,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1880,
+          "tick": 1880,
           "length": 8,
           "octave": 4,
           "degree": 10,
@@ -12425,7 +12425,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1880,
+          "tick": 1880,
           "length": 8,
           "octave": 2,
           "degree": 1,
@@ -12433,7 +12433,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1880,
+          "tick": 1880,
           "length": 8,
           "octave": 3,
           "degree": 1,
@@ -12441,7 +12441,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1880,
+          "tick": 1880,
           "length": 8,
           "octave": 4,
           "degree": 4,
@@ -12449,7 +12449,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1880,
+          "tick": 1880,
           "length": 8,
           "octave": 5,
           "degree": 4,
@@ -12457,7 +12457,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1888,
+          "tick": 1888,
           "length": 16,
           "octave": 4,
           "degree": 6,
@@ -12465,7 +12465,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1888,
+          "tick": 1888,
           "length": 16,
           "octave": 4,
           "degree": 2,
@@ -12473,7 +12473,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1888,
+          "tick": 1888,
           "length": 16,
           "octave": 5,
           "degree": 2,
@@ -12481,7 +12481,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1888,
+          "tick": 1888,
           "length": 16,
           "octave": 3,
           "degree": 6,
@@ -12489,7 +12489,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1888,
+          "tick": 1888,
           "length": 16,
           "octave": 2,
           "degree": 6,
@@ -12497,7 +12497,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1904,
+          "tick": 1904,
           "length": 16,
           "octave": 5,
           "degree": 1,
@@ -12505,7 +12505,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1904,
+          "tick": 1904,
           "length": 16,
           "octave": 4,
           "degree": 6,
@@ -12513,7 +12513,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1904,
+          "tick": 1904,
           "length": 16,
           "octave": 4,
           "degree": 1,
@@ -12521,7 +12521,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1904,
+          "tick": 1904,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -12529,7 +12529,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1904,
+          "tick": 1904,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -12537,7 +12537,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1920,
+          "tick": 1920,
           "length": 8,
           "octave": 4,
           "degree": 11,
@@ -12545,7 +12545,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1920,
+          "tick": 1920,
           "length": 8,
           "octave": 4,
           "degree": 6,
@@ -12553,7 +12553,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1920,
+          "tick": 1920,
           "length": 8,
           "octave": 3,
           "degree": 11,
@@ -12561,7 +12561,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1920,
+          "tick": 1920,
           "length": 8,
           "octave": 4,
           "degree": 2,
@@ -12569,7 +12569,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1920,
+          "tick": 1920,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -12577,7 +12577,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1920,
+          "tick": 1920,
           "length": 16,
           "octave": 2,
           "degree": 2,
@@ -12585,7 +12585,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1928,
+          "tick": 1928,
           "length": 8,
           "octave": 4,
           "degree": 10,
@@ -12593,7 +12593,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1928,
+          "tick": 1928,
           "length": 8,
           "octave": 3,
           "degree": 10,
@@ -12601,7 +12601,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1936,
+          "tick": 1936,
           "length": 16,
           "octave": 2,
           "degree": 1,
@@ -12609,7 +12609,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1936,
+          "tick": 1936,
           "length": 8,
           "octave": 4,
           "degree": 11,
@@ -12617,7 +12617,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1936,
+          "tick": 1936,
           "length": 8,
           "octave": 4,
           "degree": 4,
@@ -12625,7 +12625,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1936,
+          "tick": 1936,
           "length": 8,
           "octave": 3,
           "degree": 11,
@@ -12633,7 +12633,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1936,
+          "tick": 1936,
           "length": 8,
           "octave": 4,
           "degree": 6,
@@ -12641,7 +12641,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1936,
+          "tick": 1936,
           "length": 16,
           "octave": 3,
           "degree": 1,
@@ -12649,7 +12649,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1944,
+          "tick": 1944,
           "length": 8,
           "octave": 5,
           "degree": 1,
@@ -12657,7 +12657,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1944,
+          "tick": 1944,
           "length": 8,
           "octave": 4,
           "degree": 1,
@@ -12665,7 +12665,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1952,
+          "tick": 1952,
           "length": 16,
           "octave": 4,
           "degree": 11,
@@ -12673,7 +12673,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1952,
+          "tick": 1952,
           "length": 16,
           "octave": 1,
           "degree": 11,
@@ -12681,7 +12681,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1952,
+          "tick": 1952,
           "length": 16,
           "octave": 2,
           "degree": 11,
@@ -12689,7 +12689,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1952,
+          "tick": 1952,
           "length": 16,
           "octave": 4,
           "degree": 2,
@@ -12697,7 +12697,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1952,
+          "tick": 1952,
           "length": 16,
           "octave": 4,
           "degree": 6,
@@ -12705,7 +12705,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1952,
+          "tick": 1952,
           "length": 16,
           "octave": 5,
           "degree": 2,
@@ -12713,7 +12713,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1968,
+          "tick": 1968,
           "length": 16,
           "octave": 2,
           "degree": 2,
@@ -12721,7 +12721,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1968,
+          "tick": 1968,
           "length": 16,
           "octave": 1,
           "degree": 2,
@@ -12729,7 +12729,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1976,
+          "tick": 1976,
           "length": 8,
           "octave": 4,
           "degree": 11,
@@ -12737,7 +12737,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1976,
+          "tick": 1976,
           "length": 8,
           "octave": 5,
           "degree": 2,
@@ -12745,7 +12745,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1976,
+          "tick": 1976,
           "length": 8,
           "octave": 4,
           "degree": 6,
@@ -12753,7 +12753,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1976,
+          "tick": 1976,
           "length": 8,
           "octave": 4,
           "degree": 2,
@@ -12761,7 +12761,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1984,
+          "tick": 1984,
           "length": 24,
           "octave": 5,
           "degree": 1,
@@ -12769,7 +12769,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1984,
+          "tick": 1984,
           "length": 24,
           "octave": 4,
           "degree": 9,
@@ -12777,7 +12777,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1984,
+          "tick": 1984,
           "length": 24,
           "octave": 4,
           "degree": 4,
@@ -12785,7 +12785,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1984,
+          "tick": 1984,
           "length": 24,
           "octave": 4,
           "degree": 1,
@@ -12793,7 +12793,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1984,
+          "tick": 1984,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -12801,7 +12801,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1984,
+          "tick": 1984,
           "length": 16,
           "octave": 1,
           "degree": 4,
@@ -12809,7 +12809,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2000,
+          "tick": 2000,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -12817,7 +12817,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2000,
+          "tick": 2000,
           "length": 16,
           "octave": 3,
           "degree": 9,
@@ -12825,7 +12825,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2000,
+          "tick": 2000,
           "length": 8,
           "octave": 4,
           "degree": 1,
@@ -12833,7 +12833,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2008,
+          "tick": 2008,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -12841,7 +12841,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2008,
+          "tick": 2008,
           "length": 8,
           "octave": 4,
           "degree": 1,
@@ -12849,7 +12849,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2008,
+          "tick": 2008,
           "length": 8,
           "octave": 4,
           "degree": 4,
@@ -12857,7 +12857,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2016,
+          "tick": 2016,
           "length": 16,
           "octave": 1,
           "degree": 4,
@@ -12865,7 +12865,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2016,
+          "tick": 2016,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -12873,7 +12873,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2016,
+          "tick": 2016,
           "length": 24,
           "octave": 4,
           "degree": 2,
@@ -12881,7 +12881,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2016,
+          "tick": 2016,
           "length": 24,
           "octave": 4,
           "degree": 8,
@@ -12889,7 +12889,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2016,
+          "tick": 2016,
           "length": 24,
           "octave": 4,
           "degree": 11,
@@ -12897,7 +12897,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2016,
+          "tick": 2016,
           "length": 24,
           "octave": 4,
           "degree": 4,
@@ -12905,7 +12905,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2032,
+          "tick": 2032,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -12913,7 +12913,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2032,
+          "tick": 2032,
           "length": 16,
           "octave": 3,
           "degree": 8,
@@ -12921,7 +12921,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2032,
+          "tick": 2032,
           "length": 8,
           "octave": 4,
           "degree": 2,
@@ -12929,7 +12929,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2040,
+          "tick": 2040,
           "length": 8,
           "octave": 4,
           "degree": 8,
@@ -12937,7 +12937,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2040,
+          "tick": 2040,
           "length": 8,
           "octave": 4,
           "degree": 2,
@@ -12945,7 +12945,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2040,
+          "tick": 2040,
           "length": 8,
           "octave": 4,
           "degree": 4,
@@ -12953,7 +12953,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2048,
+          "tick": 2048,
           "length": 48,
           "octave": 4,
           "degree": 9,
@@ -12961,7 +12961,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2048,
+          "tick": 2048,
           "length": 48,
           "octave": 4,
           "degree": 4,
@@ -12969,7 +12969,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2048,
+          "tick": 2048,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -12977,7 +12977,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2048,
+          "tick": 2048,
           "length": 16,
           "octave": 3,
           "degree": 9,
@@ -12985,7 +12985,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2048,
+          "tick": 2048,
           "length": 48,
           "octave": 4,
           "degree": 1,
@@ -12993,7 +12993,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2064,
+          "tick": 2064,
           "length": 16,
           "octave": 3,
           "degree": 4,
@@ -13001,7 +13001,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2064,
+          "tick": 2064,
           "length": 16,
           "octave": 2,
           "degree": 4,
@@ -13009,7 +13009,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2080,
+          "tick": 2080,
           "length": 16,
           "octave": 2,
           "degree": 9,
@@ -13017,7 +13017,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2080,
+          "tick": 2080,
           "length": 16,
           "octave": 1,
           "degree": 9,
@@ -13203,7 +13203,7 @@ export let builtin: StateDumpV1 =
       "type": "tone",
       "notes": [
         {
-          "time": 8,
+          "tick": 8,
           "length": 8,
           "octave": 4,
           "degree": 2,
@@ -13211,7 +13211,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 16,
+          "tick": 16,
           "length": 8,
           "octave": 4,
           "degree": 7,
@@ -13219,7 +13219,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 24,
+          "tick": 24,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -13227,7 +13227,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 32,
+          "tick": 32,
           "length": 8,
           "octave": 4,
           "degree": 10,
@@ -13235,7 +13235,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 32,
+          "tick": 32,
           "length": 16,
           "octave": 2,
           "degree": 7,
@@ -13243,7 +13243,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 40,
+          "tick": 40,
           "length": 32,
           "octave": 4,
           "degree": 7,
@@ -13251,7 +13251,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 48,
+          "tick": 48,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -13259,7 +13259,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 48,
+          "tick": 48,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -13267,7 +13267,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 48,
+          "tick": 48,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -13275,7 +13275,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 64,
+          "tick": 64,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -13283,7 +13283,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 64,
+          "tick": 64,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -13291,7 +13291,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 64,
+          "tick": 64,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -13299,7 +13299,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 72,
+          "tick": 72,
           "length": 8,
           "octave": 4,
           "degree": 2,
@@ -13307,7 +13307,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 80,
+          "tick": 80,
           "length": 8,
           "octave": 4,
           "degree": 7,
@@ -13315,7 +13315,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 80,
+          "tick": 80,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -13323,7 +13323,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 80,
+          "tick": 80,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -13331,7 +13331,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 80,
+          "tick": 80,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -13339,7 +13339,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 88,
+          "tick": 88,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -13347,7 +13347,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 96,
+          "tick": 96,
           "length": 8,
           "octave": 4,
           "degree": 10,
@@ -13355,7 +13355,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 96,
+          "tick": 96,
           "length": 16,
           "octave": 2,
           "degree": 7,
@@ -13363,7 +13363,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 104,
+          "tick": 104,
           "length": 32,
           "octave": 4,
           "degree": 7,
@@ -13371,7 +13371,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 112,
+          "tick": 112,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -13379,7 +13379,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 112,
+          "tick": 112,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -13387,7 +13387,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 112,
+          "tick": 112,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -13395,7 +13395,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 128,
+          "tick": 128,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -13403,7 +13403,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 128,
+          "tick": 128,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -13411,7 +13411,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 128,
+          "tick": 128,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -13419,7 +13419,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 136,
+          "tick": 136,
           "length": 8,
           "octave": 4,
           "degree": 2,
@@ -13427,7 +13427,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 144,
+          "tick": 144,
           "length": 8,
           "octave": 4,
           "degree": 7,
@@ -13435,7 +13435,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 144,
+          "tick": 144,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -13443,7 +13443,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 144,
+          "tick": 144,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -13451,7 +13451,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 144,
+          "tick": 144,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -13459,7 +13459,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 152,
+          "tick": 152,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -13467,7 +13467,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 160,
+          "tick": 160,
           "length": 16,
           "octave": 2,
           "degree": 7,
@@ -13475,7 +13475,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 160,
+          "tick": 160,
           "length": 16,
           "octave": 4,
           "degree": 10,
@@ -13483,7 +13483,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 176,
+          "tick": 176,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -13491,7 +13491,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 176,
+          "tick": 176,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -13499,7 +13499,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 176,
+          "tick": 176,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -13507,7 +13507,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 176,
+          "tick": 176,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -13515,7 +13515,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 184,
+          "tick": 184,
           "length": 8,
           "octave": 4,
           "degree": 7,
@@ -13523,7 +13523,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 192,
+          "tick": 192,
           "length": 16,
           "octave": 4,
           "degree": 10,
@@ -13531,7 +13531,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 192,
+          "tick": 192,
           "length": 16,
           "octave": 2,
           "degree": 7,
@@ -13539,7 +13539,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 208,
+          "tick": 208,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -13547,7 +13547,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 208,
+          "tick": 208,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -13555,7 +13555,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 208,
+          "tick": 208,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -13563,7 +13563,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 208,
+          "tick": 208,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -13571,7 +13571,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 216,
+          "tick": 216,
           "length": 8,
           "octave": 4,
           "degree": 7,
@@ -13579,7 +13579,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 224,
+          "tick": 224,
           "length": 16,
           "octave": 5,
           "degree": 2,
@@ -13587,7 +13587,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 224,
+          "tick": 224,
           "length": 24,
           "octave": 2,
           "degree": 7,
@@ -13595,7 +13595,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 240,
+          "tick": 240,
           "length": 16,
           "octave": 5,
           "degree": 2,
@@ -13603,7 +13603,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 240,
+          "tick": 240,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -13611,7 +13611,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 248,
+          "tick": 248,
           "length": 8,
           "octave": 2,
           "degree": 11,
@@ -13619,7 +13619,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 256,
+          "tick": 256,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -13627,7 +13627,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 256,
+          "tick": 256,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -13635,7 +13635,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 256,
+          "tick": 256,
           "length": 8,
           "octave": 5,
           "degree": 2,
@@ -13643,7 +13643,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 264,
+          "tick": 264,
           "length": 8,
           "octave": 5,
           "degree": 2,
@@ -13651,7 +13651,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 272,
+          "tick": 272,
           "length": 8,
           "octave": 3,
           "degree": 5,
@@ -13659,7 +13659,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 272,
+          "tick": 272,
           "length": 15,
           "octave": 3,
           "degree": 7,
@@ -13667,7 +13667,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 272,
+          "tick": 272,
           "length": 8,
           "octave": 5,
           "degree": 0,
@@ -13675,7 +13675,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 280,
+          "tick": 280,
           "length": 8,
           "octave": 5,
           "degree": 2,
@@ -13683,7 +13683,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 280,
+          "tick": 280,
           "length": 7,
           "octave": 3,
           "degree": 2,
@@ -13691,7 +13691,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 288,
+          "tick": 288,
           "length": 8,
           "octave": 5,
           "degree": 3,
@@ -13699,7 +13699,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 288,
+          "tick": 288,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -13707,7 +13707,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 288,
+          "tick": 288,
           "length": 16,
           "octave": 3,
           "degree": 0,
@@ -13715,7 +13715,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 296,
+          "tick": 296,
           "length": 32,
           "octave": 5,
           "degree": 3,
@@ -13723,7 +13723,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 304,
+          "tick": 304,
           "length": 16,
           "octave": 4,
           "degree": 0,
@@ -13731,7 +13731,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 304,
+          "tick": 304,
           "length": 16,
           "octave": 3,
           "degree": 3,
@@ -13739,7 +13739,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 320,
+          "tick": 320,
           "length": 16,
           "octave": 4,
           "degree": 3,
@@ -13747,7 +13747,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 320,
+          "tick": 320,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -13755,7 +13755,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 328,
+          "tick": 328,
           "length": 8,
           "octave": 5,
           "degree": 3,
@@ -13763,7 +13763,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 336,
+          "tick": 336,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -13771,7 +13771,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 336,
+          "tick": 336,
           "length": 15,
           "octave": 3,
           "degree": 3,
@@ -13779,7 +13779,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 336,
+          "tick": 336,
           "length": 8,
           "octave": 5,
           "degree": 2,
@@ -13787,7 +13787,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 344,
+          "tick": 344,
           "length": 8,
           "octave": 5,
           "degree": 0,
@@ -13795,7 +13795,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 352,
+          "tick": 352,
           "length": 8,
           "octave": 5,
           "degree": 3,
@@ -13803,7 +13803,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 352,
+          "tick": 352,
           "length": 24,
           "octave": 2,
           "degree": 7,
@@ -13811,7 +13811,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 360,
+          "tick": 360,
           "length": 24,
           "octave": 5,
           "degree": 2,
@@ -13819,7 +13819,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 368,
+          "tick": 368,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -13827,7 +13827,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 376,
+          "tick": 376,
           "length": 8,
           "octave": 2,
           "degree": 10,
@@ -13835,7 +13835,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 384,
+          "tick": 384,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -13843,7 +13843,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 384,
+          "tick": 384,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -13851,7 +13851,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 392,
+          "tick": 392,
           "length": 8,
           "octave": 5,
           "degree": 2,
@@ -13859,7 +13859,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 400,
+          "tick": 400,
           "length": 15,
           "octave": 2,
           "degree": 10,
@@ -13867,7 +13867,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 400,
+          "tick": 400,
           "length": 8,
           "octave": 5,
           "degree": 0,
@@ -13875,7 +13875,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 400,
+          "tick": 400,
           "length": 15,
           "octave": 3,
           "degree": 7,
@@ -13883,7 +13883,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 408,
+          "tick": 408,
           "length": 8,
           "octave": 4,
           "degree": 10,
@@ -13891,7 +13891,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 416,
+          "tick": 416,
           "length": 16,
           "octave": 4,
           "degree": 9,
@@ -13899,7 +13899,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 416,
+          "tick": 416,
           "length": 24,
           "octave": 3,
           "degree": 2,
@@ -13907,7 +13907,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 432,
+          "tick": 432,
           "length": 16,
           "octave": 5,
           "degree": 2,
@@ -13915,7 +13915,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 432,
+          "tick": 432,
           "length": 16,
           "octave": 3,
           "degree": 9,
@@ -13923,7 +13923,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 432,
+          "tick": 432,
           "length": 16,
           "octave": 3,
           "degree": 6,
@@ -13931,7 +13931,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 440,
+          "tick": 440,
           "length": 8,
           "octave": 2,
           "degree": 9,
@@ -13939,7 +13939,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 448,
+          "tick": 448,
           "length": 16,
           "octave": 4,
           "degree": 9,
@@ -13947,7 +13947,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 448,
+          "tick": 448,
           "length": 15,
           "octave": 3,
           "degree": 2,
@@ -13955,7 +13955,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 464,
+          "tick": 464,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -13963,7 +13963,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 464,
+          "tick": 464,
           "length": 16,
           "octave": 3,
           "degree": 6,
@@ -13971,7 +13971,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 464,
+          "tick": 464,
           "length": 16,
           "octave": 3,
           "degree": 9,
@@ -13979,7 +13979,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 464,
+          "tick": 464,
           "length": 16,
           "octave": 4,
           "degree": 10,
@@ -13987,7 +13987,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 480,
+          "tick": 480,
           "length": 24,
           "octave": 2,
           "degree": 7,
@@ -13995,7 +13995,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 480,
+          "tick": 480,
           "length": 40,
           "octave": 4,
           "degree": 7,
@@ -14003,7 +14003,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 496,
+          "tick": 496,
           "length": 16,
           "octave": 4,
           "degree": 2,
@@ -14011,7 +14011,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 496,
+          "tick": 496,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -14019,7 +14019,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 496,
+          "tick": 496,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -14027,7 +14027,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 504,
+          "tick": 504,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -14035,7 +14035,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 512,
+          "tick": 512,
           "length": 8,
           "octave": 2,
           "degree": 7,
@@ -14043,7 +14043,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 512,
+          "tick": 512,
           "length": 8,
           "octave": 3,
           "degree": 7,
@@ -14051,7 +14051,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 512,
+          "tick": 512,
           "length": 8,
           "octave": 1,
           "degree": 7,
@@ -14059,7 +14059,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 512,
+          "tick": 512,
           "length": 8,
           "octave": 3,
           "degree": 10,
@@ -14067,7 +14067,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 512,
+          "tick": 512,
           "length": 8,
           "octave": 4,
           "degree": 2,
@@ -14075,7 +14075,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 520,
+          "tick": 520,
           "length": 8,
           "octave": 4,
           "degree": 2,
@@ -14083,7 +14083,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 528,
+          "tick": 528,
           "length": 8,
           "octave": 4,
           "degree": 7,
@@ -14091,7 +14091,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 536,
+          "tick": 536,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -14099,7 +14099,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 544,
+          "tick": 544,
           "length": 8,
           "octave": 4,
           "degree": 10,
@@ -14107,7 +14107,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 544,
+          "tick": 544,
           "length": 16,
           "octave": 2,
           "degree": 7,
@@ -14115,7 +14115,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 552,
+          "tick": 552,
           "length": 32,
           "octave": 4,
           "degree": 7,
@@ -14123,7 +14123,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 560,
+          "tick": 560,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -14131,7 +14131,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 560,
+          "tick": 560,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -14139,7 +14139,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 560,
+          "tick": 560,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -14147,7 +14147,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 576,
+          "tick": 576,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -14155,7 +14155,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 576,
+          "tick": 576,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -14163,7 +14163,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 576,
+          "tick": 576,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -14171,7 +14171,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 584,
+          "tick": 584,
           "length": 8,
           "octave": 4,
           "degree": 2,
@@ -14179,7 +14179,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 592,
+          "tick": 592,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -14187,7 +14187,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 592,
+          "tick": 592,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -14195,7 +14195,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 592,
+          "tick": 592,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -14203,7 +14203,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 592,
+          "tick": 592,
           "length": 8,
           "octave": 4,
           "degree": 7,
@@ -14211,7 +14211,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 600,
+          "tick": 600,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -14219,7 +14219,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 608,
+          "tick": 608,
           "length": 16,
           "octave": 2,
           "degree": 7,
@@ -14227,7 +14227,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 608,
+          "tick": 608,
           "length": 8,
           "octave": 4,
           "degree": 10,
@@ -14235,7 +14235,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 616,
+          "tick": 616,
           "length": 32,
           "octave": 4,
           "degree": 7,
@@ -14243,7 +14243,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 624,
+          "tick": 624,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -14251,7 +14251,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 624,
+          "tick": 624,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -14259,7 +14259,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 624,
+          "tick": 624,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -14267,7 +14267,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 640,
+          "tick": 640,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -14275,7 +14275,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 640,
+          "tick": 640,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -14283,7 +14283,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 640,
+          "tick": 640,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -14291,7 +14291,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 648,
+          "tick": 648,
           "length": 8,
           "octave": 4,
           "degree": 2,
@@ -14299,7 +14299,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 656,
+          "tick": 656,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -14307,7 +14307,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 656,
+          "tick": 656,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -14315,7 +14315,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 656,
+          "tick": 656,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -14323,7 +14323,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 656,
+          "tick": 656,
           "length": 8,
           "octave": 4,
           "degree": 7,
@@ -14331,7 +14331,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 664,
+          "tick": 664,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -14339,7 +14339,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 672,
+          "tick": 672,
           "length": 16,
           "octave": 4,
           "degree": 10,
@@ -14347,7 +14347,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 672,
+          "tick": 672,
           "length": 16,
           "octave": 2,
           "degree": 7,
@@ -14355,7 +14355,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 688,
+          "tick": 688,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -14363,7 +14363,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 688,
+          "tick": 688,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -14371,7 +14371,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 688,
+          "tick": 688,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -14379,7 +14379,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 688,
+          "tick": 688,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -14387,7 +14387,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 696,
+          "tick": 696,
           "length": 8,
           "octave": 4,
           "degree": 7,
@@ -14395,7 +14395,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 704,
+          "tick": 704,
           "length": 16,
           "octave": 4,
           "degree": 10,
@@ -14403,7 +14403,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 704,
+          "tick": 704,
           "length": 16,
           "octave": 2,
           "degree": 7,
@@ -14411,7 +14411,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 720,
+          "tick": 720,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -14419,7 +14419,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 720,
+          "tick": 720,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -14427,7 +14427,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 720,
+          "tick": 720,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -14435,7 +14435,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 720,
+          "tick": 720,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -14443,7 +14443,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 728,
+          "tick": 728,
           "length": 8,
           "octave": 4,
           "degree": 7,
@@ -14451,7 +14451,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 736,
+          "tick": 736,
           "length": 16,
           "octave": 5,
           "degree": 2,
@@ -14459,7 +14459,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 736,
+          "tick": 736,
           "length": 24,
           "octave": 2,
           "degree": 7,
@@ -14467,7 +14467,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 752,
+          "tick": 752,
           "length": 16,
           "octave": 5,
           "degree": 2,
@@ -14475,7 +14475,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 752,
+          "tick": 752,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -14483,7 +14483,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 760,
+          "tick": 760,
           "length": 8,
           "octave": 2,
           "degree": 11,
@@ -14491,7 +14491,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 768,
+          "tick": 768,
           "length": 8,
           "octave": 5,
           "degree": 2,
@@ -14499,7 +14499,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 768,
+          "tick": 768,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -14507,7 +14507,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 768,
+          "tick": 768,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -14515,7 +14515,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 776,
+          "tick": 776,
           "length": 8,
           "octave": 5,
           "degree": 2,
@@ -14523,7 +14523,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 784,
+          "tick": 784,
           "length": 8,
           "octave": 5,
           "degree": 0,
@@ -14531,7 +14531,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 784,
+          "tick": 784,
           "length": 15,
           "octave": 3,
           "degree": 7,
@@ -14539,7 +14539,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 784,
+          "tick": 784,
           "length": 8,
           "octave": 3,
           "degree": 5,
@@ -14547,7 +14547,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 792,
+          "tick": 792,
           "length": 8,
           "octave": 5,
           "degree": 2,
@@ -14555,7 +14555,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 792,
+          "tick": 792,
           "length": 7,
           "octave": 3,
           "degree": 2,
@@ -14563,7 +14563,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 800,
+          "tick": 800,
           "length": 8,
           "octave": 5,
           "degree": 3,
@@ -14571,7 +14571,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 800,
+          "tick": 800,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -14579,7 +14579,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 800,
+          "tick": 800,
           "length": 16,
           "octave": 3,
           "degree": 0,
@@ -14587,7 +14587,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 808,
+          "tick": 808,
           "length": 32,
           "octave": 5,
           "degree": 3,
@@ -14595,7 +14595,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 816,
+          "tick": 816,
           "length": 16,
           "octave": 4,
           "degree": 0,
@@ -14603,7 +14603,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 816,
+          "tick": 816,
           "length": 16,
           "octave": 3,
           "degree": 3,
@@ -14611,7 +14611,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 832,
+          "tick": 832,
           "length": 16,
           "octave": 4,
           "degree": 3,
@@ -14619,7 +14619,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 832,
+          "tick": 832,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -14627,7 +14627,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 840,
+          "tick": 840,
           "length": 8,
           "octave": 5,
           "degree": 3,
@@ -14635,7 +14635,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 848,
+          "tick": 848,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -14643,7 +14643,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 848,
+          "tick": 848,
           "length": 15,
           "octave": 3,
           "degree": 3,
@@ -14651,7 +14651,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 848,
+          "tick": 848,
           "length": 8,
           "octave": 5,
           "degree": 2,
@@ -14659,7 +14659,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 856,
+          "tick": 856,
           "length": 8,
           "octave": 5,
           "degree": 0,
@@ -14667,7 +14667,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 864,
+          "tick": 864,
           "length": 8,
           "octave": 5,
           "degree": 3,
@@ -14675,7 +14675,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 864,
+          "tick": 864,
           "length": 24,
           "octave": 2,
           "degree": 7,
@@ -14683,7 +14683,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 872,
+          "tick": 872,
           "length": 24,
           "octave": 5,
           "degree": 2,
@@ -14691,7 +14691,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 880,
+          "tick": 880,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -14699,7 +14699,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 888,
+          "tick": 888,
           "length": 8,
           "octave": 2,
           "degree": 10,
@@ -14707,7 +14707,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 896,
+          "tick": 896,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -14715,7 +14715,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 896,
+          "tick": 896,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -14723,7 +14723,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 904,
+          "tick": 904,
           "length": 8,
           "octave": 5,
           "degree": 2,
@@ -14731,7 +14731,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 912,
+          "tick": 912,
           "length": 15,
           "octave": 3,
           "degree": 7,
@@ -14739,7 +14739,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 912,
+          "tick": 912,
           "length": 8,
           "octave": 5,
           "degree": 0,
@@ -14747,7 +14747,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 912,
+          "tick": 912,
           "length": 15,
           "octave": 2,
           "degree": 10,
@@ -14755,7 +14755,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 920,
+          "tick": 920,
           "length": 8,
           "octave": 4,
           "degree": 10,
@@ -14763,7 +14763,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 928,
+          "tick": 928,
           "length": 16,
           "octave": 4,
           "degree": 9,
@@ -14771,7 +14771,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 928,
+          "tick": 928,
           "length": 24,
           "octave": 3,
           "degree": 2,
@@ -14779,7 +14779,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 944,
+          "tick": 944,
           "length": 16,
           "octave": 5,
           "degree": 2,
@@ -14787,7 +14787,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 944,
+          "tick": 944,
           "length": 16,
           "octave": 3,
           "degree": 6,
@@ -14795,7 +14795,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 944,
+          "tick": 944,
           "length": 16,
           "octave": 3,
           "degree": 9,
@@ -14803,7 +14803,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 952,
+          "tick": 952,
           "length": 8,
           "octave": 2,
           "degree": 9,
@@ -14811,7 +14811,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 960,
+          "tick": 960,
           "length": 16,
           "octave": 4,
           "degree": 9,
@@ -14819,7 +14819,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 960,
+          "tick": 960,
           "length": 15,
           "octave": 3,
           "degree": 2,
@@ -14827,7 +14827,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 976,
+          "tick": 976,
           "length": 16,
           "octave": 3,
           "degree": 6,
@@ -14835,7 +14835,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 976,
+          "tick": 976,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -14843,7 +14843,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 976,
+          "tick": 976,
           "length": 16,
           "octave": 4,
           "degree": 10,
@@ -14851,7 +14851,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 976,
+          "tick": 976,
           "length": 16,
           "octave": 3,
           "degree": 9,
@@ -14859,7 +14859,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 992,
+          "tick": 992,
           "length": 40,
           "octave": 4,
           "degree": 7,
@@ -14867,7 +14867,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 992,
+          "tick": 992,
           "length": 24,
           "octave": 2,
           "degree": 7,
@@ -14875,7 +14875,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1008,
+          "tick": 1008,
           "length": 16,
           "octave": 4,
           "degree": 2,
@@ -14883,7 +14883,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1008,
+          "tick": 1008,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -14891,7 +14891,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1008,
+          "tick": 1008,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -14899,7 +14899,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1016,
+          "tick": 1016,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -14907,7 +14907,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1024,
+          "tick": 1024,
           "length": 8,
           "octave": 3,
           "degree": 10,
@@ -14915,7 +14915,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1024,
+          "tick": 1024,
           "length": 8,
           "octave": 3,
           "degree": 7,
@@ -14923,7 +14923,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1024,
+          "tick": 1024,
           "length": 8,
           "octave": 2,
           "degree": 7,
@@ -14931,7 +14931,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1024,
+          "tick": 1024,
           "length": 8,
           "octave": 1,
           "degree": 7,
@@ -14939,7 +14939,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1024,
+          "tick": 1024,
           "length": 8,
           "octave": 4,
           "degree": 2,
@@ -14947,7 +14947,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1032,
+          "tick": 1032,
           "length": 8,
           "octave": 4,
           "degree": 2,
@@ -14955,7 +14955,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1040,
+          "tick": 1040,
           "length": 8,
           "octave": 4,
           "degree": 7,
@@ -14963,7 +14963,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1048,
+          "tick": 1048,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -14971,7 +14971,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1056,
+          "tick": 1056,
           "length": 16,
           "octave": 2,
           "degree": 7,
@@ -14979,7 +14979,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1056,
+          "tick": 1056,
           "length": 8,
           "octave": 4,
           "degree": 10,
@@ -14987,7 +14987,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1064,
+          "tick": 1064,
           "length": 32,
           "octave": 4,
           "degree": 7,
@@ -14995,7 +14995,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1072,
+          "tick": 1072,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -15003,7 +15003,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1072,
+          "tick": 1072,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -15011,7 +15011,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1072,
+          "tick": 1072,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -15019,7 +15019,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1088,
+          "tick": 1088,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -15027,7 +15027,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1088,
+          "tick": 1088,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -15035,7 +15035,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1088,
+          "tick": 1088,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -15043,7 +15043,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1096,
+          "tick": 1096,
           "length": 8,
           "octave": 4,
           "degree": 2,
@@ -15051,7 +15051,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1104,
+          "tick": 1104,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -15059,7 +15059,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1104,
+          "tick": 1104,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -15067,7 +15067,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1104,
+          "tick": 1104,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -15075,7 +15075,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1104,
+          "tick": 1104,
           "length": 8,
           "octave": 4,
           "degree": 7,
@@ -15083,7 +15083,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1112,
+          "tick": 1112,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -15091,7 +15091,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1120,
+          "tick": 1120,
           "length": 16,
           "octave": 2,
           "degree": 7,
@@ -15099,7 +15099,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1120,
+          "tick": 1120,
           "length": 8,
           "octave": 4,
           "degree": 10,
@@ -15107,7 +15107,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1128,
+          "tick": 1128,
           "length": 32,
           "octave": 4,
           "degree": 7,
@@ -15115,7 +15115,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1136,
+          "tick": 1136,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -15123,7 +15123,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1136,
+          "tick": 1136,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -15131,7 +15131,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1136,
+          "tick": 1136,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -15139,7 +15139,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1152,
+          "tick": 1152,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -15147,7 +15147,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1152,
+          "tick": 1152,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -15155,7 +15155,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1152,
+          "tick": 1152,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -15163,7 +15163,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1160,
+          "tick": 1160,
           "length": 8,
           "octave": 4,
           "degree": 2,
@@ -15171,7 +15171,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1168,
+          "tick": 1168,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -15179,7 +15179,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1168,
+          "tick": 1168,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -15187,7 +15187,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1168,
+          "tick": 1168,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -15195,7 +15195,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1168,
+          "tick": 1168,
           "length": 8,
           "octave": 4,
           "degree": 7,
@@ -15203,7 +15203,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1176,
+          "tick": 1176,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -15211,7 +15211,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1184,
+          "tick": 1184,
           "length": 16,
           "octave": 4,
           "degree": 10,
@@ -15219,7 +15219,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1184,
+          "tick": 1184,
           "length": 16,
           "octave": 2,
           "degree": 7,
@@ -15227,7 +15227,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1200,
+          "tick": 1200,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -15235,7 +15235,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1200,
+          "tick": 1200,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -15243,7 +15243,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1200,
+          "tick": 1200,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -15251,7 +15251,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1200,
+          "tick": 1200,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -15259,7 +15259,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1208,
+          "tick": 1208,
           "length": 8,
           "octave": 4,
           "degree": 7,
@@ -15267,7 +15267,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1216,
+          "tick": 1216,
           "length": 16,
           "octave": 4,
           "degree": 10,
@@ -15275,7 +15275,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1216,
+          "tick": 1216,
           "length": 16,
           "octave": 2,
           "degree": 7,
@@ -15283,7 +15283,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1232,
+          "tick": 1232,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -15291,7 +15291,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1232,
+          "tick": 1232,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -15299,7 +15299,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1232,
+          "tick": 1232,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -15307,7 +15307,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1232,
+          "tick": 1232,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -15315,7 +15315,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1240,
+          "tick": 1240,
           "length": 8,
           "octave": 4,
           "degree": 7,
@@ -15323,7 +15323,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1248,
+          "tick": 1248,
           "length": 16,
           "octave": 5,
           "degree": 2,
@@ -15331,7 +15331,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1248,
+          "tick": 1248,
           "length": 24,
           "octave": 2,
           "degree": 7,
@@ -15339,7 +15339,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1264,
+          "tick": 1264,
           "length": 16,
           "octave": 5,
           "degree": 2,
@@ -15347,7 +15347,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1264,
+          "tick": 1264,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -15355,7 +15355,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1272,
+          "tick": 1272,
           "length": 8,
           "octave": 2,
           "degree": 11,
@@ -15363,7 +15363,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1280,
+          "tick": 1280,
           "length": 8,
           "octave": 5,
           "degree": 2,
@@ -15371,7 +15371,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1280,
+          "tick": 1280,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -15379,7 +15379,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1280,
+          "tick": 1280,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -15387,7 +15387,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1288,
+          "tick": 1288,
           "length": 8,
           "octave": 5,
           "degree": 2,
@@ -15395,7 +15395,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1296,
+          "tick": 1296,
           "length": 8,
           "octave": 5,
           "degree": 0,
@@ -15403,7 +15403,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1296,
+          "tick": 1296,
           "length": 15,
           "octave": 3,
           "degree": 7,
@@ -15411,7 +15411,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1296,
+          "tick": 1296,
           "length": 8,
           "octave": 3,
           "degree": 5,
@@ -15419,7 +15419,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1304,
+          "tick": 1304,
           "length": 8,
           "octave": 5,
           "degree": 2,
@@ -15427,7 +15427,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1304,
+          "tick": 1304,
           "length": 7,
           "octave": 3,
           "degree": 2,
@@ -15435,7 +15435,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1312,
+          "tick": 1312,
           "length": 8,
           "octave": 5,
           "degree": 3,
@@ -15443,7 +15443,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1312,
+          "tick": 1312,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -15451,7 +15451,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1312,
+          "tick": 1312,
           "length": 16,
           "octave": 3,
           "degree": 0,
@@ -15459,7 +15459,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1320,
+          "tick": 1320,
           "length": 32,
           "octave": 5,
           "degree": 3,
@@ -15467,7 +15467,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1328,
+          "tick": 1328,
           "length": 16,
           "octave": 4,
           "degree": 0,
@@ -15475,7 +15475,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1328,
+          "tick": 1328,
           "length": 16,
           "octave": 3,
           "degree": 3,
@@ -15483,7 +15483,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1344,
+          "tick": 1344,
           "length": 16,
           "octave": 4,
           "degree": 3,
@@ -15491,7 +15491,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1344,
+          "tick": 1344,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -15499,7 +15499,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1352,
+          "tick": 1352,
           "length": 8,
           "octave": 5,
           "degree": 3,
@@ -15507,7 +15507,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1360,
+          "tick": 1360,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -15515,7 +15515,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1360,
+          "tick": 1360,
           "length": 15,
           "octave": 3,
           "degree": 3,
@@ -15523,7 +15523,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1360,
+          "tick": 1360,
           "length": 8,
           "octave": 5,
           "degree": 2,
@@ -15531,7 +15531,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1368,
+          "tick": 1368,
           "length": 8,
           "octave": 5,
           "degree": 0,
@@ -15539,7 +15539,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1376,
+          "tick": 1376,
           "length": 8,
           "octave": 5,
           "degree": 3,
@@ -15547,7 +15547,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1376,
+          "tick": 1376,
           "length": 24,
           "octave": 2,
           "degree": 7,
@@ -15555,7 +15555,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1384,
+          "tick": 1384,
           "length": 24,
           "octave": 5,
           "degree": 2,
@@ -15563,7 +15563,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1392,
+          "tick": 1392,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -15571,7 +15571,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1400,
+          "tick": 1400,
           "length": 8,
           "octave": 2,
           "degree": 10,
@@ -15579,7 +15579,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1408,
+          "tick": 1408,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -15587,7 +15587,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1408,
+          "tick": 1408,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -15595,7 +15595,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1416,
+          "tick": 1416,
           "length": 8,
           "octave": 5,
           "degree": 2,
@@ -15603,7 +15603,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1424,
+          "tick": 1424,
           "length": 15,
           "octave": 3,
           "degree": 7,
@@ -15611,7 +15611,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1424,
+          "tick": 1424,
           "length": 8,
           "octave": 5,
           "degree": 0,
@@ -15619,7 +15619,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1424,
+          "tick": 1424,
           "length": 15,
           "octave": 2,
           "degree": 10,
@@ -15627,7 +15627,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1432,
+          "tick": 1432,
           "length": 8,
           "octave": 4,
           "degree": 10,
@@ -15635,7 +15635,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1440,
+          "tick": 1440,
           "length": 16,
           "octave": 4,
           "degree": 9,
@@ -15643,7 +15643,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1440,
+          "tick": 1440,
           "length": 24,
           "octave": 3,
           "degree": 2,
@@ -15651,7 +15651,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1456,
+          "tick": 1456,
           "length": 16,
           "octave": 5,
           "degree": 2,
@@ -15659,7 +15659,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1456,
+          "tick": 1456,
           "length": 16,
           "octave": 3,
           "degree": 6,
@@ -15667,7 +15667,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1456,
+          "tick": 1456,
           "length": 16,
           "octave": 3,
           "degree": 9,
@@ -15675,7 +15675,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1464,
+          "tick": 1464,
           "length": 8,
           "octave": 2,
           "degree": 9,
@@ -15683,7 +15683,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1472,
+          "tick": 1472,
           "length": 16,
           "octave": 4,
           "degree": 9,
@@ -15691,7 +15691,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1472,
+          "tick": 1472,
           "length": 15,
           "octave": 3,
           "degree": 2,
@@ -15699,7 +15699,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1488,
+          "tick": 1488,
           "length": 16,
           "octave": 3,
           "degree": 6,
@@ -15707,7 +15707,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1488,
+          "tick": 1488,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -15715,7 +15715,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1488,
+          "tick": 1488,
           "length": 16,
           "octave": 4,
           "degree": 10,
@@ -15723,7 +15723,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1488,
+          "tick": 1488,
           "length": 16,
           "octave": 3,
           "degree": 9,
@@ -15731,7 +15731,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1504,
+          "tick": 1504,
           "length": 40,
           "octave": 4,
           "degree": 7,
@@ -15739,7 +15739,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1504,
+          "tick": 1504,
           "length": 24,
           "octave": 2,
           "degree": 7,
@@ -15747,7 +15747,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1520,
+          "tick": 1520,
           "length": 16,
           "octave": 4,
           "degree": 2,
@@ -15755,7 +15755,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1520,
+          "tick": 1520,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -15763,7 +15763,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1520,
+          "tick": 1520,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -15771,7 +15771,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1528,
+          "tick": 1528,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -15779,7 +15779,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1536,
+          "tick": 1536,
           "length": 8,
           "octave": 3,
           "degree": 7,
@@ -15787,7 +15787,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1536,
+          "tick": 1536,
           "length": 8,
           "octave": 2,
           "degree": 7,
@@ -15795,7 +15795,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1536,
+          "tick": 1536,
           "length": 8,
           "octave": 1,
           "degree": 7,
@@ -15803,7 +15803,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1536,
+          "tick": 1536,
           "length": 8,
           "octave": 4,
           "degree": 2,
@@ -15811,7 +15811,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1536,
+          "tick": 1536,
           "length": 8,
           "octave": 3,
           "degree": 10,
@@ -15819,7 +15819,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1544,
+          "tick": 1544,
           "length": 8,
           "octave": 4,
           "degree": 2,
@@ -15827,7 +15827,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1552,
+          "tick": 1552,
           "length": 8,
           "octave": 4,
           "degree": 7,
@@ -15835,7 +15835,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1560,
+          "tick": 1560,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -15843,7 +15843,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1568,
+          "tick": 1568,
           "length": 16,
           "octave": 2,
           "degree": 7,
@@ -15851,7 +15851,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1568,
+          "tick": 1568,
           "length": 8,
           "octave": 4,
           "degree": 10,
@@ -15859,7 +15859,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1576,
+          "tick": 1576,
           "length": 32,
           "octave": 4,
           "degree": 7,
@@ -15867,7 +15867,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1584,
+          "tick": 1584,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -15875,7 +15875,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1584,
+          "tick": 1584,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -15883,7 +15883,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1584,
+          "tick": 1584,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -15891,7 +15891,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1600,
+          "tick": 1600,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -15899,7 +15899,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1600,
+          "tick": 1600,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -15907,7 +15907,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1600,
+          "tick": 1600,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -15915,7 +15915,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1608,
+          "tick": 1608,
           "length": 8,
           "octave": 4,
           "degree": 2,
@@ -15923,7 +15923,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1616,
+          "tick": 1616,
           "length": 8,
           "octave": 4,
           "degree": 7,
@@ -15931,7 +15931,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1616,
+          "tick": 1616,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -15939,7 +15939,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1616,
+          "tick": 1616,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -15947,7 +15947,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1616,
+          "tick": 1616,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -15955,7 +15955,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1624,
+          "tick": 1624,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -15963,7 +15963,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1632,
+          "tick": 1632,
           "length": 8,
           "octave": 4,
           "degree": 10,
@@ -15971,7 +15971,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1632,
+          "tick": 1632,
           "length": 16,
           "octave": 2,
           "degree": 7,
@@ -15979,7 +15979,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1640,
+          "tick": 1640,
           "length": 32,
           "octave": 4,
           "degree": 7,
@@ -15987,7 +15987,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1648,
+          "tick": 1648,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -15995,7 +15995,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1648,
+          "tick": 1648,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -16003,7 +16003,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1648,
+          "tick": 1648,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -16011,7 +16011,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1664,
+          "tick": 1664,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -16019,7 +16019,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1664,
+          "tick": 1664,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -16027,7 +16027,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1664,
+          "tick": 1664,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -16035,7 +16035,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1672,
+          "tick": 1672,
           "length": 8,
           "octave": 4,
           "degree": 2,
@@ -16043,7 +16043,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1680,
+          "tick": 1680,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -16051,7 +16051,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1680,
+          "tick": 1680,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -16059,7 +16059,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1680,
+          "tick": 1680,
           "length": 8,
           "octave": 4,
           "degree": 7,
@@ -16067,7 +16067,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1680,
+          "tick": 1680,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -16075,7 +16075,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1688,
+          "tick": 1688,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -16083,7 +16083,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1696,
+          "tick": 1696,
           "length": 16,
           "octave": 2,
           "degree": 7,
@@ -16091,7 +16091,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1696,
+          "tick": 1696,
           "length": 16,
           "octave": 4,
           "degree": 10,
@@ -16099,7 +16099,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1712,
+          "tick": 1712,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -16107,7 +16107,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1712,
+          "tick": 1712,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -16115,7 +16115,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1712,
+          "tick": 1712,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -16123,7 +16123,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1712,
+          "tick": 1712,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -16131,7 +16131,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1720,
+          "tick": 1720,
           "length": 8,
           "octave": 4,
           "degree": 7,
@@ -16139,7 +16139,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1728,
+          "tick": 1728,
           "length": 16,
           "octave": 4,
           "degree": 10,
@@ -16147,7 +16147,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1728,
+          "tick": 1728,
           "length": 16,
           "octave": 2,
           "degree": 7,
@@ -16155,7 +16155,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1744,
+          "tick": 1744,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -16163,7 +16163,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1744,
+          "tick": 1744,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -16171,7 +16171,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1744,
+          "tick": 1744,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -16179,7 +16179,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1744,
+          "tick": 1744,
           "length": 8,
           "octave": 4,
           "degree": 9,
@@ -16187,7 +16187,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1752,
+          "tick": 1752,
           "length": 8,
           "octave": 4,
           "degree": 7,
@@ -16195,7 +16195,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1760,
+          "tick": 1760,
           "length": 16,
           "octave": 5,
           "degree": 2,
@@ -16203,7 +16203,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1760,
+          "tick": 1760,
           "length": 24,
           "octave": 2,
           "degree": 7,
@@ -16211,7 +16211,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1776,
+          "tick": 1776,
           "length": 16,
           "octave": 5,
           "degree": 2,
@@ -16219,7 +16219,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1776,
+          "tick": 1776,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -16227,7 +16227,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1784,
+          "tick": 1784,
           "length": 8,
           "octave": 2,
           "degree": 11,
@@ -16235,7 +16235,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1792,
+          "tick": 1792,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -16243,7 +16243,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1792,
+          "tick": 1792,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -16251,7 +16251,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1792,
+          "tick": 1792,
           "length": 8,
           "octave": 5,
           "degree": 2,
@@ -16259,7 +16259,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1800,
+          "tick": 1800,
           "length": 8,
           "octave": 5,
           "degree": 2,
@@ -16267,7 +16267,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1808,
+          "tick": 1808,
           "length": 15,
           "octave": 3,
           "degree": 7,
@@ -16275,7 +16275,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1808,
+          "tick": 1808,
           "length": 8,
           "octave": 3,
           "degree": 5,
@@ -16283,7 +16283,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1808,
+          "tick": 1808,
           "length": 8,
           "octave": 5,
           "degree": 0,
@@ -16291,7 +16291,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1816,
+          "tick": 1816,
           "length": 8,
           "octave": 5,
           "degree": 2,
@@ -16299,7 +16299,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1816,
+          "tick": 1816,
           "length": 7,
           "octave": 3,
           "degree": 2,
@@ -16307,7 +16307,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1824,
+          "tick": 1824,
           "length": 8,
           "octave": 5,
           "degree": 3,
@@ -16315,7 +16315,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1824,
+          "tick": 1824,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -16323,7 +16323,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1824,
+          "tick": 1824,
           "length": 16,
           "octave": 3,
           "degree": 0,
@@ -16331,7 +16331,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1832,
+          "tick": 1832,
           "length": 32,
           "octave": 5,
           "degree": 3,
@@ -16339,7 +16339,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1840,
+          "tick": 1840,
           "length": 16,
           "octave": 4,
           "degree": 0,
@@ -16347,7 +16347,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1840,
+          "tick": 1840,
           "length": 16,
           "octave": 3,
           "degree": 3,
@@ -16355,7 +16355,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1856,
+          "tick": 1856,
           "length": 16,
           "octave": 4,
           "degree": 3,
@@ -16363,7 +16363,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1856,
+          "tick": 1856,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -16371,7 +16371,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1864,
+          "tick": 1864,
           "length": 8,
           "octave": 5,
           "degree": 3,
@@ -16379,7 +16379,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1872,
+          "tick": 1872,
           "length": 8,
           "octave": 5,
           "degree": 2,
@@ -16387,7 +16387,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1872,
+          "tick": 1872,
           "length": 15,
           "octave": 3,
           "degree": 3,
@@ -16395,7 +16395,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1872,
+          "tick": 1872,
           "length": 15,
           "octave": 4,
           "degree": 0,
@@ -16403,7 +16403,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1880,
+          "tick": 1880,
           "length": 8,
           "octave": 5,
           "degree": 0,
@@ -16411,7 +16411,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1888,
+          "tick": 1888,
           "length": 24,
           "octave": 2,
           "degree": 7,
@@ -16419,7 +16419,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1888,
+          "tick": 1888,
           "length": 8,
           "octave": 5,
           "degree": 3,
@@ -16427,7 +16427,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1896,
+          "tick": 1896,
           "length": 24,
           "octave": 5,
           "degree": 2,
@@ -16435,7 +16435,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1904,
+          "tick": 1904,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -16443,7 +16443,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1912,
+          "tick": 1912,
           "length": 8,
           "octave": 2,
           "degree": 10,
@@ -16451,7 +16451,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1920,
+          "tick": 1920,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -16459,7 +16459,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1920,
+          "tick": 1920,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -16467,7 +16467,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1928,
+          "tick": 1928,
           "length": 8,
           "octave": 5,
           "degree": 2,
@@ -16475,7 +16475,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1936,
+          "tick": 1936,
           "length": 15,
           "octave": 2,
           "degree": 10,
@@ -16483,7 +16483,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1936,
+          "tick": 1936,
           "length": 15,
           "octave": 3,
           "degree": 7,
@@ -16491,7 +16491,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1936,
+          "tick": 1936,
           "length": 8,
           "octave": 5,
           "degree": 0,
@@ -16499,7 +16499,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1944,
+          "tick": 1944,
           "length": 8,
           "octave": 4,
           "degree": 10,
@@ -16507,7 +16507,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1952,
+          "tick": 1952,
           "length": 16,
           "octave": 4,
           "degree": 9,
@@ -16515,7 +16515,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1952,
+          "tick": 1952,
           "length": 24,
           "octave": 3,
           "degree": 2,
@@ -16523,7 +16523,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1968,
+          "tick": 1968,
           "length": 16,
           "octave": 5,
           "degree": 2,
@@ -16531,7 +16531,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1968,
+          "tick": 1968,
           "length": 16,
           "octave": 3,
           "degree": 9,
@@ -16539,7 +16539,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1968,
+          "tick": 1968,
           "length": 16,
           "octave": 3,
           "degree": 6,
@@ -16547,7 +16547,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1976,
+          "tick": 1976,
           "length": 8,
           "octave": 2,
           "degree": 9,
@@ -16555,7 +16555,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1984,
+          "tick": 1984,
           "length": 16,
           "octave": 4,
           "degree": 9,
@@ -16563,7 +16563,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 1984,
+          "tick": 1984,
           "length": 15,
           "octave": 3,
           "degree": 2,
@@ -16571,7 +16571,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2000,
+          "tick": 2000,
           "length": 16,
           "octave": 4,
           "degree": 10,
@@ -16579,7 +16579,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2000,
+          "tick": 2000,
           "length": 16,
           "octave": 3,
           "degree": 9,
@@ -16587,7 +16587,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2000,
+          "tick": 2000,
           "length": 16,
           "octave": 3,
           "degree": 2,
@@ -16595,7 +16595,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2000,
+          "tick": 2000,
           "length": 16,
           "octave": 3,
           "degree": 6,
@@ -16603,7 +16603,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2016,
+          "tick": 2016,
           "length": 40,
           "octave": 4,
           "degree": 7,
@@ -16611,7 +16611,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2016,
+          "tick": 2016,
           "length": 24,
           "octave": 2,
           "degree": 7,
@@ -16619,7 +16619,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2032,
+          "tick": 2032,
           "length": 16,
           "octave": 3,
           "degree": 7,
@@ -16627,7 +16627,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2032,
+          "tick": 2032,
           "length": 16,
           "octave": 3,
           "degree": 10,
@@ -16635,7 +16635,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2032,
+          "tick": 2032,
           "length": 16,
           "octave": 4,
           "degree": 2,
@@ -16643,7 +16643,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2040,
+          "tick": 2040,
           "length": 7,
           "octave": 2,
           "degree": 2,
@@ -16651,7 +16651,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2048,
+          "tick": 2048,
           "length": 8,
           "octave": 4,
           "degree": 2,
@@ -16659,7 +16659,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2048,
+          "tick": 2048,
           "length": 8,
           "octave": 1,
           "degree": 7,
@@ -16667,7 +16667,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2048,
+          "tick": 2048,
           "length": 8,
           "octave": 3,
           "degree": 10,
@@ -16675,7 +16675,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2048,
+          "tick": 2048,
           "length": 8,
           "octave": 3,
           "degree": 7,
@@ -16683,7 +16683,7 @@ export let builtin: StateDumpV1 =
           "chord": null
         },
         {
-          "time": 2048,
+          "tick": 2048,
           "length": 8,
           "octave": 2,
           "degree": 7,
