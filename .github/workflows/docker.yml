@@ -1,0 +1,39 @@
+name: Docker Build
+
+on:
+  push:
+    tags:
+      - '*'
+    paths-ignore:
+      - '**.md'
+
+jobs:
+  build-docker-image:
+    runs-on: ubuntu-latest,
+    permissions:
+      packages: write
+    steps:
+      - uses: actions/checkout@v2.3.5
+        with:
+          fetch-depth: 0
+      - name: Login to Github Docker registery
+        uses: docker/login-action@v1.10.0
+        with:
+          registry: ghcr.io
+          username: haunted-loaf
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Get tag
+        id: tag
+        uses: dawidd6/action-get-tag@v1
+        with:
+          strip_v: false
+
+      - name: Build and push
+        uses: docker/build-push-action@v2.7.0
+        with:
+          context: .
+          file: ./Dockerfile
+          platforms: linux/amd64
+          push: true
+          tags: ghcr.io/haunted-loaf/webdaw:${{steps.tag.outputs.tag}} , ghcr.io/haunted-loaf/webdaw:latest
